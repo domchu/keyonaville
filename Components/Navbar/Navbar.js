@@ -2,10 +2,8 @@ import React, { useState, useRef, useEffect } from "react";
 import { Box } from "@chakra-ui/react";
 import Image from "next/image";
 import { FaBars, FaTwitter } from "react-icons/fa";
-import { links, social } from "./Navdata";
-
+import { links, social } from "../Navbar/Navdata";
 // import logo from "./logo.svg";
-import Gallery from "./../pages/gallery";
 
 const Navbar = () => {
   const [showLinks, setShowLinks] = useState(false);
@@ -14,7 +12,6 @@ const Navbar = () => {
 
   useEffect(() => {
     const linksHeight = linksRef.current.getBoundingClientRect().height;
-    // console.log(linksHeight);
     if (showLinks) {
       linksContainerRef.current.style.height = `${linksHeight}px`;
     } else {
@@ -25,6 +22,7 @@ const Navbar = () => {
     <>
       <nav>
         <Box className="nav-center">
+          {/* the logo section */}
           <Box className="nav-header">
             {/* <Image src={logo} alt="logo" /> */}
             <h1>Logo</h1>
@@ -35,7 +33,7 @@ const Navbar = () => {
               <FaBars />
             </button>
           </Box>
-          {/* {showLinks && ( */}
+          {/* the navbar section */}
           <div className="links-container" ref={linksContainerRef}>
             <ul className="links" ref={linksRef}>
               {links.map((link) => {
@@ -48,7 +46,7 @@ const Navbar = () => {
               })}
             </ul>
           </div>
-          {/* )} */}
+          {/* the social media section */}
           <Box>
             <ul className="social-icons">
               {social.map((socialIcon) => {
