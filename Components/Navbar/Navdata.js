@@ -16,22 +16,32 @@ export const links = [
   {
     id: 2,
     url: "/about",
-    text: "about",
+    text: "About",
   },
   {
     id: 3,
-    url: "/projects",
-    text: "projects",
+    url: "/blog",
+    text: "Blog",
   },
   {
     id: 4,
-    url: "/contact",
-    text: "contact",
+    url: "/facilities",
+    text: "Facilities",
   },
   {
     id: 5,
-    url: "/profile",
-    text: "profile",
+    url: "/gallery",
+    text: "Gallery",
+  },
+  {
+    id: 6,
+    url: "/contact",
+    text: "Contact",
+  },
+  {
+    id: 7,
+    url: "/faq",
+    text: "Faq",
   },
 ];
 
