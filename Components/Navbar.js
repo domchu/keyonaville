@@ -8,6 +8,7 @@ import { links, social } from "./Navdata";
 import Gallery from "./../pages/gallery";
 
 const Navbar = () => {
+  const [showLinks, setShowLinks] = useState(false);
   return (
     <>
       <nav>
@@ -15,31 +16,39 @@ const Navbar = () => {
           <Box className="nav-header">
             {/* <Image src={logo} alt="logo" /> */}
             <h1>Logo</h1>
-            <button className="nav-toggle">
+            <button
+              className="nav-toggle"
+              onClick={() => setShowLinks(!showLinks)}
+            >
               <FaBars />
             </button>
           </Box>
-          <Box className="links-container show-container">
-            <li className="links">
-              <a href="">Home</a>
-            </li>
-            <li className="links">
-              <a href="">About-us</a>
-            </li>
-            <li className="links">
-              <a href="">Facilities</a>
-            </li>
-            <li className="links">
-              <a href="">Gallery</a>
-            </li>
-            <li className="links">
-              <a href="">Contact</a>
-            </li>
-            <li className="links">
-              <a href="">Faq</a>
-            </li>
+          {showLinks && (
+            <Box className="links-container show-container">
+              <ul className="links">
+                {links.map((link) => {
+                  const { id, url, text } = link;
+                  return (
+                    <li key={id}>
+                      <a href={url}>{text} </a>
+                    </li>
+                  );
+                })}
+              </ul>
+            </Box>
+          )}
+          <Box>
+            <ul className="social-icons">
+              {social.map((socialIcon) => {
+                const { id, url, icon } = socialIcon;
+                return (
+                  <li key={id}>
+                    <a href={url}>{icon} </a>
+                  </li>
+                );
+              })}
+            </ul>
           </Box>
-          <ul className="social-icons"></ul>
         </Box>
       </nav>
     </>
