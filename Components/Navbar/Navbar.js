@@ -1,5 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
 import { Box } from "@chakra-ui/react";
+import Link from "next/link";
 import Image from "next/image";
 import { FaBars, FaTwitter } from "react-icons/fa";
 import { links, social } from "../Navbar/Navdata";
@@ -40,7 +41,9 @@ const Navbar = () => {
                 const { id, url, text } = link;
                 return (
                   <li key={id}>
-                    <a href={url}>{text} </a>
+                    <Link href={url} passHref>
+                      {text}
+                    </Link>
                   </li>
                 );
               })}
@@ -53,7 +56,9 @@ const Navbar = () => {
                 const { id, url, icon } = socialIcon;
                 return (
                   <li key={id}>
-                    <a href={url}>{icon} </a>
+                    <Link href={url} passHref>
+                      {icon}
+                    </Link>
                   </li>
                 );
               })}

@@ -175,12 +175,6 @@ nav {
   transition: var(--transition);
 }
 
-.links a:hover {
-  background: var(--clr-primary-8);
-  color: var(--clr-primary-5);
-  padding-left: 1.5rem;
-}
-
 .social-icons {
   display: none;
 }
@@ -215,26 +209,40 @@ nav {
   }
   .links {
     display: flex;
-    align-items: center;
   }
   .links a {
     padding: 0;
     margin: 0 0.5rem;
     text-align: center;
+    font-size: 1.3rem;
+    color: var(--clr-primary-1);
   }
-  .links a:hover {
-    padding: 0;
-    background: transparent;
+  .links li ::after {
+    content: "";
+    height: 3px;
+    margin: auto;
+    width: 0;
+    display: block;
+    background: var(--clr-primary-8);
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  .links li :hover::after {
+    width: 100%;
   }
   .social-icons {
     display: flex;
+    font-size: 1.6rem;
   }
   .social-icons a {
     margin: 0 0.5rem;
     color: var(--clr-primary-5);
     transition: var(--transition);
   }
-  .social-icons a:hover {
-    color: var(--clr-primary-7);
+  .social-icons li:hover {
+    color: var(--clr-white) !important;
+    transition: 0.9s;
+    border-radius: 6px;
+    background-color: var(--clr-black);
   }
 }/*# sourceMappingURL=globals.css.map */
