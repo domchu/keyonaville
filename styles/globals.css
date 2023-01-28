@@ -295,4 +295,19 @@ nav {
 }
 .footer-socials li {
   padding: 0 0 20px 0;
+}
+
+.footer-pages {
+  text-decoration: none !important;
+}
+
+.contact {
+  color: #fff;
+  font-size: 1.5rem;
+  align-items: center;
+}
+
+.footer-tools h5 {
+  letter-spacing: var(--spacing);
+  color: #ffffff;
 }/*# sourceMappingURL=globals.css.map */

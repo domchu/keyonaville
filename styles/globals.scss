@@ -250,9 +250,21 @@ Variables
     }
     &-writeup{flex: 1}
   &-links{flex: 1;}
-  &-tools{padding: 10px 20px; a{color: #ffffff;font-size: 20px;}}
+  &-tools{padding: 10px 20px;a{color: #ffffff;font-size: 20px;}}
   &-pages{padding: 10px 20px;a{color: #ffffff;font-size: 20px;}}
   &-socials {padding: 10px 20px;a{color: #ffffff;font-size: 20px;display: flex;align-items: center;}li{padding: 0 0 20px 0;}}
   
+  }
+  .footer-pages{
+    text-decoration: none !important;
+  }
+  .contact{
+    color: #fff;
+    font-size: 1.5rem;
+    align-items: center;
+  }
+  .footer-tools h5{
+    letter-spacing: var(--spacing);
+    color: #ffffff;
   }
   

@@ -1,9 +1,10 @@
 import React from "react";
 import { Box, Flex } from "@chakra-ui/react";
 import Link from "next/link";
-import { social } from "../Navbar/Navdata";
+import { FcSmartphoneTablet, FaTwitter } from "react-icons/fc";
+import { BsEnvelope } from "react-icons/bs";
+import { links, social } from "../Navbar/Navdata";
 // import Brand from "./Brand/Brand";
-
 
 function Footer() {
   return (
@@ -35,57 +36,32 @@ function Footer() {
           <Box>
             <h2>PAGES</h2>
             <Box className="footer-pages">
-              <ul>
-                <li>
-                  <Link href="/" passHref>
-                    Home
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/about" passHref>
-                    About
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/blog" passHref>
-                    Blog
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/facilities" passHref>
-                    Facilities
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/Gallery" passHref>
-                    Gallery
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/contact" passHref>
-                    Contact
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/faq" passHref>
-                    FAQ
-                  </Link>
-                </li>
-              </ul>
+              <Box textDecoration="none">
+                {links.map((link) => {
+                  const { id, url, text } = link;
+                  return (
+                    <li key={id}>
+                      <Link href={url} passHref>
+                        {text}
+                      </Link>
+                    </li>
+                  );
+                })}
+              </Box>
             </Box>
           </Box>
 
           <Box>
             <h2>CONTACT</h2>
             <Box className="footer-tools">
-              <ul>
-                <li>
-                  <Link href="/">VERIFY CERTIFICATE</Link>
-                </li>
-                <li>
-                  <Link href="/">ONLINE REGISTERATION</Link>
-                </li>
-              </ul>
+              <div>
+                <FcSmartphoneTablet className="contact" />
+                <h5>+2347018261790</h5>
+              </div>
+              <div>
+                <BsEnvelope className="contact" />
+                <h5>info@keyonaville.sch.ng</h5>
+              </div>
             </Box>
           </Box>
 
