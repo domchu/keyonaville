@@ -24,7 +24,8 @@ function Footer() {
         >
           {/* <Brand /> */}
           <h1>Logo</h1>
-          <h2>Copyright © Florintech Computer College </h2>
+          {/* <h2>Copyright © Florintech Computer College </h2> */}
+          <h2>Keyonaville Nursery & Primary School </h2>
         </Flex>
         <Flex
           className="footer-links"
@@ -89,7 +90,7 @@ function Footer() {
           </Box>
 
           <Box>
-            <h2>SOCIALS MEDIA</h2>
+            <h2>FIND US</h2>
             <Box className="footer-socials">
               <ul>
                 {social.map((socialIcon) => {
