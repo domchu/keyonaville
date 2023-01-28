@@ -1,5 +1,5 @@
 $phone-width: 500px;
-$tablet-width: 800px;
+$tablet-width: 821px;
 $desktop-width: 1024px;
 
 //navbar css
@@ -93,7 +93,7 @@ Variables
     margin-bottom: 1.25rem;
     color: var(--clr-grey-5);
   }
-  @media screen and (min-width: 800px) {
+  @media screen and (min-width:#{$phone-width}) {
     h1 {
       font-size: 4rem;
     }
@@ -183,7 +183,7 @@ Variables
   .show-container {
     height: 10rem;
   }
-  @media screen and (min-width: 800px) {
+  @media screen and (min-width:#{$tablet-width}) {
     .nav-center {
       max-width: 1170px;
       margin: 0 auto;
@@ -209,7 +209,7 @@ Variables
       padding: 0;
       margin: 0 0.5rem;
       text-align: center;
-      font-size: 1.3rem;
+      font-size: 1rem;
       color: var(--clr-primary-1);
     }
     .links li ::after {
@@ -227,7 +227,7 @@ Variables
     }
     .social-icons {
       display: flex;
-      font-size: 1.6rem;
+      font-size: 1.5rem;
     }
     .social-icons a {
       margin: 0 0.5rem;
@@ -240,5 +240,19 @@ Variables
       border-radius: 6px;
       background-color: var(--clr-black);
     }
+  }
+
+  //footer css
+  .footer{
+    background-image: radial-gradient(circle, #083b6b, #092038);padding: 50px 90px;h2{font-weight: bold;color: #fff;padding: 10px 20px;font-size: 22px;}p{color: #ffffff;}
+    @media screen and (max-width:#{$phone-width}) {
+      padding: 10px 20px;
+    }
+    &-writeup{flex: 1}
+  &-links{flex: 1;}
+  &-tools{padding: 10px 20px; a{color: #ffffff;font-size: 20px;}}
+  &-pages{padding: 10px 20px;a{color: #ffffff;font-size: 20px;}}
+  &-socials {padding: 10px 20px;a{color: #ffffff;font-size: 20px;display: flex;align-items: center;}li{padding: 0 0 20px 0;}}
+  
   }
   

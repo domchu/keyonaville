@@ -3,11 +3,7 @@ import { Box, Flex } from "@chakra-ui/react";
 import Link from "next/link";
 import { social } from "../Navbar/Navdata";
 // import Brand from "./Brand/Brand";
-import { FaFacebook } from "react-icons/fa";
-import { FaTwitter } from "react-icons/fa";
-import { FaWhatsapp } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
+
 
 function Footer() {
   return (
@@ -46,7 +42,7 @@ function Footer() {
                 </li>
                 <li>
                   <Link href="/about" passHref>
-                    About Us
+                    About
                   </Link>
                 </li>
                 <li>
@@ -117,45 +113,4 @@ function Footer() {
 }
 
 export default Footer;
-<ul>
-  <li>
-    <Link href="https://facebook.com/">
-      {/* <a> */}
-      <FaFacebook />
-      FACEBOOK
-      {/* </a> */}
-    </Link>
-  </li>
-  <li>
-    <Link href="https://twitter.com/">
-      {/* <a> */}
-      <FaTwitter />
-      TWITTER
-      {/* </a> */}
-    </Link>
-  </li>
-  <li>
-    <Link href="https://linkedin.com/">
-      {/* <a> */}
-      <FaLinkedin />
-      LINKEDIN
-      {/* </a> */}
-    </Link>
-  </li>
-  <li>
-    <Link href="https://whatsapp.com/">
-      {/* <a> */}
-      <FaWhatsapp />
-      WHATSAPP
-      {/* </a> */}
-    </Link>
-  </li>
-  <li>
-    <Link href="https://instagram.com/">
-      {/* <a> */}
-      <FaInstagram />
-      INSTAGRAM
-      {/* </a> */}
-    </Link>
-  </li>
-</ul>;
+
