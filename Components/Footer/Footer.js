@@ -1,11 +1,13 @@
 import React from "react";
 import { Box, Flex } from "@chakra-ui/react";
 import Link from "next/link";
+import { social } from "../Navbar/Navdata";
 // import Brand from "./Brand/Brand";
-import { FiFacebook } from "react-icons/fi";
-import { FiTwitter } from "react-icons/fi";
+import { FaFacebook } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
-import { FiLinkedin } from "react-icons/fi";
+import { FaLinkedin } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
 
 function Footer() {
   return (
@@ -38,32 +40,46 @@ function Footer() {
             <Box className="footer-pages">
               <ul>
                 <li>
-                  <Link href="/">Home</Link>
+                  <Link href="/" passHref>
+                    Home
+                  </Link>
                 </li>
                 <li>
-                  <Link href="/about">About Us</Link>
+                  <Link href="/about" passHref>
+                    About Us
+                  </Link>
                 </li>
                 <li>
-                  <Link href="/blog">Blog</Link>
+                  <Link href="/blog" passHref>
+                    Blog
+                  </Link>
                 </li>
                 <li>
-                  <Link href="/facilities">Facilities</Link>
+                  <Link href="/facilities" passHref>
+                    Facilities
+                  </Link>
                 </li>
                 <li>
-                  <Link href="/Gallery">Gallery</Link>
+                  <Link href="/Gallery" passHref>
+                    Gallery
+                  </Link>
                 </li>
                 <li>
-                  <Link href="/contact">Contact</Link>
+                  <Link href="/contact" passHref>
+                    Contact
+                  </Link>
                 </li>
                 <li>
-                  <Link href="/faq">FAQ</Link>
+                  <Link href="/faq" passHref>
+                    FAQ
+                  </Link>
                 </li>
               </ul>
             </Box>
           </Box>
 
           <Box>
-            <h2>TOOLS</h2>
+            <h2>CONTACT</h2>
             <Box className="footer-tools">
               <ul>
                 <li>
@@ -77,41 +93,20 @@ function Footer() {
           </Box>
 
           <Box>
-            <h2>SOCIALS</h2>
+            <h2>SOCIALS MEDIA</h2>
             <Box className="footer-socials">
               <ul>
-                <li>
-                  <Link href="https://facebook.com/florintechcomputercollege">
-                    {/* <a> */}
-                    <FiFacebook />
-                    FACEBOOK
-                    {/* </a> */}
-                  </Link>
-                </li>
-                <li>
-                  <Link href="https://twitter.com/florintechcc">
-                    {/* <a> */}
-                    <FiTwitter />
-                    TWITTER
-                    {/* </a> */}
-                  </Link>
-                </li>
-                <li>
-                  <Link href="https://linkedin.com/florintechcc">
-                    {/* <a> */}
-                    <FiLinkedin />
-                    LINKEDIN
-                    {/* </a> */}
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/">
-                    {/* <a> */}
-                    <FaWhatsapp />
-                    WHATSAPP
-                    {/* </a> */}
-                  </Link>
-                </li>
+                {social.map((socialIcon) => {
+                  const { id, url, icon, iconName } = socialIcon;
+                  return (
+                    <li key={id}>
+                      <Link href={url} passHref>
+                        {icon}
+                        {iconName}
+                      </Link>
+                    </li>
+                  );
+                })}
               </ul>
             </Box>
           </Box>
@@ -122,3 +117,45 @@ function Footer() {
 }
 
 export default Footer;
+<ul>
+  <li>
+    <Link href="https://facebook.com/">
+      {/* <a> */}
+      <FaFacebook />
+      FACEBOOK
+      {/* </a> */}
+    </Link>
+  </li>
+  <li>
+    <Link href="https://twitter.com/">
+      {/* <a> */}
+      <FaTwitter />
+      TWITTER
+      {/* </a> */}
+    </Link>
+  </li>
+  <li>
+    <Link href="https://linkedin.com/">
+      {/* <a> */}
+      <FaLinkedin />
+      LINKEDIN
+      {/* </a> */}
+    </Link>
+  </li>
+  <li>
+    <Link href="https://whatsapp.com/">
+      {/* <a> */}
+      <FaWhatsapp />
+      WHATSAPP
+      {/* </a> */}
+    </Link>
+  </li>
+  <li>
+    <Link href="https://instagram.com/">
+      {/* <a> */}
+      <FaInstagram />
+      INSTAGRAM
+      {/* </a> */}
+    </Link>
+  </li>
+</ul>;
