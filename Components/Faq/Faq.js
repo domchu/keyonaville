@@ -6,7 +6,7 @@
 //   return (
 //     <main>
 //       <div className="container">
-//         <h3>Questions and answers about Keyonaville school</h3>
+//         <h3>Questions and answers about Keyonaville</h3>
 //         <section className="info">
 //           {questions.map((question) => {
 //             return <SingleQuestion key={question.id} {...question} />;
