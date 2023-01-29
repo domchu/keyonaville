@@ -1,6 +1,5 @@
 import React from "react";
 import {
-  FaBehance,
   FaFacebook,
   FaInstagram,
   FaLinkedin,
@@ -11,64 +10,69 @@ export const links = [
   {
     id: 1,
     url: "/",
-    text: "Home",
+    text: "HOME",
   },
   {
     id: 2,
     url: "/about",
-    text: "About",
+    text: "ABOUT",
   },
   {
     id: 3,
     url: "/blog",
-    text: "Blog",
+    text: "BLOG",
   },
   {
     id: 4,
     url: "/facilities",
-    text: "Facilities",
+    text: "FACILITIES",
   },
   {
     id: 5,
     url: "/gallery",
-    text: "Gallery",
+    text: "GALLERY",
   },
   {
     id: 6,
     url: "/contact",
-    text: "Contact",
+    text: "CONTACT",
   },
   {
     id: 7,
     url: "/faq",
-    text: "Faq",
+    text: "FAQ",
   },
 ];
 
 export const social = [
   {
     id: 1,
-    url: "https://www.twitter.com",
+    url: "https://www.facebook.com/",
     icon: <FaFacebook />,
+    iconName: "FACEBOOK",
   },
   {
     id: 2,
-    url: "https://www.twitter.com",
+    url: "https://www.twitter.com/",
     icon: <FaTwitter />,
+    iconName: "TWITTER",
   },
   {
     id: 3,
-    url: "https://www.twitter.com",
+    url: "https://www.linkedin.com/",
     icon: <FaLinkedin />,
+    iconName: "LINKEDIN",
   },
   {
     id: 4,
-    url: "https://www.twitter.com",
+    url: "https://www.instagram.com/",
     icon: <FaInstagram />,
+    iconName: "INSTAGRAM",
   },
   {
     id: 5,
-    url: "https://www.twitter.com",
+    url: "https://www.whatsapp.com/",
     icon: <FaWhatsapp />,
+    iconName: "WHATSHAPP",
   },
 ];

@@ -94,7 +94,7 @@ p {
   color: var(--clr-grey-5);
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 500px) {
   h1 {
     font-size: 4rem;
   }
@@ -214,7 +214,7 @@ nav {
     padding: 0;
     margin: 0 0.5rem;
     text-align: center;
-    font-size: 1.3rem;
+    font-size: 1rem;
     color: var(--clr-primary-1);
   }
   .links li ::after {
@@ -232,7 +232,7 @@ nav {
   }
   .social-icons {
     display: flex;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
   }
   .social-icons a {
     margin: 0 0.5rem;
@@ -245,4 +245,69 @@ nav {
     border-radius: 6px;
     background-color: var(--clr-black);
   }
+}
+.footer {
+  background-image: radial-gradient(circle, #083b6b, #092038);
+  padding: 50px 90px;
+}
+.footer h2 {
+  font-weight: bold;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 22px;
+}
+.footer p {
+  color: #ffffff;
+}
+@media screen and (max-width: 500px) {
+  .footer {
+    padding: 10px 20px;
+  }
+}
+.footer-writeup {
+  flex: 1;
+}
+.footer-links {
+  flex: 1;
+}
+.footer-tools {
+  padding: 10px 20px;
+}
+.footer-tools a {
+  color: #ffffff;
+  font-size: 20px;
+}
+.footer-pages {
+  padding: 10px 20px;
+}
+.footer-pages a {
+  color: #ffffff;
+  font-size: 20px;
+}
+.footer-socials {
+  padding: 10px 20px;
+}
+.footer-socials a {
+  color: #ffffff;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+.footer-socials li {
+  padding: 0 0 20px 0;
+}
+
+.footer-pages {
+  text-decoration: none !important;
+}
+
+.contact {
+  color: #fff;
+  font-size: 1.5rem;
+  align-items: center;
+}
+
+.footer-tools h5 {
+  letter-spacing: var(--spacing);
+  color: #ffffff;
 }/*# sourceMappingURL=globals.css.map */
