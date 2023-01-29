@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { AiOutlineMinus, AiOutlinePlus } from "react-icons/ai";
+import { FiChevronDown, FiChevronUp } from "react-icons/fi";
 
 const QuestionToggle = ({ title, info }) => {
   const [showInfo, setShowInfo] = useState(false);
@@ -9,7 +9,11 @@ const QuestionToggle = ({ title, info }) => {
       <header>
         <h4>{title}</h4>
         <button className="btn" onClick={() => setShowInfo(!showInfo)}>
-          {showInfo ? <AiOutlineMinus /> : <AiOutlinePlus />}
+          {showInfo ? (
+            <FiChevronUp fontSize={30} />
+          ) : (
+            <FiChevronDown fontSize={30} />
+          )}
         </button>
       </header>
       {showInfo && <p>{info}</p>}
