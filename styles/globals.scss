@@ -1,5 +1,5 @@
 $phone-width: 500px;
-$tablet-width: 821px;
+$tablet-width: 800px;
 $desktop-width: 1024px;
 
 //navbar css
@@ -247,6 +247,9 @@ Variables
     background-image: radial-gradient(circle, #083b6b, #092038);padding: 50px 90px;h2{font-weight: bold;color: #fff;padding: 10px 20px;font-size: 22px;}p{color: #ffffff;}
     @media screen and (max-width:#{$phone-width}) {
       padding: 10px 20px;
+      // .footer-links{
+      //   flex-direction: column;
+      // }
     }
     &-writeup{flex: 1}
   &-links{flex: 1;}
