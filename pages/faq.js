@@ -26,7 +26,7 @@ export default function faq() {
           reiciendis hic quidem perspiciatis.
         </p>
       </Box>
-      <Faq />
+      {/* <Faq /> */}
       <Footer />
     </div>
   );
