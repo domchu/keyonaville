@@ -56,11 +56,11 @@ function Footer() {
             <Box className="footer-tools">
               <div>
                 <FcSmartphoneTablet className="contact" />
-                <h5>+2347018261790</h5>
+                <p>+234 8064960303</p>
               </div>
               <div>
                 <BsEnvelope className="contact" />
-                <h5>info@keyonaville.sch.ng</h5>
+                <p>info@keyonaville.sch.ng</p>
               </div>
             </Box>
           </Box>
