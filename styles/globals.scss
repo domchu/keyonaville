@@ -247,9 +247,9 @@ Variables
     background-image: radial-gradient(circle, #083b6b, #092038);padding: 50px 90px;h2{font-weight: bold;color: #fff;padding: 10px 20px;font-size: 22px;}p{color: #ffffff;}
     @media screen and (max-width:#{$phone-width}) {
       padding: 10px 20px;
-      // .footer-links{
-      //   flex-direction: column;
-      // }
+      .footer-links{
+        flex-direction: column;
+      }
     }
     &-writeup{flex: 1}
   &-links{flex: 1;}
@@ -258,9 +258,7 @@ Variables
   &-socials {padding: 10px 20px;a{color: #ffffff;font-size: 20px;display: flex;align-items: center;}li{padding: 0 0 20px 0;}}
   
   }
-  .footer-pages{
-    text-decoration: none !important;
-  }
+ 
   .contact{
     color: #fff;
     font-size: 1.5rem;
@@ -470,7 +468,7 @@ margin-bottom: 1.5rem;
   font-size: 1rem;
   background-color: transparent;
   border-radius: 5px;
-  color: var(--clr-white);
+  // color: var(--clr-white);
   border:1px solid #000;
   font-family: Manrope, sans-serif !important;
 }

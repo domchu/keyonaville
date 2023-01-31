@@ -263,6 +263,9 @@ nav {
   .footer {
     padding: 10px 20px;
   }
+  .footer .footer-links {
+    flex-direction: column;
+  }
 }
 .footer-writeup {
   flex: 1;
@@ -295,10 +298,6 @@ nav {
 }
 .footer-socials li {
   padding: 0 0 20px 0;
-}
-
-.footer-pages {
-  text-decoration: none !important;
 }
 
 .contact {
@@ -512,7 +511,6 @@ main {
   font-size: 1rem;
   background-color: transparent;
   border-radius: 5px;
-  color: var(--clr-white);
   border: 1px solid #000;
   font-family: Manrope, sans-serif !important;
 }

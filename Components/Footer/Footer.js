@@ -1,7 +1,7 @@
 import React from "react";
 import { Box, Flex } from "@chakra-ui/react";
 import Link from "next/link";
-import { FcSmartphoneTablet, FaTwitter } from "react-icons/fc";
+import { FcSmartphoneTablet } from "react-icons/fc";
 import { BsEnvelope } from "react-icons/bs";
 import { links, social } from "../Navbar/Navdata";
 // import Brand from "./Brand/Brand";
@@ -10,13 +10,13 @@ function Footer() {
   return (
     <Box className="footer">
       <Flex
+        justifyContent="center"
         flexDirection={{
           base: "column",
           sm: "column",
           md: "column",
           lg: "row",
         }}
-        justifyContent="center"
       >
         <Flex
           className="footer-writeup"
@@ -25,7 +25,6 @@ function Footer() {
         >
           {/* <Brand /> */}
           <h1>Logo</h1>
-          {/* <h2>Copyright © Florintech Computer College </h2> */}
           <h2>Keyonaville Nursery & Primary School </h2>
         </Flex>
         <Flex
@@ -36,18 +35,18 @@ function Footer() {
           <Box>
             <h2>PAGES</h2>
             <Box className="footer-pages">
-              <Box textDecoration="none">
-                {links.map((link) => {
-                  const { id, url, text } = link;
-                  return (
-                    <li key={id}>
-                      <Link href={url} passHref>
-                        {text}
-                      </Link>
-                    </li>
-                  );
-                })}
-              </Box>
+              {/* <Box> */}
+              {links.map((link) => {
+                const { id, url, text } = link;
+                return (
+                  <li key={id}>
+                    <Link href={url} passHref>
+                      {text}
+                    </Link>
+                  </li>
+                );
+              })}
+              {/* </Box> */}
             </Box>
           </Box>
 
