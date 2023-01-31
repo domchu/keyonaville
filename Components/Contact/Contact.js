@@ -37,24 +37,31 @@ const Contact = () => {
             <p>Afromedia Lagos state, Nigeria</p>
           </Box>
           <Box>
-            <SlEarphones />
+            <SlEarphones fontSize={45} className="contact-icon" />
             <h4>Let’s talk</h4>
             <p>Phone: 1-800-222-000 </p>
             <p>Fax: 1-800-222-002</p>
           </Box>
           <Box>
-            <SlEnvolope />
+            <SlEnvolope fontSize={45} className="contact-icon" />
             <h4>Email address</h4>
             <p>info@yourdomain.com</p>
             <p>hr@yourdomain.com</p>
           </Box>
           <Box>
-            <SlSettings />
+            <SlSettings fontSize={45} className="contact-icon" />
             <h4>Customer service</h4>
             <p>Lorem ipsum is simply</p>
             <p>dummy the printing</p>
           </Box>
         </Grid>
+      </Box>
+      <Box className="contact-form">
+        <div className="contact-text">
+          <h3>We'll be in touch soon!</h3>
+          <h1>Get in touch with us</h1>
+        </div>
+        <form action="" method="post"></form>
       </Box>
     </>
   );

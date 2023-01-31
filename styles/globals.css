@@ -478,5 +478,16 @@ main {
 .contact-links {
   width: 80%;
   margin: auto;
-  padding: 2rem 0;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
+
+.contact-icon {
+  margin-left: 3.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.contact-form {
+  background-color: lavenderblush;
 }/*# sourceMappingURL=globals.css.map */
