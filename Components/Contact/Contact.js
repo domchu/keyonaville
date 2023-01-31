@@ -118,7 +118,7 @@ const Contact = () => {
         </Box>
         <div className="line"></div>
         <Box>
-          <ul className="social-icons">
+          <ul className="social-icons social__icons__small">
             <li>
               <Link href="https://www.facebook.com/">
                 <FaFacebook />
