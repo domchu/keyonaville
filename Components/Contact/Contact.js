@@ -58,7 +58,7 @@ const Contact = () => {
       </Box>
       <Box className="contact-form">
         <div className="contact-text">
-          <h3>We'll be in touch soon!</h3>
+          <h3>WE'LL BE IN TOUCH SOON!</h3>
           <h1>Get in touch with us</h1>
         </div>
         <form action="" method="post">
@@ -99,6 +99,7 @@ const Contact = () => {
               cols="40"
               rows="10"
               className="textarea"
+              placeholder="Message"
             ></textarea>
           </Box>
           <Box className="summit__btn__container">

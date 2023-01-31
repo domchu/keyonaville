@@ -462,11 +462,20 @@ margin-bottom: 1.5rem;
   display: flex;
   justify-content: center;
   margin: auto;
+  padding:1rem 0 0 1rem;
+  font-size: 1rem;
+  background-color: transparent;
+  border-radius: 5px;
+  border:1px solid;
+  font-family: Manrope, sans-serif !important;
 }
 input{
+  border-radius: 5px;
   width: 400px;
   padding: 1rem .5rem 1rem .5rem;
-  margin: 1rem 0;;
+  margin: 1rem 0;
+  background-color: transparent;
+  font-family: Manrope, sans-serif !important;
 }
 .summit__btn{
 
@@ -474,6 +483,7 @@ input{
   margin:auto;
   width:12%;
   white-space: normal;
+  font-family: Manrope, sans-serif !important;
   border: 1px solid #F65E5B;
   background-color: #F65E5B;
   border-radius: 5px;
@@ -481,7 +491,7 @@ color: #FFF;
   letter-spacing:  var(--spacing);
   padding: 1rem 1.4rem;
   margin:1rem 0;
-  font-weight: 500;
+  font-weight:500;
 }
 .summit__btn:hover{
   color:var(--clr-black);
