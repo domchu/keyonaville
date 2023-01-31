@@ -473,13 +473,12 @@ margin-bottom: 1.5rem;
 input{
   border-radius: 5px;
   width: 400px;
-  padding: 1rem .5rem 1rem .5rem;
+  padding: 1rem 0.5rem 1rem 0.5rem;
   margin: 1rem 0;
   background-color: transparent;
   font-family: Manrope, sans-serif !important;
 }
 .summit__btn{
-
   cursor: pointer;
   margin:auto;
   width:12%;
@@ -488,7 +487,7 @@ input{
   border: 1px solid #F65E5B;
   background-color: #F65E5B;
   border-radius: 5px;
-color: #FFF;
+  color: #FFF;
   letter-spacing:  var(--spacing);
   padding: 1rem 1.4rem;
   margin:1rem 0;
@@ -527,7 +526,7 @@ color: #FFF;
 @media screen and (max-width:#{$tablet-width}) {
   .contact-links {
     width: 100%;
-    padding: .5rem;
+    padding: 0.5rem;
    
   }
   .line{
@@ -541,7 +540,7 @@ font-size: 1.5rem !important;
     margin-left: 2rem;
   }
   .social__icons__small a{
-    margin: .5rem;
+    margin: 0.5rem;
     font-size: 1.2rem;
   }
   .form {
@@ -551,4 +550,60 @@ font-size: 1.5rem !important;
   .summit__btn{
     width: 28%;
   }
+  .contact-text p{
+    width: 90%;
+  }
+}
+@media screen and (max-width:#{$phone-width}) {
+ .contact-links{
+  display: grid !important;
+  grid-template-columns: repeat(1, 1fr) !important;
+  place-items:center !important;
+ }
+ .summit__btn{
+  width: 50%;
+}
+.contact-text h1{
+  font-size: 1.4rem !important;
+    }
+    .textarea {
+      width: 90%;
+     
+    }
+    .social-text{
+      padding: 0.5rem;
+      flex-direction: column;
+    }
+    .social-text h2{
+      font-size: 1rem !important;
+    }
+    .summit__btn{
+      width: 40%;
+      padding: 1rem 1rem;
+    }
+    .contact-text p{
+      text-align: left !important;
+      width: 90%;
+     
+    }
+}
+@media screen and (max-width:360px) {
+  input{
+    border-radius: 5px;
+    width: 320px;
+    padding: 1rem 0.5rem 1rem 0.5rem;
+    margin: 1rem 0;
+    background-color: transparent;
+    font-family: Manrope, sans-serif !important;
+  }
+  .summit__btn{
+    width: 50%;
+  }
+  .contact-text h1{
+    font-size: 1rem !important;
+      }
+      .contact-text p{
+        text-align: center;
+        letter-spacing: var(--spacing);
+      }
 }

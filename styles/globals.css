@@ -602,4 +602,58 @@ input {
   .summit__btn {
     width: 28%;
   }
+  .contact-text p {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .contact-links {
+    display: grid !important;
+    grid-template-columns: repeat(1, 1fr) !important;
+    place-items: center !important;
+  }
+  .summit__btn {
+    width: 50%;
+  }
+  .contact-text h1 {
+    font-size: 1.4rem !important;
+  }
+  .textarea {
+    width: 90%;
+  }
+  .social-text {
+    padding: 0.5rem;
+    flex-direction: column;
+  }
+  .social-text h2 {
+    font-size: 1rem !important;
+  }
+  .summit__btn {
+    width: 40%;
+    padding: 1rem 1rem;
+  }
+  .contact-text p {
+    text-align: left !important;
+    width: 90%;
+  }
+}
+@media screen and (max-width: 360px) {
+  input {
+    border-radius: 5px;
+    width: 320px;
+    padding: 1rem 0.5rem 1rem 0.5rem;
+    margin: 1rem 0;
+    background-color: transparent;
+    font-family: Manrope, sans-serif !important;
+  }
+  .summit__btn {
+    width: 50%;
+  }
+  .contact-text h1 {
+    font-size: 1rem !important;
+  }
+  .contact-text p {
+    text-align: center;
+    letter-spacing: var(--spacing);
+  }
 }/*# sourceMappingURL=globals.css.map */
