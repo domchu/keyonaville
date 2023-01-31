@@ -551,4 +551,27 @@ input {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.line {
+  width: 100px;
+  border: 1px solid #000;
+  height: 2px;
+  margin: 0 1rem;
+}
+
+.social-text {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  align-items: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.social-text h2 {
+  font-size: 3rem;
+  font-style: italic;
 }/*# sourceMappingURL=globals.css.map */

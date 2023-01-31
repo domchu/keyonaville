@@ -1,11 +1,13 @@
 import React from "react";
-import { Box, Grid } from "@chakra-ui/react";
+import { Box, Grid, Flex } from "@chakra-ui/react";
 import {
   SlLocationPin,
   SlEarphones,
   SlEnvolope,
   SlSettings,
 } from "react-icons/sl";
+import Link from "next/link";
+import { FaFacebook, FaTwitter, FaInstagram, FaWhatsapp } from "react-icons/fa";
 
 const Contact = () => {
   return (
@@ -38,13 +40,13 @@ const Contact = () => {
           </Box>
           <Box>
             <SlEarphones fontSize={45} className="contact-icon" />
-            <h4>Let’s talk</h4>
+            <h4>Let’s talk on Phone</h4>
             <p>Phone: 1-800-222-000 </p>
             <p>Fax: 1-800-222-002</p>
           </Box>
           <Box>
             <SlEnvolope fontSize={45} className="contact-icon" />
-            <h4>Email address</h4>
+            <h4>Email address(s)</h4>
             <p>info@yourdomain.com</p>
             <p>hr@yourdomain.com</p>
           </Box>
@@ -108,7 +110,38 @@ const Contact = () => {
             </button>
           </Box>
         </form>
+        {/* find us on social media */}
       </Box>
+      <Flex className="social-text">
+        <Box>
+          <h2>Connect with us on social media</h2>
+        </Box>
+        <div className="line"></div>
+        <Box>
+          <ul className="social-icons">
+            <li>
+              <Link href="https://www.facebook.com/">
+                <FaFacebook />
+              </Link>
+            </li>
+            <li>
+              <Link href="https://www.twitter.com/">
+                <FaTwitter />
+              </Link>
+            </li>
+            <li>
+              <Link href="https://www.instagram.com/">
+                <FaInstagram />
+              </Link>
+            </li>
+            <li>
+              <Link href="https://www.whatsapp.com/">
+                <FaWhatsapp />
+              </Link>
+            </li>
+          </ul>
+        </Box>
+      </Flex>
     </>
   );
 };
