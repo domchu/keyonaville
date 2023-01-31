@@ -490,4 +490,19 @@ main {
 
 .contact-form {
   background-color: lavenderblush;
+}
+
+.form {
+  padding: 2rem 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  place-items: center;
+  width: 80%;
+  margin: auto;
+}
+
+.textarea {
+  width: 100%;
+  align-items: center;
+  margin: auto;
 }/*# sourceMappingURL=globals.css.map */

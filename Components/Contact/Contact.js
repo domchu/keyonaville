@@ -61,7 +61,43 @@ const Contact = () => {
           <h3>We'll be in touch soon!</h3>
           <h1>Get in touch with us</h1>
         </div>
-        <form action="" method="post"></form>
+        <form action="" method="post" className="form">
+          <Box>
+            <label htmlFor="">
+              <input type="text" name="First Name" placeholder="First Name" />
+            </label>
+          </Box>
+          <Box>
+            <label htmlFor="">
+              <input type="text" name="First Name" placeholder="Last Name" />
+            </label>
+          </Box>
+          <Box>
+            <label htmlFor="">
+              <input
+                type="text"
+                name="First Name"
+                placeholder="Mobile Number"
+              />
+            </label>
+          </Box>
+          <Box>
+            <label htmlFor="">
+              <input
+                type="text"
+                name="First Name"
+                placeholder="Email Address"
+              />
+            </label>
+          </Box>
+          <textarea
+            name=""
+            id=""
+            cols="100"
+            rows="10"
+            className="textarea"
+          ></textarea>
+        </form>
       </Box>
     </>
   );
