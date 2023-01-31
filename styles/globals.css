@@ -512,7 +512,8 @@ main {
   font-size: 1rem;
   background-color: transparent;
   border-radius: 5px;
-  border: 1px solid;
+  color: var(--clr-white);
+  border: 1px solid #000;
   font-family: Manrope, sans-serif !important;
 }
 
@@ -655,5 +656,13 @@ input {
   .contact-text p {
     text-align: center;
     letter-spacing: var(--spacing);
+  }
+}
+@media screen and (max-width: 414px) {
+  input {
+    width: 340px;
+  }
+  .summit__btn {
+    width: 50%;
   }
 }/*# sourceMappingURL=globals.css.map */

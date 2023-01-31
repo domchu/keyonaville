@@ -422,6 +422,7 @@ main {
   font-size: 1rem;
   font-weight: 600;
   color: grey;
+  // color: #F65E5B;
  
 }
 .contact-text h1{
@@ -430,6 +431,7 @@ main {
   margin: 1rem 0;
   font-size: 2.5rem;
   color: #1d2b5f !important;
+  // color: var(--clr-white);
 }
 .contact-links{
 width: 80%;
@@ -446,6 +448,7 @@ margin-bottom: 1.5rem;
 .contact-form{
   // background: linear-gradient(135deg, #6ec575 0, #3b8686 100%);
   background-color: lavenderblush;
+  // background-color: rgba(22, 22, 22, 0.85);
   padding: 1rem 0 3rem 0;
   height:auto
   
@@ -467,7 +470,8 @@ margin-bottom: 1.5rem;
   font-size: 1rem;
   background-color: transparent;
   border-radius: 5px;
-  border:1px solid;
+  color: var(--clr-white);
+  border:1px solid #000;
   font-family: Manrope, sans-serif !important;
 }
 input{
@@ -475,6 +479,7 @@ input{
   width: 400px;
   padding: 1rem 0.5rem 1rem 0.5rem;
   margin: 1rem 0;
+  // color: var(--clr-white);
   background-color: transparent;
   font-family: Manrope, sans-serif !important;
 }
@@ -533,7 +538,7 @@ input{
     display: none;
   }
   .social-text h2{
-font-size: 1.5rem !important;
+  font-size: 1.5rem !important;
   }
   .social__icons__small{
     display: flex;
@@ -606,4 +611,12 @@ font-size: 1.5rem !important;
         text-align: center;
         letter-spacing: var(--spacing);
       }
+}
+@media screen and (max-width:414px) {
+  input{
+    width: 340px;
+  }
+  .summit__btn{
+    width: 50%;
+  }
 }
