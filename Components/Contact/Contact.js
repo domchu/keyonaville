@@ -96,10 +96,15 @@ const Contact = () => {
             <textarea
               name=""
               id=""
-              cols="50"
+              cols="40"
               rows="10"
               className="textarea"
             ></textarea>
+          </Box>
+          <Box className="summit__btn__container">
+            <button type="submit" className="summit__btn">
+              SEND MESSAGE
+            </button>
           </Box>
         </form>
       </Box>
