@@ -502,7 +502,8 @@ main {
 }
 
 .textarea {
-  width: 100%;
-  align-items: center;
+  width: 60%;
+  display: flex;
+  justify-content: center;
   margin: auto;
 }/*# sourceMappingURL=globals.css.map */
