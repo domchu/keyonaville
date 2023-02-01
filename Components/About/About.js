@@ -17,7 +17,7 @@ const About = () => {
             </p>
           </Box>
           <Box>
-            <Flex>
+            <Flex className="contact-list">
               <li>
                 <Link href="/" passHref>
                   HOME
@@ -26,12 +26,12 @@ const About = () => {
 
               <li>
                 <Link href="/contact" passHref>
-                  Contact
+                  CONTACT
                 </Link>
               </li>
               <li>
                 <Link href="tel:+6494461709" passHref>
-                  Make a Call
+                  MAKE CALL
                 </Link>
               </li>
             </Flex>

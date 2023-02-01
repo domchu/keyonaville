@@ -679,8 +679,24 @@ input {
 }
 
 .underline {
-  width: 400px;
+  width: 100%;
   height: 3px;
   color: var(--clr-black);
-  border: 2px solid #000;
+  border: 2px solid #F3B007;
+  margin: 2rem 0;
+}
+
+.contact-list {
+  display: inline-block;
+  list-style-type: none;
+}
+
+.contact-list li a {
+  margin: 10px;
+  color: var(--clr-black);
+}
+
+.contact-list li a:hover {
+  color: #F3B007;
+  transition: 0.5s;
 }/*# sourceMappingURL=globals.css.map */
