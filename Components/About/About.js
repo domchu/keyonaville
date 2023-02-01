@@ -61,18 +61,31 @@ const About = () => {
         </Box>
         <Flex>
           <Box>
-            <Image src={nature16} alt="nature" height="500px" width="400px" />
+            <Image
+              src={nature16}
+              alt="nature"
+              height="500px"
+              width="400px"
+              className="contact-img"
+            />
             <div>
               <h3>Excavator TXS900H</h3>
               <p>The strongest ever</p>
             </div>
           </Box>
           <Box>
-            <Image src={nature17} alt="nature" height="500px" width="400px" />
+            <Image
+              height="500px"
+              width="400px"
+              src={nature17}
+              alt="nature"
+              className="contact-img"
+            />
             <div>
               <h3>Excavator TXS900H</h3>
               <p>The strongest ever</p>
             </div>
+            {/* <Image  width="100px" height="100px"  src={data.photo} /> */}
           </Box>
         </Flex>
       </Flex>

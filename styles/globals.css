@@ -699,4 +699,9 @@ input {
 .contact-list li a:hover {
   color: #F3B007;
   transition: 0.5s;
+}
+
+.contact-img {
+  width: 400px;
+  height: 500px;
 }/*# sourceMappingURL=globals.css.map */
