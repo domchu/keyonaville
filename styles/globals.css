@@ -663,4 +663,16 @@ input {
   .summit__btn {
     width: 50%;
   }
+}
+.about-us {
+  background-color: lightgrey;
+  padding: 3rem 0;
+  height: 50vh;
+}
+
+.underline {
+  width: 400px;
+  height: 3px;
+  color: var(--clr-black);
+  border: 2px solid #000;
 }/*# sourceMappingURL=globals.css.map */

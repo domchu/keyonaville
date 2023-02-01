@@ -17,13 +17,15 @@ const About = () => {
           }}
         >
           <Box>
-            <h2>ABOUT US</h2>
-            <div className="underline"></div>
-            <p>
-              The only thing standing between you and your goal is the bullshit
-              story you <br /> keep telling yourself as to why you can’t achieve
-              it.
-            </p>
+            <Box>
+              <h2>ABOUT US</h2>
+              <div className="underline"></div>
+              <p>
+                The only thing standing between you and your goal is the
+                bullshit story you <br /> keep telling yourself as to why you
+                can’t achieve it.
+              </p>
+            </Box>
           </Box>
           <Box>
             <Flex>
