@@ -1,7 +1,8 @@
 import Head from "next/head";
 import Image from "next/image";
+import About from "../Components/About/About";
 
-export default function About() {
+export default function about() {
   return (
     <div>
       <Head>
@@ -10,6 +11,8 @@ export default function About() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <h1>About Us</h1>
+      <About />
+    
     </div>
   );
 }
