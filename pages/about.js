@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import About from "../Components/About/About";
+import Footer from "../Components/Footer/Footer";
 
 export default function about() {
   return (
@@ -12,7 +13,7 @@ export default function about() {
       </Head>
       <h1>About Us</h1>
       <About />
-    
+      <Footer />
     </div>
   );
 }
