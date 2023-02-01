@@ -619,10 +619,19 @@ input{
   }
 }
 // about us css
+
 .about-us{
   background-color:lightgrey;
-  padding:3rem 0;
-  height:50vh;
+  height:40vh;
+  
+}
+.about-us-text{
+position: absolute;
+display: flex;
+justify-content: space-around;
+width: 100%;
+z-index:10;
+padding-top: 5rem;
 }
   
   .underline{
