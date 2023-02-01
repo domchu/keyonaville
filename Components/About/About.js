@@ -1,9 +1,11 @@
 import React from "react";
-import { Box, Grid, Flex } from "@chakra-ui/react";
+import { Box, Flex } from "@chakra-ui/react";
 import Link from "next/link";
 import Image from "next/image";
 import nature16 from "../../public/images/nature16.jpg";
 import nature17 from "../../public/images/nature17.jpg";
+import nature19 from "../../public/images/nature19.jpg";
+import nature20 from "../../public/images/nature20.jpg";
 
 const About = () => {
   return (
@@ -41,8 +43,9 @@ const About = () => {
           </Box>
         </Flex>
       </Box>
-      <Flex>
-        <Box>
+      {/* middle text */}
+      <Flex className="about-history">
+        <Box textAlign="left">
           <h2>
             WE ARE THE LEADER <br /> IN INDUSTRIAL BUSINESS
           </h2>
@@ -85,7 +88,29 @@ const About = () => {
               <h3>Excavator TXS900H</h3>
               <p>The strongest ever</p>
             </div>
-            {/* <Image  width="100px" height="100px"  src={data.photo} /> */}
+          </Box>
+        </Flex>
+      </Flex>
+      {/* the last text */}
+      <Flex>
+        <Flex>
+          <Box>
+            <Image
+              height="500px"
+              width="400px"
+              src={nature19}
+              alt="nature"
+              className="contact-img"
+            />
+          </Box>
+          <Box>
+            <Image
+              height="500px"
+              width="400px"
+              src={nature20}
+              alt="nature"
+              className="contact-img"
+            />
           </Box>
         </Flex>
       </Flex>
