@@ -794,4 +794,34 @@ input {
 
 .contact__img__text:hover {
   display: block;
+}
+
+@media screen and (max-width: 800px) {
+  .about-us-text {
+    flex-direction: column;
+    padding: 2rem;
+  }
+  .underline {
+    width: 70%;
+  }
+  .contact-list {
+    margin-top: 2rem;
+  }
+  .about-history {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+  }
+  .right {
+    margin-top: 4rem;
+  }
+  .right p, .left p {
+    width: 100% !important;
+  }
+  .contact__img__text {
+    display: none;
+  }
+  .contact-img {
+    margin-top: 3rem;
+  }
 }/*# sourceMappingURL=globals.css.map */

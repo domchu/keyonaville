@@ -17,8 +17,7 @@ const About = () => {
             <div className="underline"></div>
             <Text fontSize="1.3rem" color="black">
               The only thing standing between you and your goal is the bullshit
-              story you <br /> keep telling yourself as to why you can’t achieve
-              it.
+              story you keep telling yourself as to why you can’t achieve it.
             </Text>
           </Box>
           <Box>
@@ -59,7 +58,7 @@ const About = () => {
           </p>
           <Box>
             <p>MRS. ERICK SMITH</p>
-            <h5>FOUNDER AND CEO</h5>
+            <Text fontWeight="800">FOUNDER AND CEO</Text>
           </Box>
         </Box>
         <Box>
