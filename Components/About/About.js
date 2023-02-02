@@ -4,8 +4,8 @@ import Link from "next/link";
 import Image from "next/image";
 import nature16 from "../../public/images/nature16.jpg";
 import nature17 from "../../public/images/nature17.jpg";
-import nature19 from "../../public/images/nature19.jpg";
-import nature20 from "../../public/images/nature20.jpg";
+// import nature19 from "../../public/images/nature19.jpg";
+// import nature20 from "../../public/images/nature20.jpg";
 
 const About = () => {
   return (
@@ -76,7 +76,7 @@ const About = () => {
               <p>The strongest ever</p>
             </div>
           </Box>
-          <Box>
+          <Box className="img-container">
             <Image
               height="500px"
               width="400px"
@@ -84,7 +84,7 @@ const About = () => {
               alt="nature"
               className="contact-img"
             />
-            <div>
+            <div className="img-container-overlay">
               <h3>Excavator TXS900H</h3>
               <p>The strongest ever</p>
             </div>
@@ -92,27 +92,55 @@ const About = () => {
         </Flex>
       </Flex>
       {/* the last text */}
-      <Flex>
+      <Flex className="about-history">
         <Flex>
-          <Box>
-            <Image
-              height="500px"
-              width="400px"
-              src={nature19}
-              alt="nature"
-              className="contact-img"
-            />
+          <Box className="mission-statement">
+            <h3>Mission Statement</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis
+              reiciendis nostrum a ducimus sequi dolor dignissimos accusamus
+              repellendus expedita voluptates.
+            </p>
+            <ul>
+              <li>
+                <Link href="/gallery" passHref>
+                  Explore More
+                </Link>
+              </li>
+            </ul>
           </Box>
-          <Box>
-            <Image
-              height="500px"
-              width="400px"
-              src={nature20}
-              alt="nature"
-              className="contact-img"
-            />
+          <Box className="mission-statement">
+            <h3>Vision Statement</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis
+              reiciendis nostrum a ducimus sequi dolor dignissimos accusamus
+              repellendus expedita voluptates.
+            </p>
+            <ul>
+              <li>
+                <Link href="/facilities" passHref>
+                  See More
+                </Link>
+              </li>
+            </ul>
           </Box>
         </Flex>
+        <Box textAlign="left">
+          <h2>
+            WE ARE THE LEADER <br /> IN INDUSTRIAL BUSINESS
+          </h2>
+          <p>
+            Leading companies usually have several advantages, such as pricing
+            power, brand recognition and a loyal customer base. It takes time to
+            achieve a dominant position in an industry, and maintaining that
+            leadership position is an ongoing effort. Small businesses should
+            first aspire to lead their respective local markets before planning
+            for worldwide industry domination.
+          </p>
+          <Box>
+            <p>MRS. ERICK SMITH</p>
+          </Box>
+        </Box>
       </Flex>
     </>
   );

@@ -712,4 +712,26 @@ input {
   margin: 2rem;
   padding: 3rem 3rem;
   text-align: center;
+}
+
+.mission-statement {
+  width: 300px;
+  height: 400px;
+  border-radius: 5px;
+  color: var(--clr-black);
+  box-shadow: var(var(--dark-shadow));
+  background-color: lightgrey;
+}
+
+.img-container {
+  height: 400px;
+  width: 300px;
+  position: relative;
+}
+
+.img-container-overlay {
+  position: absolute;
+  z-index: 7;
+  height: 400px;
+  width: 300px;
 }/*# sourceMappingURL=globals.css.map */
