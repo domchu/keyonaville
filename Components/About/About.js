@@ -45,7 +45,7 @@ const About = () => {
       </Box>
       {/* middle text */}
       <Flex className="about-history">
-        <Box textAlign="left">
+        <Box textAlign="left" className="left">
           <h2>
             WE ARE THE LEADER <br /> IN INDUSTRIAL BUSINESS
           </h2>
@@ -62,34 +62,36 @@ const About = () => {
             <h5>FOUNDER AND CEO</h5>
           </Box>
         </Box>
-        <Flex>
-          <Box>
-            <Image
-              src={nature16}
-              alt="nature"
-              height="500px"
-              width="400px"
-              className="contact-img"
-            />
-            <div>
-              <h3>Excavator TXS900H</h3>
-              <p>The strongest ever</p>
-            </div>
-          </Box>
-          <Box className="img-container">
-            <Image
-              height="500px"
-              width="400px"
-              src={nature17}
-              alt="nature"
-              className="contact-img"
-            />
-            <div className="img-container-overlay">
-              <h3>Excavator TXS900H</h3>
-              <p>The strongest ever</p>
-            </div>
-          </Box>
-        </Flex>
+        <Box>
+          <Flex>
+            <Box>
+              <Image
+                src={nature16}
+                alt="nature"
+                height="500px"
+                width="400px"
+                className="contact-img"
+              />
+              <div>
+                <h3>Excavator TXS900H</h3>
+                <p>The strongest ever</p>
+              </div>
+            </Box>
+            <Box className="img-container">
+              <Image
+                height="500px"
+                width="400px"
+                src={nature17}
+                alt="nature"
+                className="contact-img"
+              />
+              <div className="img-container-overlay">
+                <h3>Excavator TXS900H</h3>
+                <p>The strongest ever</p>
+              </div>
+            </Box>
+          </Flex>
+        </Box>
       </Flex>
       {/* the last text */}
       <Flex className="about-history">
@@ -125,7 +127,7 @@ const About = () => {
             </ul>
           </Box>
         </Flex>
-        <Box textAlign="left">
+        <Box textAlign="left" className="right">
           <h2>
             WE ARE THE LEADER <br /> IN INDUSTRIAL BUSINESS
           </h2>

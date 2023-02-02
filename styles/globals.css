@@ -704,12 +704,13 @@ input {
 .contact-img {
   width: 300px;
   height: 400px;
-  border-radius: 5px;
+  border-radius: 10px !important;
+  padding: 0 1rem;
 }
 
 .about-history {
-  width: 100%;
-  margin: 2rem;
+  width: 80%;
+  margin: auto;
   padding: 3rem 3rem;
   text-align: center;
 }
@@ -718,6 +719,7 @@ input {
   width: 300px;
   height: 400px;
   border-radius: 5px;
+  margin: 0 1rem;
   color: var(--clr-black);
   box-shadow: var(var(--dark-shadow));
   background-color: lightgrey;
@@ -734,4 +736,12 @@ input {
   z-index: 7;
   height: 400px;
   width: 300px;
+}
+
+.left p {
+  width: 80%;
+}
+
+.right p {
+  width: 80%;
 }/*# sourceMappingURL=globals.css.map */
