@@ -15,11 +15,11 @@ const About = () => {
           <Box>
             <h2>ABOUT US</h2>
             <div className="underline"></div>
-            <p>
+            <Text fontSize="1.3rem" color="black">
               The only thing standing between you and your goal is the bullshit
               story you <br /> keep telling yourself as to why you can’t achieve
               it.
-            </p>
+            </Text>
           </Box>
           <Box>
             <Flex className="contact-list">
