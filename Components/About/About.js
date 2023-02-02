@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Flex } from "@chakra-ui/react";
+import { Box, Flex, Text } from "@chakra-ui/react";
 import Link from "next/link";
 import Image from "next/image";
 import nature16 from "../../public/images/nature16.jpg";
@@ -72,10 +72,10 @@ const About = () => {
                 width="400px"
                 className="contact-img"
               />
-              <div>
-                <h3>Excavator TXS900H</h3>
-                <p>The strongest ever</p>
-              </div>
+              <Box className="contact__img__text">
+                <h3>BOYS UNIFORM</h3>
+                <Text fontSize="3xl">The elegant ever</Text>
+              </Box>
             </Box>
             <Box className="img-container">
               <Image
@@ -85,9 +85,9 @@ const About = () => {
                 alt="nature"
                 className="contact-img"
               />
-              <div className="img-container-overlay">
-                <h3>Excavator TXS900H</h3>
-                <p>The strongest ever</p>
+              <div className="contact__img__text">
+                <h3>GIRLS UNIFORM</h3>
+                <Text fontSize="3xl">The strongest ever</Text>
               </div>
             </Box>
           </Flex>

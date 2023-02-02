@@ -704,7 +704,6 @@ input {
 .contact-img {
   width: 300px;
   height: 400px;
-  border-radius: 10px !important;
   padding: 0 1rem;
 }
 
@@ -728,12 +727,14 @@ input {
 .mission-statement h3 {
   font-size: 1.5rem;
   padding: 2rem 0;
+  color: #F65E5B;
 }
 
 .mission-statement p {
   font-size: 1rem;
   padding: 0 1rem 0.9rem 1rem;
   text-align: left;
+  color: var(--clr-black);
   letter-spacing: var(--spacing);
 }
 
@@ -741,6 +742,10 @@ input {
   height: 400px;
   width: 300px;
   position: relative;
+}
+
+.contact__img__text h3 {
+  font-size: 1rem;
 }
 
 .img-container-overlay {
@@ -756,13 +761,20 @@ input {
 
 .left p {
   width: 80%;
+  letter-spacing: var(--spacing);
+  font-size: 1rem;
+  font-family: Manrope, sans-serif !important;
 }
 
 .left h2, .right h2 {
   font-size: 1.7rem;
-  line-height: 2.5rem;
+  line-height: 2.3rem;
+  font-family: Manrope, sans-serif !important;
 }
 
 .right p {
+  font-family: Manrope, sans-serif !important;
   width: 80%;
+  letter-spacing: var(--spacing);
+  font-size: 1rem;
 }/*# sourceMappingURL=globals.css.map */
