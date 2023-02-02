@@ -420,8 +420,6 @@ main {
   font-size: 1rem;
   font-weight: 600;
   color: grey;
-  // color: #F65E5B;
- 
 }
 .contact-text h1{
   font-weight: 600;
@@ -429,7 +427,6 @@ main {
   margin: 1rem 0;
   font-size: 2.5rem;
   color: #1d2b5f !important;
-  // color: var(--clr-white);
 }
 .contact-links{
 width: 80%;
@@ -444,7 +441,6 @@ margin-bottom: 1.5rem;
 
 }
 .contact-form{
-  // background: linear-gradient(135deg, #6ec575 0, #3b8686 100%);
   background-color: lavenderblush;
   // background-color: rgba(22, 22, 22, 0.85);
   padding: 1rem 0 3rem 0;
@@ -468,7 +464,6 @@ margin-bottom: 1.5rem;
   font-size: 1rem;
   background-color: transparent;
   border-radius: 5px;
-  // color: var(--clr-white);
   border:1px solid #000;
   font-family: Manrope, sans-serif !important;
 }
@@ -477,7 +472,6 @@ input{
   width: 400px;
   padding: 1rem 0.5rem 1rem 0.5rem;
   margin: 1rem 0;
-  // color: var(--clr-white);
   background-color: transparent;
   font-family: Manrope, sans-serif !important;
 }
@@ -618,7 +612,7 @@ input{
     width: 50%;
   }
 }
-// about us css
+// about us css and media screen
 .about-us{
   background-color:lightgrey;
   height:40vh;
@@ -653,16 +647,23 @@ padding-top: 5rem;
     color: #F65E5B;
     transition: 0.5s;
   }
+  .contact-image-container{
+    width: 100%;
+  }
   .contact-img{
     width:300px;
     height: 400px;
-    padding: 0 1rem;
+    border-radius: 5px;
+    // padding: 0 1rem;
+    cursor: pointer;
+    margin: 0 1rem;
   }
   .about-history{
     width: 80%;
     margin:auto;
     padding:3rem 3rem;
     text-align:center;
+    height: 600px;
   }
   .mission-statement{
     width:300px;
@@ -686,21 +687,8 @@ padding-top: 5rem;
    color: var(--clr-black);
    letter-spacing:var(--spacing)
   }
- 
-  .img-container{
-    height: 400px;
-    width: 300px;
-    position: relative;
-  }
   .contact__img__text h3{
     font-size: 1rem;
-  }
-  .img-container-overlay{
-   position:absolute;
-   z-index:7;
-   height: 400px;
-   width: 300px;
-
   }
   .contact__btn a{
     margin-top: 1rem;
@@ -710,7 +698,6 @@ padding-top: 5rem;
     letter-spacing: var(--spacing);
     font-size: 1rem;
     font-family: Manrope, sans-serif !important;
-   
   }
   .left h2, .right h2{
     font-size: 1.7rem;
@@ -722,5 +709,25 @@ padding-top: 5rem;
     width: 80%;
     letter-spacing: var(--spacing);
     font-size: 1rem;
+  }
+  .contact-image-container{
+    height: 400px;
+    // width: 300px;
+  }
+  .contact__img__text{
+    bottom: 20px;
+    padding:0 2rem;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    z-index: 7;
+  }
+  .contact-img:hover{
+    opacity: 0.7;
+    transition: .5s;
+  }
+  .contact__img__text:hover{
+    display:block;
   }
  

@@ -64,12 +64,12 @@ const About = () => {
         </Box>
         <Box>
           <Flex>
-            <Box>
+            <Box className="contact-image-container">
               <Image
                 src={nature16}
                 alt="nature"
-                height="500px"
-                width="400px"
+                // height="500px"
+                // width="400px"
                 className="contact-img"
               />
               <Box className="contact__img__text">
@@ -79,8 +79,8 @@ const About = () => {
             </Box>
             <Box className="img-container">
               <Image
-                height="500px"
-                width="400px"
+                // height="500px"
+                // width="400px"
                 src={nature17}
                 alt="nature"
                 className="contact-img"
