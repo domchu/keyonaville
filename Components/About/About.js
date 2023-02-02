@@ -97,7 +97,7 @@ const About = () => {
       <Flex className="about-history">
         <Flex>
           <Box className="mission-statement">
-            <h3>Mission Statement</h3>
+            <h3>Our Mission</h3>
             <p>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis
               reiciendis nostrum a ducimus sequi dolor dignissimos accusamus
@@ -105,22 +105,22 @@ const About = () => {
             </p>
             <ul>
               <li>
-                <Link href="/gallery" passHref>
+                <Link href="/gallery" className="summit__btn" passHref>
                   Explore More
                 </Link>
               </li>
             </ul>
           </Box>
           <Box className="mission-statement">
-            <h3>Vision Statement</h3>
+            <h3>Our Vision</h3>
             <p>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis
               reiciendis nostrum a ducimus sequi dolor dignissimos accusamus
               repellendus expedita voluptates.
             </p>
             <ul>
-              <li>
-                <Link href="/facilities" passHref>
+              <li className="contact__btn">
+                <Link href="/facilities" className="summit__btn" passHref>
                   See More
                 </Link>
               </li>
