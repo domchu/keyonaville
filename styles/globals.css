@@ -666,20 +666,32 @@ input {
 }
 .about-us {
   background-color: lightgrey;
-  height: 40vh;
+  height: 50vh;
+  display: flex;
 }
 
 .about-us-text {
-  position: absolute;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   width: 100%;
+  position: absolute;
   z-index: 10;
-  padding-top: 5rem;
+  padding: 5rem 3rem;
+}
+
+.about-1 {
+  flex: 3;
+}
+
+.about-2 {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 .underline {
-  width: 100%;
+  width: 60%;
   height: 3px;
   color: var(--clr-black);
   border: 2px solid #F65E5B;
@@ -799,7 +811,16 @@ input {
 @media screen and (max-width: 800px) {
   .about-us-text {
     flex-direction: column;
-    padding: 2rem;
+    padding: 5rem 2rem !important;
+  }
+  .about-1 {
+    flex: 3;
+  }
+  .about-2 {
+    flex: 2;
+    display: block;
+    justify-content: center;
+    text-align: left;
   }
   .underline {
     width: 70%;

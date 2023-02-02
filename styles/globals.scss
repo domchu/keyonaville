@@ -615,20 +615,32 @@ input{
 // about us css and media screen
 .about-us{
   background-color:lightgrey;
-  height:40vh;
+  height:50vh;
+  display: flex;
   
 }
+// issues on the desktop screen
 .about-us-text{
-position: absolute;
-display: flex;
-justify-content: space-around;
-width: 100%;
-z-index:10;
-padding-top: 5rem;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  position: absolute;
+  z-index:10;
+  padding: 5rem 3rem;
+
 }
-  
+.about-1{
+  flex: 3;
+}
+.about-2{
+  flex: 2;
+  display:flex;
+  justify-content: center;
+  text-align: center;
+}
+// issues on desktop
   .underline{
-    width:100%;
+    width:60%;
     height:3px;
     color:var(--clr-black);
     border: 2px solid #F65E5B;
@@ -711,7 +723,7 @@ padding-top: 5rem;
   }
   .contact-image-container{
     height: 400px;
-    // width: 300px;
+
   }
   .contact__img__text{
     bottom: 20px;
@@ -733,8 +745,22 @@ padding-top: 5rem;
  @media screen and (max-width:#{$tablet-width}) {
   .about-us-text {
    flex-direction: column;
-   padding:2rem
+   padding: 5rem 2rem !important;
+  
   }
+  
+  .about-1{
+    flex: 3;
+    
+  }
+  .about-2{
+    flex: 2;
+    display:block;
+    justify-content: center;
+    text-align: left;
+    
+  }
+  
   .underline{
     width: 70%;
   }

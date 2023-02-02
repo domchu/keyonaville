@@ -11,16 +11,16 @@ const About = () => {
   return (
     <>
       <Box className="about-us">
-        <Flex className="about-us-text">
-          <Box>
+        <Box className="about-us-text">
+          <Box className="about-1">
             <h2>ABOUT US</h2>
             <div className="underline"></div>
-            <Text fontSize="1.3rem" color="black">
+            <Text fontSize="1.3rem" color="black" className="about__quote">
               The only thing standing between you and your goal is the bullshit
               story you keep telling yourself as to why you can’t achieve it.
             </Text>
           </Box>
-          <Box>
+          <Box className="about-2">
             <Flex className="contact-list">
               <li>
                 <Link href="/" passHref>
@@ -40,7 +40,7 @@ const About = () => {
               </li>
             </Flex>
           </Box>
-        </Flex>
+        </Box>
       </Box>
       {/* middle text */}
       <Flex className="about-history">
@@ -67,8 +67,8 @@ const About = () => {
               <Image
                 src={nature16}
                 alt="nature"
-                // height="500px"
-                // width="400px"
+                height="500px"
+                width="400px"
                 className="contact-img"
               />
               <Box className="contact__img__text">
@@ -78,8 +78,8 @@ const About = () => {
             </Box>
             <Box className="img-container">
               <Image
-                // height="500px"
-                // width="400px"
+                height="500px"
+                width="400px"
                 src={nature17}
                 alt="nature"
                 className="contact-img"
