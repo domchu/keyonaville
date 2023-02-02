@@ -62,7 +62,7 @@ const About = () => {
           </Box>
         </Box>
         <Box>
-          <Flex>
+          <Flex className="sm-screen">
             <Box className="contact-image-container">
               <Image
                 src={nature16}
@@ -94,7 +94,7 @@ const About = () => {
       </Flex>
       {/* the last text */}
       <Flex className="about-history">
-        <Flex>
+        <Flex className="sm-screen">
           <Box className="mission-statement">
             <h3>Our Mission</h3>
             <p>

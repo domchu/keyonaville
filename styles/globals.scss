@@ -759,3 +759,78 @@ padding-top: 5rem;
     margin-top: 3rem;
   }
 }
+@media screen and (max-width:#{$phone-width}) {
+  .sm-screen{
+   display: grid !important;
+   grid-template-columns: repeat(1, 1fr) !important;
+   place-items:center !important;
+  }
+  .contact-img, .mission-statement{
+    margin: 0;
+    width:100%;
+  }
+  .left h2, .right h2 {
+    font-size: 1.5rem !important;
+    line-height: 2rem;
+    font-family: Manrope, sans-serif !important;
+  }
+  .mission-statement{
+    margin-top: 3rem;
+  }
+  .img-container{
+    margin-top: 2rem;
+  }
+  .about-history {
+    padding: 1rem 1rem !important;
+}
+}
+@media screen and(max-width:390px){
+  .left h2, .right h2 {
+    font-size: 1rem !important;
+    line-height: 1.2rem;
+    font-family: Manrope, sans-serif !important;
+  }
+  .contact-list li{
+   padding-bottom: 1rem;
+  }
+  .about-history {
+    padding: 1rem 1rem !important;
+}
+.about-us {
+  background-color: lightgrey;
+  height: 60vh;
+}
+} 
+ 
+@media screen and (max-width:360px) {
+  .contact-img, .mission-statement{
+    margin: 0;
+    width:100%;
+  }
+  .mission-statement{
+    margin-top: 3rem;
+  }
+  
+  .about-history {
+    padding: 1rem 1rem !important;
+}
+  .about-us {
+    background-color: lightgrey;
+    height: 50vh;
+  }
+  .right p, .left p{
+    width:100% !important;
+  }
+  .left h2, .right h2{
+    font-size: 1rem;
+    line-height: 1.2rem;
+    font-family: Manrope, sans-serif !important;
+  }
+ 
+}
+
+
+
+
+
+
