@@ -667,27 +667,11 @@ input {
 .about-us {
   background-color: lightgrey;
   height: 50vh;
-  display: flex;
 }
 
 .about-us-text {
   display: flex;
-  justify-content: center;
-  width: 100%;
-  position: absolute;
-  z-index: 10;
   padding: 5rem 3rem;
-}
-
-.about-1 {
-  flex: 3;
-}
-
-.about-2 {
-  flex: 2;
-  display: flex;
-  justify-content: center;
-  text-align: center;
 }
 
 .underline {
@@ -711,10 +695,6 @@ input {
 .contact-list li a:hover {
   color: #F65E5B;
   transition: 0.5s;
-}
-
-.contact-image-container {
-  width: 100%;
 }
 
 .contact-img {
@@ -813,6 +793,9 @@ input {
     flex-direction: column;
     padding: 5rem 2rem !important;
   }
+  .about-us {
+    height: auto;
+  }
   .about-1 {
     flex: 3;
   }
@@ -856,6 +839,9 @@ input {
     margin: 0;
     width: 100%;
   }
+  .about-us {
+    height: auto;
+  }
   .left h2, .right h2 {
     font-size: 1.5rem !important;
     line-height: 2rem;
@@ -884,8 +870,14 @@ input {
     padding: 1rem 1rem !important;
   }
   .about-us {
-    background-color: lightgrey;
+    height: auto;
+  }
+}
+@media screen and (max-width: 368px) {
+  .about-us {
     height: 60vh;
+    background-color: lightgrey;
+    position: relative;
   }
 }
 @media screen and (max-width: 360px) {
@@ -895,6 +887,9 @@ input {
   }
   .mission-statement {
     margin-top: 3rem;
+  }
+  .about-us {
+    height: auto;
   }
   .about-history {
     padding: 1rem 1rem !important;

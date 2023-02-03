@@ -616,28 +616,24 @@ input{
 .about-us{
   background-color:lightgrey;
   height:50vh;
-  display: flex;
+
   
 }
 // issues on the desktop screen
 .about-us-text{
   display: flex;
-  justify-content: center;
-  width: 100%;
-  position: absolute;
-  z-index:10;
   padding: 5rem 3rem;
 
 }
-.about-1{
-  flex: 3;
-}
-.about-2{
-  flex: 2;
-  display:flex;
-  justify-content: center;
-  text-align: center;
-}
+// .about-1{
+//   flex: 3;
+// }
+// .about-2{
+//   flex: 2;
+//   display:flex;
+//   justify-content: center;
+//   text-align: center;
+// }
 // issues on desktop
   .underline{
     width:60%;
@@ -658,9 +654,6 @@ input{
   .contact-list li a:hover{
     color: #F65E5B;
     transition: 0.5s;
-  }
-  .contact-image-container{
-    width: 100%;
   }
   .contact-img{
     width:300px;
@@ -748,19 +741,18 @@ input{
    padding: 5rem 2rem !important;
   
   }
-  
+  .about-us{
+    height: auto;
+  }
   .about-1{
     flex: 3;
-    
   }
   .about-2{
     flex: 2;
     display:block;
     justify-content: center;
     text-align: left;
-    
   }
-  
   .underline{
     width: 70%;
   }
@@ -795,6 +787,9 @@ input{
     margin: 0;
     width:100%;
   }
+  .about-us{
+    height: auto;
+  }
   .left h2, .right h2 {
     font-size: 1.5rem !important;
     line-height: 2rem;
@@ -822,12 +817,18 @@ input{
   .about-history {
     padding: 1rem 1rem !important;
 }
-.about-us {
-  background-color: lightgrey;
-  height: 60vh;
+.about-us{
+  height: auto;
 }
 } 
  
+@media screen and (max-width:368px) {
+  .about-us{
+    height: 60vh;
+    background-color:lightgrey;
+    position: relative;
+  }
+}
 @media screen and (max-width:360px) {
   .contact-img, .mission-statement{
     margin: 0;
@@ -835,6 +836,9 @@ input{
   }
   .mission-statement{
     margin-top: 3rem;
+  }
+  .about-us{
+    height: auto;
   }
   
   .about-history {
