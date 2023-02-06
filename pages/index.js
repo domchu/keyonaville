@@ -2,6 +2,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Footer from "../Components/Footer/Footer";
 import Navbar from "../Components/Navbar/Navbar";
+import Slider from "../Components/Slider/Slider";
+
 
 export default function Home() {
   return (
@@ -12,6 +14,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
+      <Slider />
       <h1>Home page</h1>
       <Footer />
     </div>

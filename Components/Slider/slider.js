@@ -13,6 +13,11 @@ export default class Responsive extends Component {
       speed: 2000,
       autoplaySpeed: 2000,
       cssEase: "linear",
+      // dots: true,
+      // infinite: true,
+      // speed: 500,
+      // slidesToShow: 1,
+      // slidesToScroll: 1
       responsive: [
         {
           breakpoint: 1024,
