@@ -5,11 +5,14 @@ export default class Responsive extends Component {
   render() {
     var settings = {
       dots: true,
-      infinite: false,
-      speed: 500,
+      infinite: true,
       slidesToShow: 4,
       slidesToScroll: 4,
       initialSlide: 0,
+      autoplay: true,
+      speed: 2000,
+      autoplaySpeed: 2000,
+      cssEase: "linear",
       responsive: [
         {
           breakpoint: 1024,
