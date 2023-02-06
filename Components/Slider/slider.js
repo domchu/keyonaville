@@ -6,18 +6,13 @@ import "slick-carousel/slick/slick-theme.css";
 export default class Responsive extends Component {
   render() {
     var settings = {
-      //   dots: true,
-      //   infinite: true,
-      //   slidesToShow: 1,
-      //   slidesToScroll: 1,
-      //   initialSlide: 1,
+      initialSlide: 0,
       autoplay: true,
-      speed: 500,
-      autoplaySpeed: 500,
-      cssEase: "linear",
+      speed: 3000,
+      autoplaySpeed: 3000,
+      //   cssEase: "linear",
       dots: true,
       infinite: true,
-      //   speed: 500,
       slidesToShow: 1,
       slidesToScroll: 1,
       responsive: [
@@ -35,7 +30,7 @@ export default class Responsive extends Component {
           settings: {
             slidesToShow: 1,
             slidesToScroll: 1,
-            initialSlide: 1,
+            initialSlide: 0,
           },
         },
         {
@@ -52,7 +47,9 @@ export default class Responsive extends Component {
         <h2> Responsive </h2>
         <Slider {...settings}>
           <div>
-            <h3>1</h3>
+            <h3>the school logo</h3>
+            <h3>Keyonaville school</h3>
+            <h3>kindergarten,nursery, primary & college</h3>
           </div>
           <div>
             <h3>2</h3>
