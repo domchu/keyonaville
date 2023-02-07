@@ -79,22 +79,26 @@ export default class Responsive extends Component {
             </h1>
           </Box>
           <Box>
-            <h3>3</h3>
+            <Box
+              bgImage="url('./images/nature16.jpg')"
+              bgPosition="center"
+              bgRepeat="no-repeat"
+              bgSize="cover"
+              maxW="100%"
+              h={600}
+              pos="relative"
+            />
           </Box>
           <Box>
-            <h3>4</h3>
-          </Box>
-          <Box>
-            <h3>5</h3>
-          </Box>
-          <Box>
-            <h3>6</h3>
-          </Box>
-          <Box>
-            <h3>7</h3>
-          </Box>
-          <Box>
-            <h3>8</h3>
+            <Box
+              bgImage="url('./images/nature19.jpg')"
+              bgPosition="center"
+              bgRepeat="no-repeat"
+              bgSize="cover"
+              maxW="100%"
+              h={600}
+              pos="relative"
+            />
           </Box>
         </Slider>
       </>
