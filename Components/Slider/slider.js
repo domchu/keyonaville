@@ -1,18 +1,20 @@
 import React, { Component } from "react";
 import Image from "next/image";
+import { Box, Text } from "@chakra-ui/react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import banner from "../../public/images/nature20.jpg";
+// import banner from "../../public/images/nature20.jpg";
+// import banner2 from "../../public/images/nature17.jpg";
 
 export default class Responsive extends Component {
   render() {
     var settings = {
       initialSlide: 0,
       autoplay: true,
-      speed: 3000,
-      autoplaySpeed: 3000,
-      //   cssEase: "linear",
+      // speed: 1000,
+      // autoplaySpeed: 1000,
+      cssEase: "linear",
       dots: true,
       infinite: true,
       slidesToShow: 1,
@@ -45,38 +47,57 @@ export default class Responsive extends Component {
       ],
     };
     return (
-      <div>
-        <h2> Responsive </h2>
+      <>
         <Slider {...settings}>
-          <div>
-            <Image src={banner} alt="banner" />
-            <h3>the school logo</h3>
+          <Box>
+            <Box
+              bgImage="url('./images/nature20.jpg')"
+              bgPosition="center"
+              bgRepeat="no-repeat"
+              bgSize="cover"
+              maxW="100%"
+              h={600}
+              pos="relative"
+            />
+
+            <h1>the school logo</h1>
             <h3>Keyonaville school</h3>
             <h3>kindergarten,nursery, primary & college</h3>
-          </div>
-          <div>
-            <h3>2</h3>
-          </div>
-          <div>
+          </Box>
+          <Box>
+            <Box
+              bgImage="url('./images/nature17.jpg')"
+              bgPosition="center"
+              bgRepeat="no-repeat"
+              bgSize="cover"
+              maxW="100%"
+              h={600}
+              pos="relative"
+            />
+            <h1 pos="absolute" zIndex="30" top="30%" left="30%">
+              banner
+            </h1>
+          </Box>
+          <Box>
             <h3>3</h3>
-          </div>
-          <div>
+          </Box>
+          <Box>
             <h3>4</h3>
-          </div>
-          <div>
+          </Box>
+          <Box>
             <h3>5</h3>
-          </div>
-          <div>
+          </Box>
+          <Box>
             <h3>6</h3>
-          </div>
-          <div>
+          </Box>
+          <Box>
             <h3>7</h3>
-          </div>
-          <div>
+          </Box>
+          <Box>
             <h3>8</h3>
-          </div>
+          </Box>
         </Slider>
-      </div>
+      </>
     );
   }
 }
