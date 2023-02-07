@@ -1,7 +1,9 @@
 import React, { Component } from "react";
+import Image from "next/image";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import banner from "../../public/images/nature20.jpg";
 
 export default class Responsive extends Component {
   render() {
@@ -47,6 +49,7 @@ export default class Responsive extends Component {
         <h2> Responsive </h2>
         <Slider {...settings}>
           <div>
+            <Image src={banner} alt="banner" />
             <h3>the school logo</h3>
             <h3>Keyonaville school</h3>
             <h3>kindergarten,nursery, primary & college</h3>
