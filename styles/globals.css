@@ -929,6 +929,7 @@ input {
   flex-wrap: wrap;
   align-items: center;
   font-family: Manrope, sans-serif !important;
+  flex-wrap: wrap;
 }
 
 .special {
@@ -964,13 +965,18 @@ input {
 }
 @media screen and (max-width: 500px) {
   .banner__container {
-    margin-left: 70px;
+    margin-left: 50px;
     top: 50%;
+  }
+  .banner-btn {
+    margin-right: 1rem;
+    padding: 0.4rem 0.8rem;
+    font-size: 1.4rem;
   }
 }
 @media screen and (max-width: 360px) {
   .banner__container {
-    margin-left: 20px;
+    margin-left: 15px;
     top: 50%;
   }
   .banner-btn {
