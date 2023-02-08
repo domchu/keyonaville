@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Image from "next/image";
-import { Box, Text, Link } from "@chakra-ui/react";
+import { Box, Text, Link, Grid } from "@chakra-ui/react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -11,7 +11,7 @@ export default class Responsive extends Component {
   render() {
     var settings = {
       initialSlide: 0,
-      autoplay: true,
+      // autoplay: true,
       // speed: 1000,
       // autoplaySpeed: 1000,
       cssEase: "linear",
@@ -49,12 +49,13 @@ export default class Responsive extends Component {
     return (
       <>
         <Slider {...settings}>
-          <Box>
+          <Box pos="relative">
             <Box
               bgImage="url('./images/nature20.jpg')"
               bgPosition="center"
               bgRepeat="no-repeat"
               bgSize="cover"
+              objectFit="cover"
               maxW="100%"
               h={600}
               pos="relative"
@@ -63,15 +64,17 @@ export default class Responsive extends Component {
             <Box pos="absolute" zIndex="30" top="25%" fontSize={20}>
               <h1 className="banner-text">the school logo</h1>
               <h2 className="banner-text">Keyonaville school</h2>
-              <h3 className="banner-text">
+              <h3 className="banner-text special">
                 kindergarten,nursery, primary & college
               </h3>
-              <Link href="/" passHref>
-                EXPLORE
-              </Link>
-              <Link href="/" passHref>
-                Make Call
-              </Link>
+              <Box>
+                <Link href="/" className="banner-btn" passHref>
+                  EXPLORE
+                </Link>
+                <Link href="/" className="banner-btn" passHref>
+                  Make Call
+                </Link>
+              </Box>
             </Box>
           </Box>
           <Box>
@@ -85,9 +88,17 @@ export default class Responsive extends Component {
               pos="relative"
               overflow="hidden"
             />
-            <Text pos="absolute" zIndex="25" top="40%" fontSize={40}>
-              banner2
-            </Text>
+            <Box pos="absolute" zIndex="30" top="30%" fontSize={20}>
+              <h2 className="banner-text special">Keyonaville school</h2>
+              <Box>
+                <Link href="/" className="banner-btn" passHref>
+                  EXPLORE
+                </Link>
+                <Link href="/" className="banner-btn" passHref>
+                  Make Call
+                </Link>
+              </Box>
+            </Box>
           </Box>
           <Box>
             <Box
@@ -100,9 +111,17 @@ export default class Responsive extends Component {
               pos="relative"
               overflow="hidden"
             />
-            <Text pos="absolute" zIndex="20" top="40%" fontSize={40}>
-              banner3
-            </Text>
+            <Box pos="absolute" zIndex="30" top="30%" fontSize={20}>
+              <h2 className="banner-text special">Keyonaville school</h2>
+              <Box>
+                <Link href="/" className="banner-btn" passHref>
+                  EXPLORE
+                </Link>
+                <Link href="/" className="banner-btn" passHref>
+                  Make Call
+                </Link>
+              </Box>
+            </Box>
           </Box>
           <Box>
             <Box
@@ -115,9 +134,17 @@ export default class Responsive extends Component {
               pos="relative"
               overflow="hidden"
             />
-            <Text pos="absolute" zIndex="15" top="40%" fontSize={40}>
-              banner4
-            </Text>
+            <Box pos="absolute" zIndex="30" top="30%" fontSize={20}>
+              <h2 className="banner-text special">Keyonaville school</h2>
+              <Box>
+                <Link href="/" className="banner-btn" passHref>
+                  EXPLORE
+                </Link>
+                <Link href="/" className="banner-btn" passHref>
+                  Make Call
+                </Link>
+              </Box>
+            </Box>
           </Box>
         </Slider>
       </>

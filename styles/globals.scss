@@ -880,6 +880,28 @@ input{
 .banner-text {
   // color: var(--white) !important;
   color: #F65E5B;
+  flex-wrap: wrap;
+  align-items:center;
+  font-family: Manrope, sans-serif !important;
+}
+.special{
+  margin-bottom: 2rem;
+
+}
+.banner-btn{
+  padding: .6rem 1rem;
+  background-color: #F65E5B;
+  color: var(--clr-white);
+  margin-right: 2rem;
+  font-family: Manrope, sans-serif !important;
+  border-radius: 5px;
+  border: 1px solid #F65E5B;
+}
+.banner-btn:hover{
+  background-color: transparent;
+  color: var(--clr-white);
+  transition: .5s;
+  transform: scale(0.9);
 }
 
 
