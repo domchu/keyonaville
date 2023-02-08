@@ -10,13 +10,13 @@ function Footer() {
   return (
     <Box className="footer">
       <Flex
-        justifyContent="center"
         flexDirection={{
           base: "column",
           sm: "column",
           md: "column",
           lg: "row",
         }}
+        justifyContent="center"
       >
         <Flex
           className="footer-writeup"
@@ -30,12 +30,16 @@ function Footer() {
         <Flex
           className="footer-links"
           justifyContent="center"
-          flexDirection={{ base: "column", sm: "column", md: "row", lg: "row" }}
+          flexDirection={{
+            base: "column",
+            sm: "column",
+            md: "column",
+            lg: "row",
+          }}
         >
           <Box>
             <h2>PAGES</h2>
             <Box className="footer-pages">
-              {/* <Box> */}
               {links.map((link) => {
                 const { id, url, text } = link;
                 return (
@@ -46,7 +50,6 @@ function Footer() {
                   </li>
                 );
               })}
-              {/* </Box> */}
             </Box>
           </Box>
 
