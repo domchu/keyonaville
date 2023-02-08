@@ -903,6 +903,32 @@ input{
   transition: .5s;
   transform: scale(0.9);
 }
+.banner__container{
+   margin-left: 450px;
+}
+@media screen and (max-width:#{$tablet-width}) {
+  .banner__container{
+    margin-left: 200px;
+    top:50%;
+ }
+}
+@media screen and (max-width:#{$phone-width}) {
+  .banner__container{
+    margin-left: 70px;
+    top:50%;
+ }
+}
+@media screen and (max-width:360px) {
+  .banner__container{
+    margin-left: 20px;
+    top:50%;
+ }
+ .banner-btn{
+  margin-right: 1rem;
+  padding: .4rem .8rem;
+  font-size: 1.4rem;
+ }
+}
 
 
 

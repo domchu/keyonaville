@@ -11,10 +11,10 @@ export default class Responsive extends Component {
   render() {
     var settings = {
       initialSlide: 0,
-      // autoplay: true,
-      // speed: 1000,
-      // autoplaySpeed: 1000,
-      cssEase: "linear",
+      autoplay: true,
+      speed: 3000,
+      autoplaySpeed: 3000,
+      // cssEase: "linear",
       dots: true,
       infinite: true,
       slidesToShow: 1,
@@ -30,7 +30,7 @@ export default class Responsive extends Component {
           },
         },
         {
-          breakpoint: 600,
+          breakpoint: 768,
           settings: {
             slidesToShow: 1,
             slidesToScroll: 1,
@@ -38,7 +38,7 @@ export default class Responsive extends Component {
           },
         },
         {
-          breakpoint: 480,
+          breakpoint: 500,
           settings: {
             slidesToShow: 1,
             slidesToScroll: 1,
@@ -49,7 +49,7 @@ export default class Responsive extends Component {
     return (
       <>
         <Slider {...settings}>
-          <Box pos="relative">
+          <div>
             <Box
               bgImage="url('./images/nature20.jpg')"
               bgPosition="center"
@@ -57,15 +57,23 @@ export default class Responsive extends Component {
               bgSize="cover"
               objectFit="cover"
               maxW="100%"
-              h={600}
+              h={620}
               pos="relative"
               overflow="hidden"
             />
-            <Box pos="absolute" zIndex="30" top="25%" fontSize={20}>
-              <h1 className="banner-text">the school logo</h1>
+            <Box
+              className="banner__container"
+              pos="absolute"
+              zIndex="30"
+              top="25%"
+              fontSize={20}
+
+              // ml={{ base: "100px", sm: "120px", md: "320px", lg: "450px" }}
+            >
+              <h1 className="banner-text"> logo</h1>
               <h2 className="banner-text">Keyonaville school</h2>
               <h3 className="banner-text special">
-                kindergarten,nursery, primary & college
+                Nursery, Primary & College
               </h3>
               <Box>
                 <Link href="/" className="banner-btn" passHref>
@@ -76,7 +84,7 @@ export default class Responsive extends Component {
                 </Link>
               </Box>
             </Box>
-          </Box>
+          </div>
           <Box>
             <Box
               bgImage="url('./images/nature17.jpg')"
@@ -88,7 +96,13 @@ export default class Responsive extends Component {
               pos="relative"
               overflow="hidden"
             />
-            <Box pos="absolute" zIndex="30" top="30%" fontSize={20}>
+            <Box
+              pos="absolute"
+              zIndex="30"
+              top="30%"
+              fontSize={20}
+              className="banner__container"
+            >
               <h2 className="banner-text special">Keyonaville school</h2>
               <Box>
                 <Link href="/" className="banner-btn" passHref>
@@ -111,7 +125,13 @@ export default class Responsive extends Component {
               pos="relative"
               overflow="hidden"
             />
-            <Box pos="absolute" zIndex="30" top="30%" fontSize={20}>
+            <Box
+              pos="absolute"
+              zIndex="30"
+              top="30%"
+              fontSize={20}
+              className="banner__container"
+            >
               <h2 className="banner-text special">Keyonaville school</h2>
               <Box>
                 <Link href="/" className="banner-btn" passHref>
@@ -134,7 +154,13 @@ export default class Responsive extends Component {
               pos="relative"
               overflow="hidden"
             />
-            <Box pos="absolute" zIndex="30" top="30%" fontSize={20}>
+            <Box
+              pos="absolute"
+              zIndex="30"
+              top="30%"
+              fontSize={20}
+              className="banner__container"
+            >
               <h2 className="banner-text special">Keyonaville school</h2>
               <Box>
                 <Link href="/" className="banner-btn" passHref>
