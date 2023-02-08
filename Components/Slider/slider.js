@@ -1,11 +1,8 @@
 import React, { Component } from "react";
-import Image from "next/image";
-import { Box, Text, Link, Grid } from "@chakra-ui/react";
+import { Box, Link } from "@chakra-ui/react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-// import banner from "../../public/images/nature20.jpg";
-// import banner2 from "../../public/images/nature17.jpg";
 
 export default class Responsive extends Component {
   render() {
@@ -14,7 +11,6 @@ export default class Responsive extends Component {
       autoplay: true,
       speed: 3000,
       autoplaySpeed: 3000,
-      // cssEase: "linear",
       dots: true,
       infinite: true,
       slidesToShow: 1,
@@ -67,8 +63,6 @@ export default class Responsive extends Component {
               zIndex="30"
               top="25%"
               fontSize={20}
-
-              // ml={{ base: "100px", sm: "120px", md: "320px", lg: "450px" }}
             >
               <h1 className="banner-text"> logo</h1>
               <h2 className="banner-text">Keyonaville school</h2>
