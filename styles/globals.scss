@@ -806,8 +806,13 @@ input{
     padding: 1rem 1rem !important;
 }
 }
-@media screen and(max-width:390px){
+@media screen and (max-width:390px){
   .left h2, .right h2 {
+    font-size: 1rem !important;
+    line-height: 1.2rem;
+    font-family: Manrope, sans-serif !important;
+  }
+ .right h2 {
     font-size: 1rem !important;
     line-height: 1.2rem;
     font-family: Manrope, sans-serif !important;
@@ -831,7 +836,11 @@ input{
   }
 }
 @media screen and (max-width:360px) {
-  .contact-img, .mission-statement{
+  .contact-img{
+    margin: 0;
+    width:100%;
+  }
+  .mission-statement{
     margin: 0;
     width:100%;
   }
@@ -849,17 +858,29 @@ input{
     background-color: lightgrey;
     height: 50vh;
   }
-  .right p, .left p{
+  .right p{
     width:100% !important;
   }
-  .left h2, .right h2{
+   .left p{
+    width:100% !important;
+  }
+  .left h2{
     font-size: 1rem;
     line-height: 1.2rem;
     font-family: Manrope, sans-serif !important;
   }
- 
+  .right h2{
+    font-size: 1rem;
+    line-height: 1.2rem;
+    font-family: Manrope, sans-serif !important;
+  }
 }
 
+// banner css
+.banner-text {
+  // color: var(--white) !important;
+  color: #F65E5B;
+}
 
 
 

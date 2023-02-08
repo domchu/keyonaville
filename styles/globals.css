@@ -111,9 +111,9 @@ p {
     font-size: 1rem;
   }
   h1,
-h2,
-h3,
-h4 {
+  h2,
+  h3,
+  h4 {
     line-height: 1;
   }
 }
@@ -863,6 +863,11 @@ input {
     line-height: 1.2rem;
     font-family: Manrope, sans-serif !important;
   }
+  .right h2 {
+    font-size: 1rem !important;
+    line-height: 1.2rem;
+    font-family: Manrope, sans-serif !important;
+  }
   .contact-list li {
     padding-bottom: 1rem;
   }
@@ -881,7 +886,11 @@ input {
   }
 }
 @media screen and (max-width: 360px) {
-  .contact-img, .mission-statement {
+  .contact-img {
+    margin: 0;
+    width: 100%;
+  }
+  .mission-statement {
     margin: 0;
     width: 100%;
   }
@@ -898,12 +907,23 @@ input {
     background-color: lightgrey;
     height: 50vh;
   }
-  .right p, .left p {
+  .right p {
     width: 100% !important;
   }
-  .left h2, .right h2 {
+  .left p {
+    width: 100% !important;
+  }
+  .left h2 {
     font-size: 1rem;
     line-height: 1.2rem;
     font-family: Manrope, sans-serif !important;
   }
+  .right h2 {
+    font-size: 1rem;
+    line-height: 1.2rem;
+    font-family: Manrope, sans-serif !important;
+  }
+}
+.banner-text {
+  color: #F65E5B;
 }/*# sourceMappingURL=globals.css.map */

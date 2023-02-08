@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Image from "next/image";
-import { Box, Text } from "@chakra-ui/react";
+import { Box, Text, Link } from "@chakra-ui/react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -21,7 +21,7 @@ export default class Responsive extends Component {
       slidesToScroll: 1,
       responsive: [
         {
-          breakpoint: 1440,
+          breakpoint: 1024,
           settings: {
             slidesToShow: 1,
             slidesToScroll: 1,
@@ -58,16 +58,21 @@ export default class Responsive extends Component {
               maxW="100%"
               h={600}
               pos="relative"
+              overflow="hidden"
             />
-            <Text pos="absolute" zIndex="30" top="40%" left="" fontSize={40}>
-              banner1
-            </Text>
-            <Text pos="absolute" zIndex="30" top="50%" left="" fontSize={40}>
-              banner12
-            </Text>
-            {/* <h1>the school logo</h1>
-            <h3>Keyonaville school</h3>
-            <h3>kindergarten,nursery, primary & college</h3> */}
+            <Box pos="absolute" zIndex="30" top="25%" fontSize={20}>
+              <h1 className="banner-text">the school logo</h1>
+              <h2 className="banner-text">Keyonaville school</h2>
+              <h3 className="banner-text">
+                kindergarten,nursery, primary & college
+              </h3>
+              <Link href="/" passHref>
+                EXPLORE
+              </Link>
+              <Link href="/" passHref>
+                Make Call
+              </Link>
+            </Box>
           </Box>
           <Box>
             <Box
@@ -78,15 +83,9 @@ export default class Responsive extends Component {
               maxW="100%"
               h={600}
               pos="relative"
+              overflow="hidden"
             />
-            <Text
-              pos="absolute"
-              zIndex="25"
-              top="40%"
-              // left="16%"
-
-              fontSize={40}
-            >
+            <Text pos="absolute" zIndex="25" top="40%" fontSize={40}>
               banner2
             </Text>
           </Box>
@@ -99,15 +98,9 @@ export default class Responsive extends Component {
               maxW="100%"
               h={600}
               pos="relative"
+              overflow="hidden"
             />
-            <Text
-              pos="absolute"
-              zIndex="20"
-              top="40%"
-              // left="16%"
-
-              fontSize={40}
-            >
+            <Text pos="absolute" zIndex="20" top="40%" fontSize={40}>
               banner3
             </Text>
           </Box>
@@ -120,15 +113,9 @@ export default class Responsive extends Component {
               maxW="100%"
               h={600}
               pos="relative"
+              overflow="hidden"
             />
-            <Text
-              pos="absolute"
-              zIndex="15"
-              top="40%"
-              // left="16%"
-
-              fontSize={40}
-            >
+            <Text pos="absolute" zIndex="15" top="40%" fontSize={40}>
               banner4
             </Text>
           </Box>
