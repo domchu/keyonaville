@@ -1,8 +1,9 @@
 import React, { useState, useRef, useEffect } from "react";
 import { Box } from "@chakra-ui/react";
 import Link from "next/link";
+import NavLink from "next/link";
 import Image from "next/image";
-import { FaBars, FaTwitter } from "react-icons/fa";
+import { FaBars } from "react-icons/fa";
 import { links, social } from "../Navbar/Navdata";
 // import logo from "./logo.svg";
 
@@ -41,9 +42,9 @@ const Navbar = () => {
                 const { id, url, text } = link;
                 return (
                   <li key={id}>
-                    <Link href={url} passHref>
+                    <NavLink href={url} passHref>
                       {text}
-                    </Link>
+                    </NavLink>
                   </li>
                 );
               })}

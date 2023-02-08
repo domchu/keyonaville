@@ -21,7 +21,7 @@ export default class Responsive extends Component {
       slidesToScroll: 1,
       responsive: [
         {
-          breakpoint: 1024,
+          breakpoint: 1440,
           settings: {
             slidesToShow: 1,
             slidesToScroll: 1,
@@ -59,10 +59,15 @@ export default class Responsive extends Component {
               h={600}
               pos="relative"
             />
-
-            <h1>the school logo</h1>
+            <Text pos="absolute" zIndex="30" top="40%" left="" fontSize={40}>
+              banner1
+            </Text>
+            <Text pos="absolute" zIndex="30" top="50%" left="" fontSize={40}>
+              banner12
+            </Text>
+            {/* <h1>the school logo</h1>
             <h3>Keyonaville school</h3>
-            <h3>kindergarten,nursery, primary & college</h3>
+            <h3>kindergarten,nursery, primary & college</h3> */}
           </Box>
           <Box>
             <Box
@@ -74,9 +79,16 @@ export default class Responsive extends Component {
               h={600}
               pos="relative"
             />
-            <h1 pos="absolute" zIndex="30" top="30%" left="30%">
-              banner
-            </h1>
+            <Text
+              pos="absolute"
+              zIndex="25"
+              top="40%"
+              // left="16%"
+
+              fontSize={40}
+            >
+              banner2
+            </Text>
           </Box>
           <Box>
             <Box
@@ -88,6 +100,16 @@ export default class Responsive extends Component {
               h={600}
               pos="relative"
             />
+            <Text
+              pos="absolute"
+              zIndex="20"
+              top="40%"
+              // left="16%"
+
+              fontSize={40}
+            >
+              banner3
+            </Text>
           </Box>
           <Box>
             <Box
@@ -99,6 +121,16 @@ export default class Responsive extends Component {
               h={600}
               pos="relative"
             />
+            <Text
+              pos="absolute"
+              zIndex="15"
+              top="40%"
+              // left="16%"
+
+              fontSize={40}
+            >
+              banner4
+            </Text>
           </Box>
         </Slider>
       </>
