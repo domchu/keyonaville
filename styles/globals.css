@@ -984,4 +984,10 @@ input {
     padding: 0.4rem 0.8rem;
     font-size: 1.4rem;
   }
+}
+iframe {
+  border: none;
+  width: 60%;
+  height: 500px;
+  margin: 2rem 0;
 }/*# sourceMappingURL=globals.css.map */

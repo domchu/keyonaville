@@ -5,6 +5,7 @@ import Navbar from "../Components/Navbar/Navbar";
 import Slider from "../Components/Slider/Slider";
 
 
+
 export default function Home() {
   return (
     <div>
@@ -15,6 +16,7 @@ export default function Home() {
       </Head>
       <Navbar />
       <Slider />
+
       <h1>Home page</h1>
       <Footer />
     </div>

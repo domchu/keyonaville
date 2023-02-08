@@ -1,4 +1,5 @@
 import React from "react";
+import Map from "../Map";
 import { Box, Grid, Flex } from "@chakra-ui/react";
 import {
   SlLocationPin,
@@ -142,6 +143,7 @@ const Contact = () => {
           </ul>
         </Box>
       </Flex>
+      <Map />
     </>
   );
 };
