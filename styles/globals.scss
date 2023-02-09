@@ -935,12 +935,15 @@ input{
   font-size: 1.4rem;
  }
 }
+
+
+
 // map css
 iframe{
   border: none;
-  // width: 50%;
+  // width: 60%;
   height: 500px;
-  margin: 2rem 0;
+  // margin: 2rem 0;
   // filter: invert(100%);
 }
 .banner-openday{
@@ -949,37 +952,37 @@ iframe{
   width: 400px;
   height: 400px;
   margin: 0 3rem;
-  font-size: 1.6rem;
+  font-size: 1.3rem;
 }
 .banner{
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  // width: 100%;
   background-color: #092038;
   color:white;
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 600;
-  height: 400px;
+  height: 500px;
+  
   span{
-    font-size: 4rem;
+    font-size: 2rem;
     font-weight: 600;
     color: #fff;
   }
-
 }
 
 
 .contactus{
 
 
- 
-  .wrapper-contact{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 3rem;
 
+  .wrapper-contact{
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    margin: 3rem;
+  }
     @media screen and (max-width:#{$phone-width}) {
       
     }
@@ -992,22 +995,22 @@ iframe{
       color: black;
       width: 400px;
       height: 400px;
-      margin: 0 3rem;
+      // margin: 0 3rem;
       font-size: 1.6rem;
     }
     .banner-location{
       position: relative;
       width: 400px;
       height: 400px;
-      .frame-wrapper{
-        position: absolute;
-        background-color: #092038;
-        width: 200px;
-        height: 300px;
-        top: -1.3rem;
-        z-index: -5;
-        right: -2rem;;
-      }
+    }
+    .frame-wrapper{
+      position: absolute;
+      background-color: #092038;
+      width: 200px;
+      height: 300px;
+      top: -1.3rem;
+      z-index: -5;
+      right: -2rem;;
     }
    
     
@@ -1017,36 +1020,36 @@ iframe{
     display: flex;
     justify-content: space-around;
     color: #348aed;
-    
+  
     margin: 3rem;
+  }
     .address-con{
    path{stroke:#348aed}
-
-display: flex;
-
+   display: flex;
     }
+
+    
     .email-con{
       display: flex;
       
     }
     .phone-con{
       display: flex;
-    }
-    span{
-      color: #000000;
+      span{
+        color: #000000;
+      }
     }
 
-  }
+  
   .days{
-    
-    color: black;
-  }
-   .active{
-    background-color: #092038;
     color: white;
+    .active{
+       color: black;
+      background-color: #092038;
+    }
   }
 
-}
+
 
 
 
