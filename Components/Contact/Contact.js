@@ -10,6 +10,8 @@ import {
 import Link from "next/link";
 import { FaFacebook, FaTwitter, FaInstagram, FaWhatsapp } from "react-icons/fa";
 
+// import openDays from "./../openDays";
+
 const Contact = () => {
   return (
     <>
@@ -143,7 +145,10 @@ const Contact = () => {
           </ul>
         </Box>
       </Flex>
-      <Map />
+      <Flex>
+        <Map />
+        {/* <openDays/> */}
+      </Flex>
     </>
   );
 };
