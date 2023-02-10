@@ -987,7 +987,9 @@ input {
 }
 iframe {
   border: none;
+  width: 60%;
   height: 500px;
+  margin: 2rem 0;
 }
 
 .banner-openday {
@@ -999,23 +1001,10 @@ iframe {
   font-size: 1.3rem;
 }
 
-.banner {
+.contactus .wrapper-contact {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #092038;
-  color: white;
-  font-size: 2.5rem;
-  font-weight: 600;
-  height: 500px;
-}
-.banner span {
-  font-size: 2rem;
-  font-weight: 600;
-  color: #fff;
-}
-
-.contactus .wrapper-contact {
   margin: 3rem;
 }
 .contactus .banner-openday {
@@ -1023,6 +1012,7 @@ iframe {
   color: black;
   width: 400px;
   height: 400px;
+  margin: 0 3rem;
   font-size: 1.6rem;
 }
 .contactus .banner-location {
@@ -1030,7 +1020,7 @@ iframe {
   width: 400px;
   height: 400px;
 }
-.contactus .frame-wrapper {
+.contactus .banner-location .frame-wrapper {
   position: absolute;
   background-color: #092038;
   width: 200px;
@@ -1039,36 +1029,10 @@ iframe {
   z-index: -5;
   right: -2rem;
 }
-
-.icon-container {
-  display: flex;
-  justify-content: space-around;
-  color: #348aed;
-  margin: 3rem;
-}
-
-.address-con {
-  display: flex;
-}
-.address-con path {
-  stroke: #348aed;
-}
-
-.email-con {
-  display: flex;
-}
-
-.phone-con {
-  display: flex;
-}
-.phone-con span {
-  color: #000000;
-}
-
-.days {
-  color: white;
-}
-.days .active {
+.contactus .days {
   color: black;
-  background-color: #092038;
+}
+.contactus .active {
+  background-color: #05c722;
+  color: white;
 }/*# sourceMappingURL=globals.css.map */

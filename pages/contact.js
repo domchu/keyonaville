@@ -3,6 +3,8 @@ import Image from "next/image";
 import Contact from "../Components/Contact/Contact";
 import Footer from "./../Components/Footer/Footer";
 import Navbar from "./../Components/Navbar/Navbar";
+import Map from "../Components/Map";
+import OpenDays from "../Components/OpenDays";
 
 export default function contact() {
   return (
@@ -14,6 +16,8 @@ export default function contact() {
       </Head>
       <Navbar />
       <Contact />
+      <Map />
+      <OpenDays />
       <Footer />
     </>
   );

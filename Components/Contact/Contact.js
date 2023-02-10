@@ -1,5 +1,4 @@
 import React from "react";
-import Map from "../Map";
 import { Box, Grid, Flex } from "@chakra-ui/react";
 import {
   SlLocationPin,
@@ -10,7 +9,7 @@ import {
 import Link from "next/link";
 import { FaFacebook, FaTwitter, FaInstagram, FaWhatsapp } from "react-icons/fa";
 
-// import openDays from "./../openDays";
+
 
 const Contact = () => {
   return (
@@ -145,10 +144,7 @@ const Contact = () => {
           </ul>
         </Box>
       </Flex>
-      <Flex>
-        <Map />
-        {/* <openDays/> */}
-      </Flex>
+      <Flex></Flex>
     </>
   );
 };
