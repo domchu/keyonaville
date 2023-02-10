@@ -1035,4 +1035,32 @@ iframe {
 .contactus .active {
   background-color: #05c722;
   color: white;
+}
+
+.slick-prev, .slick-next {
+  font-size: 1rem !important;
+  line-height: 0rem !important;
+  position: absolute;
+  z-index: 10;
+  top: 50%;
+  display: block;
+  width: 60px !important;
+  height: 40px !important;
+  transform: translate(0, -50%);
+  cursor: pointer;
+  color: white !important;
+  border-radius: 5px;
+  background: black !important;
+}
+
+.slick-next {
+  right: -80px !important;
+  position: absolute;
+  z-index: 10;
+}
+
+.slick-prev {
+  left: -80px !important;
+  position: absolute;
+  z-index: 10;
 }/*# sourceMappingURL=globals.css.map */
