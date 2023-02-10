@@ -72,3 +72,23 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+{
+  /* <Link
+href='/about'
+className={currentRoute === '/about' ? styles.active : styles.nonActive}
+>
+About
+</Link> */
+}
+
+/* Specific styles for non-active links */
+// .nonActive {
+//   color: white;
+// }
+
+/* Specific styles for active links */
+// .active {
+//   color: black;
+//   background: orange;
+// }
