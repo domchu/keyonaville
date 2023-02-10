@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Footer from "../Components/Footer/Footer";
 import Navbar from "../Components/Navbar/Navbar";
 import Slider from "../Components/Slider/Slider";
+import Testimonial from "../Components/Testimonial/testimonial";
 
 
 
@@ -16,7 +17,7 @@ export default function Home() {
       </Head>
       <Navbar />
       <Slider />
-
+      <Testimonial />
       <h1>Home page</h1>
       <Footer />
     </div>
