@@ -9,8 +9,8 @@ export default class Responsive extends Component {
     var settings = {
       initialSlide: 0,
       autoplay: true,
-      speed: 3000,
-      autoplaySpeed: 3000,
+      speed: 2000,
+      autoplaySpeed: 2000,
       dots: true,
       infinite: true,
       slidesToShow: 1,
