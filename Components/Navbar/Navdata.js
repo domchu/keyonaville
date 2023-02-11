@@ -1,8 +1,6 @@
-import React from "react";
 import {
   FaFacebook,
   FaInstagram,
-  FaLinkedin,
   FaTwitter,
   FaWhatsapp,
 } from "react-icons/fa";
@@ -22,7 +20,6 @@ export const links = [
     url: "/blog",
     text: "BLOG",
   },
-
   {
     id: 4,
     url: "/gallery",

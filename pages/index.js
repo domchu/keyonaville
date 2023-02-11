@@ -18,7 +18,7 @@ export default function Home() {
       <Navbar />
       <Slider />
       <Testimonial />
-      <h1>Home page</h1>
+
       <Footer />
     </div>
   );

@@ -79,14 +79,14 @@ const openDays = () => {
           </ul>
         </Box>
         {/* end of the days and hours */}
-        <Box className="banner-location" m={{ base: 20, sm: 20, md: 0, lg: 0 }}>
+        {/* <Box className="banner-location" m={{ base: 20, sm: 20, md: 0, lg: 0 }}>
           <Box className="frame-wrapper"></Box>
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.4004587114587!2d3.184714914193238!3d6.470851125569799!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b86b056d20783%3A0x3cd75bc3da14206d!2sFlorintech%20computer%20college!5e0!3m2!1sen!2sng!4v1675250971122!5m2!1sen!2sng"
             height="400px"
             width="400px"
           ></iframe>
-        </Box>
+        </Box> */}
       </Flex>
       {/* </Flex> */}
     </>

@@ -1,7 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
 import { Box } from "@chakra-ui/react";
 import Link from "next/link";
-import NavLink from "next/link";
 import Image from "next/image";
 import { FaBars } from "react-icons/fa";
 import { links, social } from "../Navbar/Navdata";
@@ -42,22 +41,22 @@ const Navbar = () => {
                 const { id, url, text } = link;
                 return (
                   <li key={id}>
-                    <NavLink href={url} passHref>
+                    <Link href={url} passhref="true">
                       {text}
-                    </NavLink>
+                    </Link>
                   </li>
                 );
               })}
             </ul>
           </div>
-          {/* the social media section */}
+          ;{/* the social media section */}
           <Box>
             <ul className="social-icons">
               {social.map((socialIcon) => {
                 const { id, url, icon } = socialIcon;
                 return (
                   <li key={id}>
-                    <Link href={url} passHref>
+                    <Link href={url} passhref="true">
                       {icon}
                     </Link>
                   </li>
@@ -65,6 +64,7 @@ const Navbar = () => {
               })}
             </ul>
           </Box>
+          ;
         </Box>
       </nav>
     </>

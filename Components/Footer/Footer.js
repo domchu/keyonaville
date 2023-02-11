@@ -44,7 +44,7 @@ function Footer() {
                 const { id, url, text } = link;
                 return (
                   <li key={id}>
-                    <Link href={url} passHref>
+                    <Link href={url} passhref="true">
                       {text}
                     </Link>
                   </li>
@@ -75,7 +75,7 @@ function Footer() {
                   const { id, url, icon, iconName } = socialIcon;
                   return (
                     <li key={id}>
-                      <Link href={url} passHref>
+                      <Link href={url} passhref="true">
                         {icon}
                         {iconName}
                       </Link>

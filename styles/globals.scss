@@ -273,8 +273,9 @@ Variables
 
   
   // faq css frequently questions
+
 main {
-  min-height: 100vh;
+  min-height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1028,7 +1029,7 @@ iframe{
   margin-top: 4rem;
   width: 90vw;
   /* have to have a height */
-  height: 280px;
+  height: 390px;
   max-width: 800px;
   text-align: center;
   position: relative;
@@ -1070,7 +1071,7 @@ article h4 {
 .prev,
 .next {
   position: absolute;
-  top: 70px;
+  top: 160px;
   transform: translateY(-80%);
   background: var(--clr-grey-5);
   color: var(--clr-white);
