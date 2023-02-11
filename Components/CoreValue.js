@@ -24,6 +24,32 @@ const CoreValue = () => {
               </ul>
             </Box>
           </Flex>
+          <Flex justifyContent="space-around" width="300px">
+            <Box>
+              <SlNotebook />
+            </Box>
+            <Box>
+              <h2>OUR VISION</h2>
+              <p>
+                To raise boys and girls of character and excellence in wisdom
+                and humility who shall contribute to their immediate society and
+                nation building.
+              </p>
+            </Box>
+          </Flex>
+          <Flex justifyContent="space-around" width="300px">
+            <Box>
+              <SlNotebook />
+            </Box>
+            <Box>
+              <h2>OUR MISSION</h2>
+              <p>
+                To provide all round quality education of international standard
+                to biys and girls with emphasis on character training, vocation
+                and academic excellence
+              </p>
+            </Box>
+          </Flex>
         </Box>
         <Box></Box>
       </Flex>
