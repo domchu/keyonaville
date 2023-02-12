@@ -1225,6 +1225,37 @@ letter-spacing: 1px;
  place-items:center;
   
 }
+
+//facilities css
+// .fac-overall-container{
+
+// }
+.fac-image-container{
+  height: 350px;
+  width:300px;
+  cursor: pointer;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  margin: .5rem;
+  background-color: var(--clr-primary-4);
+}
+.fac-image-container h4{
+  text-align: center;
+  color: var(--clr-white);
+  width:300px;
+}
+.fac-images{
+  height: 300px;
+  width:300px;
+  background-color: var(--clr-primary-4);
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.fac-image-container:hover{
+  background-color:#F65E5B;
+  border:1px solid #F65E5B;
+  transition:0.5s;
+}
   
   
 
