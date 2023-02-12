@@ -5,21 +5,13 @@ const WhyKeyona = () => {
   return (
     <>
       <Box>
-        <Box>
-          <h2>WHY KEYONAVILLE SCHOOL</h2>
+        <Box className="title">
+          <h2>
+            <span>/</span>WHY KEYONAVILLE SCHOOL
+          </h2>
         </Box>
 
-        <Grid
-          justifyContent="center"
-          alignItems="center"
-          // textAlign="center"
-          GridTemplateColumns={{
-            base: "1fr",
-            sm: "1fr",
-            md: "1fr 1fr",
-            lg: "repeat(3, 1fr)",
-          }}
-        >
+        <Grid className="grid-container">
           <Box className="why-text">
             <h4>
               Quality Learning <span style={{ fontSize: "2rem" }}>&#9758;</span>

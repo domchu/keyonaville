@@ -246,7 +246,7 @@ Variables
   //footer css
   // radial-gradient(circle, #083b6b, #092038)
   .footer{
-    background-color:var(--clr-primary-2);padding: 50px 90px;h2{font-weight: bold;color: #fff;padding: 10px 20px;font-size: 22px;}p{color: #ffffff;}
+    background-color:var(--clr-primary-3);padding: 50px 90px;h2{font-weight: bold;color: #fff;padding: 10px 20px;font-size: 22px;}p{color: #ffffff;}
     @media screen and (max-width:#{$phone-width}) {
       padding: 10px 20px;
       .footer-links{
@@ -1197,15 +1197,14 @@ border: 4px solid #F65E5B;
 // whykeyona css
 .why-text{
   border:1px solid var(--clr-primary-4);
-  padding:2em 2em;
+  padding:2em;
 background-color:var(--clr-primary-4);
   font-family: Manrope, sans-serif !important;
-  width:40%;
+  width:30%;
   color:var(--clr-white);
   border-radius:5px;
   cursor:pointer;
   margin:1rem;
- 
 }
 .why-text:hover{
   background-color:#F65E5B;
@@ -1221,6 +1220,10 @@ background-color:var(--clr-primary-4);
 font-size: 1em;
 line-height: 2em;
 letter-spacing: 1px;
+}
+.grid-container{
+ place-items:center;
+  
 }
   
   

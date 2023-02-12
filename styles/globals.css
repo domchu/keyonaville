@@ -247,7 +247,7 @@ nav {
   }
 }
 .footer {
-  background-color: var(--clr-primary-2);
+  background-color: var(--clr-primary-3);
   padding: 50px 90px;
 }
 .footer h2 {
@@ -1236,10 +1236,10 @@ article.nextSlide {
 }
 .why-text {
   border: 1px solid var(--clr-primary-4);
-  padding: 2em 2em;
+  padding: 2em;
   background-color: var(--clr-primary-4);
   font-family: Manrope, sans-serif !important;
-  width: 40%;
+  width: 30%;
   color: var(--clr-white);
   border-radius: 5px;
   cursor: pointer;
@@ -1261,4 +1261,8 @@ article.nextSlide {
   font-size: 1em;
   line-height: 2em;
   letter-spacing: 1px;
+}
+
+.grid-container {
+  place-items: center;
 }/*# sourceMappingURL=globals.css.map */
