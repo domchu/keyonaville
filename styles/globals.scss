@@ -244,8 +244,9 @@ Variables
   }
 
   //footer css
+  // radial-gradient(circle, #083b6b, #092038)
   .footer{
-    background-image: radial-gradient(circle, #083b6b, #092038);padding: 50px 90px;h2{font-weight: bold;color: #fff;padding: 10px 20px;font-size: 22px;}p{color: #ffffff;}
+    background-color:var(--clr-primary-2);padding: 50px 90px;h2{font-weight: bold;color: #fff;padding: 10px 20px;font-size: 22px;}p{color: #ffffff;}
     @media screen and (max-width:#{$phone-width}) {
       padding: 10px 20px;
       .footer-links{
@@ -1131,7 +1132,6 @@ article.nextSlide {
 // core value css
 .core-value-icons{
 display: inline-block;
-// font-size: 1rem;
 margin-right: 1.5rem;
 cursor: pointer;
 width: 60px;

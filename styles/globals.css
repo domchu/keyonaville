@@ -247,7 +247,7 @@ nav {
   }
 }
 .footer {
-  background-image: radial-gradient(circle, #083b6b, #092038);
+  background-color: var(--clr-primary-2);
   padding: 50px 90px;
 }
 .footer h2 {

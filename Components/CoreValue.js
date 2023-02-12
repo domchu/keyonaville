@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { Box, Flex } from "@chakra-ui/react";
-import { SlNotebook } from "react-icons/sl";
+import { RiBookLine } from "react-icons/ri";
 import { TfiPencil } from "react-icons/tfi";
 import { GiFlowerPot } from "react-icons/gi";
 import students from "../public/images/nature20.jpg";
@@ -23,7 +23,7 @@ const CoreValue = () => {
         <Box>
           <Flex width="500px">
             <Box>
-              <SlNotebook className="core-value-icons" />
+              <RiBookLine className="core-value-icons" />
             </Box>
             <Box className="core-value">
               <h3>OUR Value</h3>
