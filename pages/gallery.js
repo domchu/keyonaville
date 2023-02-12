@@ -2,8 +2,9 @@ import Head from "next/head";
 import Image from "next/image";
 import Footer from "../Components/Footer/Footer";
 import Navbar from "../Components/Navbar/Navbar";
+import Gallery from "../Components/Gallery/Gallery";
 
-export default function Gallery() {
+export default function gallery() {
   return (
     <div>
       <Head>
@@ -12,7 +13,7 @@ export default function Gallery() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
-      <h1>Gallery Page</h1>
+      <Gallery />
       <Footer />
     </div>
   );
