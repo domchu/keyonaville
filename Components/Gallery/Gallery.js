@@ -32,14 +32,14 @@ const Gallery = () => {
   useEffect(() => {
     tag === "all"
       ? setFilteredImages(images)
-      : images.filter((image) => image.tag === tag);
-  }, []);
+      : setFilteredImages(images.filter((image) => image.tag === tag));
+  }, [tag]);
 
   return (
     <>
       <Box>
         <div>
-          {images.map((image) => (
+          {filteredImages.map((image) => (
             <div>{image.imageName}</div>
           ))}
         </div>
