@@ -1,8 +1,6 @@
-import React from "react";
 import {
   FaFacebook,
   FaInstagram,
-  FaLinkedin,
   FaTwitter,
   FaWhatsapp,
 } from "react-icons/fa";
@@ -24,21 +22,16 @@ export const links = [
   },
   {
     id: 4,
-    url: "/facilities",
-    text: "FACILITIES",
-  },
-  {
-    id: 5,
     url: "/gallery",
     text: "GALLERY",
   },
   {
-    id: 6,
+    id: 5,
     url: "/contact",
     text: "CONTACT",
   },
   {
-    id: 7,
+    id: 6,
     url: "/faq",
     text: "FAQ",
   },
@@ -57,20 +50,15 @@ export const social = [
     icon: <FaTwitter />,
     iconName: "TWITTER",
   },
+
   {
     id: 3,
-    url: "https://www.linkedin.com/",
-    icon: <FaLinkedin />,
-    iconName: "LINKEDIN",
-  },
-  {
-    id: 4,
     url: "https://www.instagram.com/",
     icon: <FaInstagram />,
     iconName: "INSTAGRAM",
   },
   {
-    id: 5,
+    id: 4,
     url: "https://www.whatsapp.com/",
     icon: <FaWhatsapp />,
     iconName: "WHATSHAPP",

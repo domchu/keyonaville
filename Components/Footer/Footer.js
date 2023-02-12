@@ -1,7 +1,7 @@
 import React from "react";
 import { Box, Flex } from "@chakra-ui/react";
 import Link from "next/link";
-import { FcSmartphoneTablet, FaTwitter } from "react-icons/fc";
+import { FcSmartphoneTablet } from "react-icons/fc";
 import { BsEnvelope } from "react-icons/bs";
 import { links, social } from "../Navbar/Navdata";
 // import Brand from "./Brand/Brand";
@@ -25,29 +25,31 @@ function Footer() {
         >
           {/* <Brand /> */}
           <h1>Logo</h1>
-          {/* <h2>Copyright © Florintech Computer College </h2> */}
           <h2>Keyonaville Nursery & Primary School </h2>
         </Flex>
         <Flex
           className="footer-links"
           justifyContent="center"
-          flexDirection={{ base: "column", sm: "column", md: "row", lg: "row" }}
+          flexDirection={{
+            base: "column",
+            sm: "column",
+            md: "column",
+            lg: "row",
+          }}
         >
           <Box>
             <h2>PAGES</h2>
             <Box className="footer-pages">
-              <Box textDecoration="none">
-                {links.map((link) => {
-                  const { id, url, text } = link;
-                  return (
-                    <li key={id}>
-                      <Link href={url} passHref>
-                        {text}
-                      </Link>
-                    </li>
-                  );
-                })}
-              </Box>
+              {links.map((link) => {
+                const { id, url, text } = link;
+                return (
+                  <li key={id}>
+                    <Link href={url} passhref="true">
+                      {text}
+                    </Link>
+                  </li>
+                );
+              })}
             </Box>
           </Box>
 
@@ -56,11 +58,11 @@ function Footer() {
             <Box className="footer-tools">
               <div>
                 <FcSmartphoneTablet className="contact" />
-                <h5>+2347018261790</h5>
+                <p>+234 8064960303</p>
               </div>
               <div>
                 <BsEnvelope className="contact" />
-                <h5>info@keyonaville.sch.ng</h5>
+                <p>info@keyonaville.sch.ng</p>
               </div>
             </Box>
           </Box>
@@ -73,7 +75,7 @@ function Footer() {
                   const { id, url, icon, iconName } = socialIcon;
                   return (
                     <li key={id}>
-                      <Link href={url} passHref>
+                      <Link href={url} passhref="true">
                         {icon}
                         {iconName}
                       </Link>

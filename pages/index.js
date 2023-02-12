@@ -1,7 +1,10 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import CoreValue from "../Components/CoreValue";
 import Footer from "../Components/Footer/Footer";
 import Navbar from "../Components/Navbar/Navbar";
+import Slider from "../Components/Slider/Slider";
+import Testimonial from "../Components/Testimonial/testimonial";
 
 export default function Home() {
   return (
@@ -12,7 +15,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
-      <h1>Home page</h1>
+      <Slider />
+      <CoreValue />
+      <Testimonial />
+
       <Footer />
     </div>
   );
