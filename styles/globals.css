@@ -1297,4 +1297,9 @@ article.nextSlide {
   background-color: var(--clr-yellow);
   border: 1px solid var(--clr-yellow);
   transition: 0.5s;
+}
+
+.gallery-images {
+  height: 200px;
+  width: 200px;
 }/*# sourceMappingURL=globals.css.map */

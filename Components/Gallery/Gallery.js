@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
-import { Box } from "@chakra-ui/react";
+import Image from "next/image";
+// import { Box } from "@chakra-ui/react";
 
 const images = [
   { id: "1", imageName: "1.jpg", tag: "playground" },
@@ -37,15 +38,37 @@ const Gallery = () => {
 
   return (
     <>
-      <Box>
+      <div className="app" handleSetTag={setTag}>
+        <TagButton name="all" handleSetTag={setTag} />
+        <TagButton name="playground" handleSetTag={setTag} />
+        <TagButton name="excursion" handleSetTag={setTag} />
+        <TagButton name="ict" handleSetTag={setTag} />
+        <TagButton name="library" handleSetTag={setTag} />
+        <TagButton name="students" handleSetTag={setTag} />
+        <TagButton name="events" handleSetTag={setTag} />
         <div>
           {filteredImages.map((image) => (
-            <div>{image.imageName}</div>
+            <div key={image.id}>
+              <Image
+                // src={`/assets/${image.imageName}`}the images must be in public
+                src={`/assets/${image.imageName}`}
+                alt="Gallery Images"
+                height={200}
+                width={200}
+                className="gallery-images"
+              />
+              {/* {image.imageName} */}
+            </div>
           ))}
         </div>
-      </Box>
+      </div>
     </>
   );
 };
 
+const TagButton = ({ name, handleSetTag }) => {
+  return (
+    <button onClick={() => handleSetTag(name)}>{name.toUpperCase()} </button>
+  );
+};
 export default Gallery;
