@@ -3,7 +3,7 @@ $phone-width: 500px;
 $tablet-width: 800px;
 $desktop-width: 1024px;
 
-//navbar css
+
 /*
 =============== 
 Variables
@@ -14,9 +14,9 @@ Variables
     /* dark shades of primary color*/
     --clr-primary-1: hsl(205, 86%, 17%);
     --clr-primary-2: hsl(205, 77%, 27%);
+    /* primary/main color */
     --clr-primary-3: hsl(205, 72%, 37%);
     --clr-primary-4: hsl(205, 63%, 48%);
-    /* primary/main color */
     --clr-primary-5: hsl(205, 78%, 60%);
     /* lighter shades of primary color */
     --clr-primary-6: hsl(205, 89%, 70%);
@@ -29,10 +29,11 @@ Variables
     --clr-grey-3: hsl(209, 34%, 30%);
     /* grey used for paragraphs */
     --clr-grey-5: hsl(210, 22%, 49%);
-    // --clr-grey-6: hsl(209, 23%, 60%);
+    --clr-grey-6: hsl(209, 23%, 60%);
     --clr-white: #fff;
     --clr-red-dark: hsl(360, 67%, 44%);
     --clr-black: #222;
+    --clr-yellow:#F65E5B;
     --transition: all 0.3s linear;
     --spacing: 0.1rem;
     --radius: 0.25rem;
@@ -134,7 +135,7 @@ Variables
   
   /*
   =============== 
-  Navbar
+  Navbar 
   ===============
   */
   nav {
@@ -219,7 +220,7 @@ Variables
       margin: auto;
       width: 0;
       display: block;
-      background: var(--clr-primary-8);
+      background: var(--clr-yellow);
       cursor: pointer;
       transition: 0.5s;
     }
@@ -239,7 +240,7 @@ Variables
       color: var(--clr-white) !important;
       transition: 0.9s;
       border-radius: 6px;
-      background-color: var(--clr-black);
+      background-color: var(--clr-primary-4);
     }
   }
 
@@ -262,14 +263,14 @@ Variables
   }
  
   .contact{
-    color: #fff;
+    color: var(--clr-white);
     font-size: 1.5rem;
     align-items: center;
     font-weight: normal;
   }
   .footer-tools p{
     letter-spacing: var(--spacing);
-    color: #ffffff;
+    color: var(--clr-white);
   }
 
   
@@ -285,7 +286,7 @@ main {
   width: 100%;
   margin: 5rem auto;
   background-color: #083b6b;
-  color: #eef0f5;
+  color: var(--clr-white);
   border-radius: 0.25rem;
   padding: 2.5rem 2rem;
   display: grid;
@@ -300,7 +301,7 @@ main {
 }
 .question {
   padding: 1rem 1.5rem;
-  border: 2px solid #eae6eb;
+  border: 2px solid var(--clr-white);
   margin-bottom: 1rem;
   border-radius:0.25rem;
   box-shadow: 0 7px 24px 0 rgba(86, 87, 90, 0.06);
@@ -330,21 +331,21 @@ main {
   border-color: transparent;
   width: 2.3rem;
   height: 2.3rem;
-  background: #eae6eb;
+  background: var(--clr-primary-3);
   font-family: Manrope, sans-serif !important;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  color: #b4345c;
+  color:  var(--clr-white);
   cursor: pointer;
   margin-left: 1rem;
   align-self: center;
   min-width: 2rem;
 }
 .btn:hover{
-  background-color: #000;
-  color: #eae6eb;
+  background-color: var(--clr-primary-4);
+  color: var(--clr-white);
 }
 .section {
   width: 90vw;
@@ -469,7 +470,7 @@ margin-bottom: 1.5rem;
   font-size: 1rem;
   background-color: transparent;
   border-radius: 5px;
-  border:1px solid #000;
+  border:1px solid var(--clr-black);
   font-family: Manrope, sans-serif !important;
 }
 input{
@@ -486,19 +487,19 @@ input{
   width:12%;
   white-space: normal;
   font-family: Manrope, sans-serif !important;
-  border: 1px solid #F65E5B;
-  background-color: #F65E5B;
+  border: 1px solid  var(--clr-primary-3);
+  background-color:  var(--clr-primary-3);
   border-radius: 5px;
-  color: #FFF;
+  color: var(--clr-white);
   letter-spacing:  var(--spacing);
   padding: 1rem 1.4rem;
   margin:1rem 0;
   font-weight:500;
 }
 .summit__btn:hover{
-  color:var(--clr-black);
-  background-color:var(--clr-white);
-  border: 1px solid var(--clr-white);
+  color:var(--clr-white);
+  background-color:var(--clr-primary-4);
+  border: 1px solid var(--clr-primary-4);
 }
 .summit__btn__container{
   display: flex;
@@ -507,7 +508,7 @@ input{
 }
 .line{
   width: 100px;
-  border: 1px solid #000;
+  border: 1px solid var(--clr-black);
   height: 2px;
   margin: 0 1rem;
 }
@@ -644,7 +645,7 @@ input{
     width:60%;
     height:3px;
     color:var(--clr-black);
-    border: 2px solid #F65E5B;
+    border: 2px solid var(--clr-primary-4);
     margin: 2rem 0;
     
   }
@@ -654,10 +655,10 @@ input{
   }
   .contact-list li a{
     margin: 10px;
-    color: var(--clr-black);
+    color: var(--clr-primary-2);
   }
   .contact-list li a:hover{
-    color: #F65E5B;
+    color:  var(--clr-primary-4);
     transition: 0.5s;
   }
   .contact-img{
@@ -686,7 +687,7 @@ input{
   .mission-statement h3{
    font-size: 1.5rem;
    padding:2rem 0;
-   color: #F65E5B;
+   color: var(--clr-primary-4);
 
   }
   .mission-statement p{
@@ -883,7 +884,7 @@ input{
 // banner css
 .banner-text {
   // color: var(--white) !important;
-  color: #F65E5B;
+  color:  var(--clr-yellow);
   flex-wrap: wrap;
   align-items:center;
   font-family: Manrope, sans-serif !important;
@@ -895,15 +896,15 @@ input{
 }
 .banner-btn{
   padding: .6rem 1rem;
-  background-color: #F65E5B;
+  background-color:  var(--clr-primary-3);
   color: var(--clr-white);
   margin-right: 2rem;
   font-family: Manrope, sans-serif !important;
   border-radius: 5px;
-  border: 1px solid #F65E5B;
+  border: 1px solid  var(--clr-primary-4);
 }
 .banner-btn:hover{
-  background-color: transparent;
+  background-color: var(--clr-primary-4);
   color: var(--clr-white);
   transition: .5s;
   transform: scale(0.9);
@@ -1143,8 +1144,8 @@ position: relative;
 padding: 1rem;
 z-index: 1;
 text-decoration: none;
-background-color: #F65E5B;
-border: 4px solid #F65E5B;
+background-color: var(--clr-yellow);
+border: 4px solid var(--clr-yellow);
 }
 .core-value-icons:hover{
   background-color: var(--clr-white);
@@ -1179,7 +1180,6 @@ border: 4px solid #F65E5B;
     padding: 1.5rem;
   }
   .core-text{
-    // padding:2rem;
     width:100%;
   }
   .core-container{
@@ -1207,8 +1207,8 @@ background-color:var(--clr-primary-4);
   margin:1rem;
 }
 .why-text:hover{
-  background-color:#F65E5B;
-  border:1px solid #F65E5B;
+  background-color:var(--clr-yellow);
+  border:1px solid var(--clr-yellow);
   transition:0.5s;
   
 }
@@ -1224,6 +1224,36 @@ letter-spacing: 1px;
 .grid-container{
  place-items:center;
   
+}
+
+//facilities css
+
+.fac-image-container{
+  height: 350px;
+  width:300px;
+  cursor: pointer;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  margin: .5rem;
+  background-color: var(--clr-primary-4);
+}
+.fac-image-container h4{
+  text-align: center;
+  color: var(--clr-white);
+  width:300px;
+}
+.fac-images{
+  height: 300px;
+  width:300px;
+  background-color: var(--clr-primary-4);
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.fac-image-container:hover{
+  background-color:var(--clr-yellow);
+  border:1px solid var(--clr-yellow);
+  transition:0.5s;
+  // opacity:0.9;
 }
   
   

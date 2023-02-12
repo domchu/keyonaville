@@ -5,6 +5,7 @@ import Navbar from "../Components/Navbar/Navbar";
 import Slider from "../Components/Slider/Slider";
 import Testimonial from "../Components/Testimonial/testimonial";
 import WhyKeyona from "../Components/WhyKeyona";
+import Facilities from "../Components/Facilities";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <WhyKeyona />
       <CoreValue />
       <Testimonial />
+      <Facilities />
       <Footer />
     </div>
   );
