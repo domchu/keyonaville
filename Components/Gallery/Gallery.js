@@ -1,5 +1,5 @@
-import React from "react";
-
+import React, { useState, useEffect } from "react";
+import { Box } from "@chakra-ui/react";
 
 const images = [
   { id: "1", imageName: "1.jpg", tag: "playground" },
@@ -26,9 +26,24 @@ const images = [
 ];
 
 const Gallery = () => {
+  const [tag, setTag] = useState("all");
+  const [filteredImages, setFilteredImages] = useState([]);
+
+  useEffect(() => {
+    tag === "all"
+      ? setFilteredImages(images)
+      : images.filter((image) => image.tag === tag);
+  }, []);
+
   return (
     <>
-      <h2>gallery</h2>
+      <Box>
+        <div>
+          {images.map((image) => (
+            <div>{image.imageName}</div>
+          ))}
+        </div>
+      </Box>
     </>
   );
 };
