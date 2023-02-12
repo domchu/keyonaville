@@ -1128,6 +1128,44 @@ article.nextSlide {
   transform: translateX(100%);
 }
 
+// core value css
+.core-value-icons{
+display: inline-block;
+// font-size: 1rem;
+margin-right: 1.5rem;
+cursor: pointer;
+width: 60px;
+height: 60px;
+color:var(--clr-white);
+border-radius: 50%;
+text-align: center;
+position: relative;
+padding: 1rem;
+z-index: 1;
+text-decoration: none;
+background-color: #F65E5B;
+border: 4px solid #F65E5B;
+}
+.core-value-icons:hover{
+  background-color: var(--clr-white);
+  
+  transform: scale(0.9);
+  color:var(--clr-black);
+  transition:0.5s;
+}
+.core-value h3{
+  color:var(--clr-primary-4);
+  font-weight: 400;
+  letter-spacing: 1.2;
+}
+.core-value-li{
+  margin-left: 1.5rem;
+  list-style-type: square;
+  letter-spacing: .1rem;
+  color:var(--clr-grey-5);
+  
+}
+
 
   
   

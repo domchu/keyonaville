@@ -1,35 +1,47 @@
 import React from "react";
+import Image from "next/image";
 import { Box, Flex } from "@chakra-ui/react";
 import { SlNotebook } from "react-icons/sl";
+import { TfiPencil } from "react-icons/tfi";
+import { GiFlowerPot } from "react-icons/gi";
+import students from "../public/images/nature20.jpg";
 
 const CoreValue = () => {
   return (
     <>
-      <Flex>
+      <Flex
+        justifyContent="space-around"
+        background="lightgray"
+        alignItems="center"
+        textAlign="left"
+        marginBottom="5rem"
+        marginTop="5rem"
+        width="100%"
+        padding="5rem 5rem"
+        flexDirection={{ base: "column", sm: "column", md: "row", lg: "row" }}
+      >
         <Box>
-          <Flex justifyContent="space-around" width="300px">
+          <Flex width="500px">
             <Box>
-              <SlNotebook />
+              <SlNotebook className="core-value-icons" />
             </Box>
-            <Box>
-              <h2>OUR Value</h2>
-              <ul type="bullet">
-                <li>Capacity Building</li>
-                <li>Punctuality</li>
-                <li>Sacrifices</li>
-                <li>Teamwork</li>
-                <li>Neatness</li>
-                <li>Integrity</li>
-                <li>Possibility</li>
-              </ul>
+            <Box className="core-value">
+              <h3>OUR Value</h3>
+              <li className="core-value-li">Capacity Building</li>
+              <li className="core-value-li">Punctuality</li>
+              <li className="core-value-li">Sacrifices</li>
+              <li className="core-value-li">Teamwork</li>
+              <li className="core-value-li">Neatness</li>
+              <li className="core-value-li">Integrity</li>
+              <li className="core-value-li">Possibility</li>
             </Box>
           </Flex>
-          <Flex justifyContent="space-around" width="300px">
+          <Flex justifyContent="space-around" width="500px" mt={20} mb={20}>
             <Box>
-              <SlNotebook />
+              <GiFlowerPot className="core-value-icons" />
             </Box>
-            <Box>
-              <h2>OUR VISION</h2>
+            <Box className="core-value">
+              <h3>OUR VISION</h3>
               <p>
                 To raise boys and girls of character and excellence in wisdom
                 and humility who shall contribute to their immediate society and
@@ -37,12 +49,12 @@ const CoreValue = () => {
               </p>
             </Box>
           </Flex>
-          <Flex justifyContent="space-around" width="300px">
+          <Flex justifyContent="space-around" width="500px">
             <Box>
-              <SlNotebook />
+              <TfiPencil className="core-value-icons" />
             </Box>
-            <Box>
-              <h2>OUR MISSION</h2>
+            <Box className="core-value">
+              <h3>OUR MISSION</h3>
               <p>
                 To provide all round quality education of international standard
                 to biys and girls with emphasis on character training, vocation
@@ -51,7 +63,9 @@ const CoreValue = () => {
             </Box>
           </Flex>
         </Box>
-        <Box></Box>
+        <Box>
+          <Image src={students} alt="Students" height={600} width={500} />
+        </Box>
       </Flex>
     </>
   );
