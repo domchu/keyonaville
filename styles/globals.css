@@ -1207,4 +1207,30 @@ article.nextSlide {
   list-style-type: square;
   letter-spacing: 0.1rem;
   color: var(--clr-grey-5);
+}
+
+@media screen and (max-width: 800px) {
+  .core-container {
+    flex-direction: column;
+  }
+  .students-img {
+    margin-top: 2rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .students-img {
+    padding: 1.5rem;
+  }
+  .core-text {
+    width: 100%;
+  }
+  .core-container {
+    padding: 2rem !important;
+    background-color: lightgray;
+    overflow: hidden;
+    position: relative;
+  }
+  .wrap-it {
+    width: 140px;
+  }
 }/*# sourceMappingURL=globals.css.map */
