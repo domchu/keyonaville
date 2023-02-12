@@ -18,12 +18,6 @@ const CoreValue = () => {
         <Flex
           className="core-container"
           justifyContent="space-around"
-          // flexDirection={{
-          //   base: "column",
-          //   sm: "column",
-          //   md: "column",
-          //   lg: "row",
-          // }}
           background="lightgray"
           alignItems="center"
           textAlign="left"
