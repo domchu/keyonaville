@@ -1,10 +1,10 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import CoreValue from "../Components/CoreValue";
 import Footer from "../Components/Footer/Footer";
 import Navbar from "../Components/Navbar/Navbar";
 import Slider from "../Components/Slider/Slider";
 import Testimonial from "../Components/Testimonial/testimonial";
+import WhyKeyona from "../Components/WhyKeyona";
 
 export default function Home() {
   return (
@@ -16,9 +16,9 @@ export default function Home() {
       </Head>
       <Navbar />
       <Slider />
+      <WhyKeyona />
       <CoreValue />
       <Testimonial />
-
       <Footer />
     </div>
   );

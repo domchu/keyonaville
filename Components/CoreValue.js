@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { Box, Flex } from "@chakra-ui/react";
-import { SlNotebook } from "react-icons/sl";
+import { RiBookLine } from "react-icons/ri";
 import { TfiPencil } from "react-icons/tfi";
 import { GiFlowerPot } from "react-icons/gi";
 import students from "../public/images/nature20.jpg";
@@ -10,7 +10,14 @@ const CoreValue = () => {
   return (
     <>
       <Flex
+        className="core-container"
         justifyContent="space-around"
+        // flexDirection={{
+        //   base: "column",
+        //   sm: "column",
+        //   md: "column",
+        //   lg: "row",
+        // }}
         background="lightgray"
         alignItems="center"
         textAlign="left"
@@ -18,12 +25,11 @@ const CoreValue = () => {
         marginTop="5rem"
         width="100%"
         padding="5rem 5rem"
-        flexDirection={{ base: "column", sm: "column", md: "row", lg: "row" }}
       >
-        <Box>
+        <Box className="core-text">
           <Flex width="500px">
             <Box>
-              <SlNotebook className="core-value-icons" />
+              <RiBookLine className="core-value-icons" />
             </Box>
             <Box className="core-value">
               <h3>OUR Value</h3>
@@ -42,7 +48,7 @@ const CoreValue = () => {
             </Box>
             <Box className="core-value">
               <h3>OUR VISION</h3>
-              <p>
+              <p className="wrap-it">
                 To raise boys and girls of character and excellence in wisdom
                 and humility who shall contribute to their immediate society and
                 nation building.
@@ -64,7 +70,13 @@ const CoreValue = () => {
           </Flex>
         </Box>
         <Box>
-          <Image src={students} alt="Students" height={600} width={500} />
+          <Image
+            src={students}
+            alt="Students"
+            height={600}
+            width={500}
+            className="students-img"
+          />
         </Box>
       </Flex>
     </>
