@@ -1313,6 +1313,7 @@ article.nextSlide {
   row-gap: 2rem;
   -moz-column-gap: 1.5rem;
        column-gap: 1.5rem;
+  margin-bottom: 2rem;
 }
 
 .image-card {
@@ -1324,7 +1325,7 @@ article.nextSlide {
   padding: 20px 0;
 }
 
-.gallery-btn {
+.tags {
   cursor: pointer;
   margin: 0px 10px;
   border-radius: 6px;
@@ -1334,6 +1335,11 @@ article.nextSlide {
   padding: 0.8rem 1rem;
 }
 
-.gallery-btn:hover {
+.tags:hover {
   background-color: var(--clr-primary-4);
+}
+
+.active {
+  font-weight: bold;
+  border-bottom: 1px solid var(--clr-yellow);
 }/*# sourceMappingURL=globals.css.map */

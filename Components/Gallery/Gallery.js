@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import { Box } from "@chakra-ui/react";
+import gallery from "./../../pages/gallery";
 
 const images = [
   { id: "1", imageName: "1.jpg", tag: "playground" },
@@ -52,14 +53,13 @@ const Gallery = () => {
           {filteredImages.map((image) => (
             <div key={image.id} className="image-card">
               <Image
-                // src={`/assets/${image.imageName}`}the images must be in public
+                // the images must be in public
                 src={`/assets/${image.imageName}`}
                 alt="Gallery Images"
                 height={200}
                 width={200}
                 className="gallery-images"
               />
-              {/* {image.imageName} */}
             </div>
           ))}
         </div>
@@ -70,7 +70,7 @@ const Gallery = () => {
 
 const TagButton = ({ name, handleSetTag }) => {
   return (
-    <button className="gallery-btn" onClick={() => handleSetTag(name)}>
+    <button className="tags" onClick={() => handleSetTag(name)}>
       {name.toUpperCase()}
     </button>
   );
