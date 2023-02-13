@@ -4,8 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import nature16 from "../../public/images/nature16.jpg";
 import nature17 from "../../public/images/nature17.jpg";
-// import nature19 from "../../public/images/nature19.jpg";
-// import nature20 from "../../public/images/nature20.jpg";
+
 
 const About = () => {
   return (
@@ -23,18 +22,18 @@ const About = () => {
           <Box className="about-2">
             <Flex className="contact-list">
               <li>
-                <Link href="/" passHref>
+                <Link href="/" passhref="true">
                   HOME
                 </Link>
               </li>
 
               <li>
-                <Link href="/contact" passHref>
+                <Link href="/contact" passhref="true">
                   CONTACT
                 </Link>
               </li>
               <li>
-                <Link href="tel:+6494461709" passHref>
+                <Link href="tel:+6494461709" passhref="true">
                   MAKE CALL
                 </Link>
               </li>
@@ -104,7 +103,7 @@ const About = () => {
             </p>
             <ul>
               <li>
-                <Link href="/gallery" className="summit__btn" passHref>
+                <Link href="/gallery" className="summit__btn" passhref="true">
                   Explore More
                 </Link>
               </li>
@@ -119,7 +118,11 @@ const About = () => {
             </p>
             <ul>
               <li className="contact__btn">
-                <Link href="/facilities" className="summit__btn" passHref>
+                <Link
+                  href="/facilities"
+                  className="summit__btn"
+                  passhref="true"
+                >
                   See More
                 </Link>
               </li>

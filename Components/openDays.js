@@ -34,12 +34,6 @@ const openDays = () => {
                 <span>Open Hours</span>
               </Flex>
             </li>
-            {/* <li className={getDays == 0 ? "active" : "days"}>
-            <Flex justifyContent="space-around" paddingBottom="10px">
-              <span>Sunday</span>
-              <span>closed</span>
-            </Flex>
-          </li> */}
             <li className={getDays == 1 ? "active" : "days"}>
               <Flex justifyContent="space-around" paddingBottom="10px">
                 <span>Monday</span>
@@ -70,12 +64,12 @@ const openDays = () => {
                 <span>7am - 5:30pm</span>
               </Flex>
             </li>
-            {/* <li className={getDays == 6 ? "active" : "days"}>
-            <Flex justifyContent="space-around" paddingBottom="10px">
-              <span>Saturday</span>
-              <span>closed</span>
-            </Flex>
-          </li> */}
+            <li className={getDays == 6 ? "active" : "days"}>
+              <Flex justifyContent="space-around" paddingBottom="10px">
+                <span>Saturday & Sunday</span>
+                <span> closed</span>
+              </Flex>
+            </li>
           </ul>
         </Box>
         {/* end of the days and hours */}

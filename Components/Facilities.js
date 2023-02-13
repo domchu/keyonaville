@@ -1,11 +1,12 @@
 import React from "react";
 import Image from "next/image";
-import { Flex, Box } from "@chakra-ui/react";
+import { Grid, Flex, Box } from "@chakra-ui/react";
 import playground from "../public/images/nature7.jpg";
 import computer from "../public/images/nature1.jpg";
 import sickbay from "../public/images/nature6.jpg";
 import Library from "../public/images/nature8.jpg";
 import classroom from "../public/images/nature3.jpg";
+import schoolbus from "../public/images/nature2.jpg";
 
 const Facilities = () => {
   return (
@@ -16,7 +17,7 @@ const Facilities = () => {
             <span>/</span>KEYONAVILLE FACILITIES
           </h2>
         </Box>
-        <Flex className="fac-overall-container" mt={30} mb={30} width="100%">
+        <Grid className="fac-overall-container" mt={10} mb={30}>
           <Box className="fac-image-container">
             <Image
               src={playground}
@@ -67,7 +68,17 @@ const Facilities = () => {
             />
             <h4>Class Room</h4>
           </Box>
-        </Flex>
+          <Box className="fac-image-container">
+            <Image
+              src={schoolbus}
+              alt="Playground"
+              height="200px"
+              width="250px"
+              className="fac-images"
+            />
+            <h4>school Bus</h4>
+          </Box>
+        </Grid>
       </Box>
     </>
   );
