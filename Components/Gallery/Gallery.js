@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
-// import { Box } from "@chakra-ui/react";
+import { Box } from "@chakra-ui/react";
 
 const images = [
   { id: "1", imageName: "1.jpg", tag: "playground" },
@@ -39,16 +39,18 @@ const Gallery = () => {
   return (
     <>
       <div className="app" handleSetTag={setTag}>
-        <TagButton name="all" handleSetTag={setTag} />
-        <TagButton name="playground" handleSetTag={setTag} />
-        <TagButton name="excursion" handleSetTag={setTag} />
-        <TagButton name="ict" handleSetTag={setTag} />
-        <TagButton name="library" handleSetTag={setTag} />
-        <TagButton name="students" handleSetTag={setTag} />
-        <TagButton name="events" handleSetTag={setTag} />
-        <div>
+        <Box className="btn-tag">
+          <TagButton name="all" handleSetTag={setTag} />
+          <TagButton name="playground" handleSetTag={setTag} />
+          <TagButton name="excursion" handleSetTag={setTag} />
+          <TagButton name="ict" handleSetTag={setTag} />
+          <TagButton name="library" handleSetTag={setTag} />
+          <TagButton name="students" handleSetTag={setTag} />
+          <TagButton name="events" handleSetTag={setTag} />
+        </Box>
+        <div className="gallery-container">
           {filteredImages.map((image) => (
-            <div key={image.id}>
+            <div key={image.id} className="image-card">
               <Image
                 // src={`/assets/${image.imageName}`}the images must be in public
                 src={`/assets/${image.imageName}`}
@@ -68,7 +70,9 @@ const Gallery = () => {
 
 const TagButton = ({ name, handleSetTag }) => {
   return (
-    <button onClick={() => handleSetTag(name)}>{name.toUpperCase()} </button>
+    <button className="gallery-btn" onClick={() => handleSetTag(name)}>
+      {name.toUpperCase()}
+    </button>
   );
 };
 export default Gallery;
