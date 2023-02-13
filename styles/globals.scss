@@ -1001,13 +1001,14 @@ iframe{
         right: -2rem;;
       }
     }
-    .days{
-      color: black;
-    }
-     .active{
-      background-color: #05c722;
-      color: white;
-    }
+   
+    //  .active{
+    //   background-color: #05c722;
+    //   color: white;
+    // }
+  }
+  .days{
+    color: black;
   }
 
 //testimonial css
@@ -1293,7 +1294,9 @@ letter-spacing: 1px;
  }
  .active{
 font-weight: bold;
-border-bottom: 1px solid var(--clr-yellow);
+cursor: pointer;
+background-color: var(--clr-primary-4);
+color: var(--clr-white);
  }
   
 

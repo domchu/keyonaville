@@ -54,7 +54,7 @@ const WhyKeyona = () => {
           <Box className="why-text">
             <h4>
               Experience Teachers
-              <span style={{ fontSize: "1.7rem" }}>&#9770;</span>
+              <span style={{ fontSize: "1.7rem" }}>&#8594;</span>
             </h4>
             <p>
               A school where high moral and quality learning is built in the

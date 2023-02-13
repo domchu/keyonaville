@@ -1031,12 +1031,9 @@ iframe {
   z-index: -5;
   right: -2rem;
 }
-.contactus .days {
+
+.days {
   color: black;
-}
-.contactus .active {
-  background-color: #05c722;
-  color: white;
 }
 
 .title {
@@ -1341,5 +1338,7 @@ article.nextSlide {
 
 .active {
   font-weight: bold;
-  border-bottom: 1px solid var(--clr-yellow);
+  cursor: pointer;
+  background-color: var(--clr-primary-4);
+  color: var(--clr-white);
 }/*# sourceMappingURL=globals.css.map */
