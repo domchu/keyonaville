@@ -11,7 +11,7 @@ const WhyKeyona = () => {
           </h2>
         </Box>
 
-        <Grid className="grid-container">
+        <Box className="grid-container">
           <Box className="why-text">
             <h4>
               Quality Learning <span style={{ fontSize: "2rem" }}>&#9758;</span>
@@ -71,7 +71,7 @@ const WhyKeyona = () => {
               life of our future generations.
             </p>
           </Box>
-        </Grid>
+        </Box>
       </Box>
     </>
   );

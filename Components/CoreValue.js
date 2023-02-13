@@ -42,7 +42,7 @@ const CoreValue = () => {
                 <li className="core-value-li">Possibility</li>
               </Box>
             </Flex>
-            <Flex justifyContent="space-around" width="500px" mt={20} mb={20}>
+            <Flex justifyContent="space-around" mt={20} mb={20}>
               <Box>
                 <GiFlowerPot className="core-value-icons" />
               </Box>
@@ -55,7 +55,7 @@ const CoreValue = () => {
                 </p>
               </Box>
             </Flex>
-            <Flex justifyContent="space-around" width="500px">
+            <Flex justifyContent="space-around">
               <Box>
                 <TfiPencil className="core-value-icons" />
               </Box>
