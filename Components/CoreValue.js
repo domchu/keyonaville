@@ -15,17 +15,7 @@ const CoreValue = () => {
             <span>/</span>MISSION STATEMENTS
           </h2>
         </Box>
-        <Flex
-          className="core-container"
-          justifyContent="space-around"
-          background="lightgray"
-          alignItems="center"
-          textAlign="left"
-          marginBottom="5rem"
-          marginTop="2rem"
-          width="100%"
-          padding="5rem 5rem"
-        >
+        <Flex className="core-container">
           <Box className="core-text">
             <Flex width="500px">
               <Box>

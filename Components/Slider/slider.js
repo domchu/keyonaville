@@ -70,10 +70,10 @@ export default class Responsive extends Component {
                 Nursery, Primary & College
               </h3>
               <Box>
-                <Link href="/" className="banner-btn" passHref>
+                <Link href="/gallery" className="banner-btn" passhref="true">
                   EXPLORE
                 </Link>
-                <Link href="/" className="banner-btn" passHref>
+                <Link href="/" className="banner-btn" passhref="true">
                   Make Call
                 </Link>
               </Box>
@@ -99,10 +99,10 @@ export default class Responsive extends Component {
             >
               <h2 className="banner-text special">Keyonaville school</h2>
               <Box>
-                <Link href="/" className="banner-btn" passHref>
+                <Link href="/gallery" className="banner-btn" passhref="true">
                   EXPLORE
                 </Link>
-                <Link href="/" className="banner-btn" passHref>
+                <Link href="/" className="banner-btn" passhref="true">
                   Make Call
                 </Link>
               </Box>
@@ -128,10 +128,10 @@ export default class Responsive extends Component {
             >
               <h2 className="banner-text special">Keyonaville school</h2>
               <Box>
-                <Link href="/" className="banner-btn" passHref>
+                <Link href="/gallery" className="banner-btn" passhref="true">
                   EXPLORE
                 </Link>
-                <Link href="/" className="banner-btn" passHref>
+                <Link href="/" className="banner-btn" passhref="true">
                   Make Call
                 </Link>
               </Box>
@@ -157,10 +157,10 @@ export default class Responsive extends Component {
             >
               <h2 className="banner-text special">Keyonaville school</h2>
               <Box>
-                <Link href="/" className="banner-btn" passHref>
+                <Link href="/gallery" className="banner-btn" passhref="true">
                   EXPLORE
                 </Link>
-                <Link href="/" className="banner-btn" passHref>
+                <Link href="/" className="banner-btn" passhref="true">
                   Make Call
                 </Link>
               </Box>
