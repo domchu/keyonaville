@@ -673,7 +673,14 @@ input {
 
 .about-us-text {
   display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: auto;
   padding: 5rem 3rem;
+}
+
+.about-1 {
+  flex: 3;
 }
 
 .underline {
@@ -1217,13 +1224,22 @@ article.nextSlide {
 }
 
 .core-container {
-  justify-content: space-around;
   background: lightgray;
-  text-align: left;
   margin-bottom: 5rem;
-  margin-top: 3rem;
-  width: 100%;
+  margin-top: 2rem;
   padding: 3rem 5rem;
+}
+
+.flex-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+}
+
+.core-text {
+  padding: 0px 2rem;
 }
 
 @media screen and (max-width: 800px) {

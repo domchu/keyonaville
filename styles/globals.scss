@@ -621,32 +621,24 @@ input{
 .about-us{
   background-color:lightgrey;
   height:50vh;
-
-  
 }
-// issues on the desktop screen
 .about-us-text{
   display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: auto;
   padding: 5rem 3rem;
-
 }
-// .about-1{
-//   flex: 3;
-// }
-// .about-2{
-//   flex: 2;
-//   display:flex;
-//   justify-content: center;
-//   text-align: center;
-// }
-// issues on desktop
+.about-1{
+  flex: 3;
+}
+
   .underline{
     width:60%;
     height:3px;
     color:var(--clr-black);
     border: 2px solid var(--clr-primary-4);
     margin: 2rem 0;
-    
   }
   .contact-list {
     display: inline-block;
@@ -687,7 +679,6 @@ input{
    font-size: 1.5rem;
    padding:2rem 0;
    color: var(--clr-primary-4);
-
   }
   .mission-statement p{
    font-size: 1rem;
@@ -721,7 +712,6 @@ input{
   }
   .contact-image-container{
     height: 400px;
-
   }
   .contact__img__text{
     bottom: 20px;
@@ -744,7 +734,6 @@ input{
   .about-us-text {
    flex-direction: column;
    padding: 5rem 2rem !important;
-  
   }
   .about-us{
     height: auto;
@@ -882,7 +871,6 @@ input{
 
 // banner css
 .banner-text {
-  // color: var(--white) !important;
   color:  var(--clr-yellow);
   flex-wrap: wrap;
   align-items:center;
@@ -958,8 +946,6 @@ iframe{
   margin: 0 3rem;
   font-size: 1.3rem;
 }
-
-
 
 .contactus{
 
@@ -1174,14 +1160,24 @@ border: 4px solid var(--clr-yellow);
   color:var(--clr-grey-5);
 }
 .core-container{
-  justify-content:space-around;
+  // justify-content:space-around;
   background:lightgray;
-  text-align:left;
+  // text-align:left;
   margin-bottom:5rem;
-  margin-top:3rem;
-  width:100%;
+  margin-top:2rem;
+  // width:100%;
   padding:3rem 5rem;
   // margin: auto;
+}
+.flex-content{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+}
+.core-text{
+  padding: 0px 2rem;
 }
 
 @media screen and (max-width:#{$tablet-width}) {
