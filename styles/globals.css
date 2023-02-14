@@ -1444,4 +1444,22 @@ article.nextSlide {
   margin: 0px 10px;
   justify-content: center;
   align-items: center;
+}
+
+@media screen and (max-width: 800px) {
+  .topnav-wrapper {
+    flex-direction: column;
+    width: 100% !important;
+  }
+  .topnav-items {
+    width: 100%;
+  }
+  .text-wrapper {
+    margin: 1rem 0px 0px 0px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .topnav-container {
+    display: none;
+  }
 }/*# sourceMappingURL=globals.css.map */

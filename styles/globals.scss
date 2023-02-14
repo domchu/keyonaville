@@ -1378,6 +1378,23 @@ letter-spacing: 1px;
   justify-content: center;
   align-items: center;
  }
+ @media screen and (max-width:#{$tablet-width}) {
+  .topnav-wrapper{
+    flex-direction: column;
+    width: 100% !important;
+  }
+  .topnav-items{
+    width: 100%;
+  }
+  .text-wrapper{
+    margin: 1rem 0px 0px 0px;
+  }
+}
+ @media screen and (max-width:#{$phone-width}) {
+  .topnav-container{
+display: none;
+  }
+}
 
   
 
