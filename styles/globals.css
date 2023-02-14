@@ -1418,11 +1418,30 @@ article.nextSlide {
 
 .topnav-container {
   background-color: var(--clr-primary-4);
+}
+
+.text-wrapper p {
+  display: contents;
+}
+
+.text-content {
+  margin-left: 3px;
+}
+
+.text-content p {
   color: var(--clr-white);
-  padding: 0.7rem;
+}
+
+.topnav-items {
+  margin: 0 auto;
   display: flex;
-  justify-content: center;
-  text-align: center;
+  justify-content: space-between;
+  padding: 1.5rem;
   width: 80%;
-  margin: auto;
+}
+
+.text-wrapper {
+  margin: 0px 10px;
+  justify-content: center;
+  align-items: center;
 }/*# sourceMappingURL=globals.css.map */
