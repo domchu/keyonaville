@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { Box } from "@chakra-ui/react";
+import { Grid } from "@chakra-ui/react";
 import Footer from "../Components/Footer/Footer";
 import Navbar from "../Components/Navbar/Navbar";
 import Topmenu from "../Components/Topmenu/Topmenu";
@@ -14,7 +14,10 @@ const Error = () => {
       </Head>
       <Topmenu />
       <Navbar />
-      <Box Box> 404 | This page could not be found.</Box>;
+      <Grid placeItems="center" h={200} textAlign="center" fontSize="2rem">
+        404 | This page could not be found.
+      </Grid>
+      ;
       <Footer />
     </>
   );
