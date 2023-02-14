@@ -1,14 +1,14 @@
 import React from "react";
 import { Box, Flex } from "@chakra-ui/react";
-import { FcCallback } from "react-icons/fc";
-import { FcOvertime } from "react-icons/fc";
+import { FcOvertime, FcCallback } from "react-icons/fc";
 import { GrLocation } from "react-icons/gr";
 import { BiEnvelope } from "react-icons/bi";
+
 const Topmenu = () => {
   return (
     <>
-      <Box>
-        <Flex>
+      <Box className="topnav-container">
+        <Flex className="topnav-items">
           <Flex>
             <Flex>
               <FcOvertime />
