@@ -1,4 +1,3 @@
-import React from "react";
 import { Box, Flex } from "@chakra-ui/react";
 import { FcOvertime, FcCallback } from "react-icons/fc";
 import { GrLocation } from "react-icons/gr";
@@ -11,7 +10,7 @@ const Topmenu = () => {
         <Flex className="topnav-items">
           <Flex className="topnav-wrapper">
             <Flex className="text-wrapper">
-              <FcOvertime fontSize={20} color="#d3d3d3" marginRight="1rem" />
+              <FcOvertime fontSize={20} color="#d3d3d3" />
               <Box className="text-content">
                 <p> Mon - Fri 70:00 - 5:30</p>
               </Box>
