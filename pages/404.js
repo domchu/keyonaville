@@ -28,8 +28,13 @@ const Error = () => {
       <Box>
         <Grid placeItems="center" h={200} textAlign="center" fontSize="2rem">
           <h2>Oooops...</h2>
-          <h3>That page cannot be found</h3>
-          404 | This page could not be found.
+          <h3>404 | That page could not be found.</h3>
+          <p>
+            Go back to the
+            <Link href="/">
+              <a>Homepage</a>
+            </Link>
+          </p>
         </Grid>
       </Box>
       <Footer />
