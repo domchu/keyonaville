@@ -1,10 +1,21 @@
+import React from "react";
 import Head from "next/head";
-import { Grid } from "@chakra-ui/react";
+import { useRouter } from "next/router";
+import Link from "next/link";
+import { useEffect } from "react";
+import { Grid, Box } from "@chakra-ui/react";
 import Footer from "../Components/Footer/Footer";
 import Navbar from "../Components/Navbar/Navbar";
 import Topmenu from "../Components/Topmenu/Topmenu";
 
 const Error = () => {
+  const router = useRouter();
+  useEffect(() => {
+    setTimeout(() => {
+      router.push("/");
+    }, 5000);
+  }),
+    [];
   return (
     <>
       <Head>
@@ -14,10 +25,18 @@ const Error = () => {
       </Head>
       <Topmenu />
       <Navbar />
-      <Grid placeItems="center" h={200} textAlign="center" fontSize="2rem">
-        404 | This page could not be found.
-      </Grid>
-      ;
+      <Box>
+        <Grid placeItems="center" h={200} textAlign="center" fontSize="2rem">
+          <h2>Oooops...</h2>
+          <h3>404 | That page could not be found.</h3>
+          <p>
+            Go back to the
+            <Link href="/">
+              <a>Homepage.</a>
+            </Link>
+          </p>
+        </Grid>
+      </Box>
       <Footer />
     </>
   );
