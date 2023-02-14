@@ -49,7 +49,7 @@ const Navbar = () => {
               })}
             </ul>
           </div>
-          ;{/* the social media section */}
+          {/* the social media section */}
           <Box>
             <ul className="social-icons">
               {social.map((socialIcon) => {
@@ -64,7 +64,6 @@ const Navbar = () => {
               })}
             </ul>
           </Box>
-          ;
         </Box>
       </nav>
     </>

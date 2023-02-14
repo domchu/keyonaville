@@ -1249,6 +1249,9 @@ article.nextSlide {
   .students-img {
     margin-top: 2rem;
   }
+  .flex-content {
+    flex-direction: column;
+  }
 }
 @media screen and (max-width: 500px) {
   .students-img {
@@ -1256,12 +1259,16 @@ article.nextSlide {
   }
   .core-text {
     width: 100%;
+    padding: 0px !important;
   }
   .core-container {
     padding: 2rem !important;
     background-color: lightgray;
     overflow: hidden;
     position: relative;
+  }
+  .flex-content {
+    flex-direction: column;
   }
 }
 .why-text {
@@ -1306,14 +1313,15 @@ article.nextSlide {
   .grid-container {
     display: grid;
     place-items: center;
-    grid-template-columns: repeat(2, 2fr);
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
   }
 }
 @media screen and (max-width: 500px) {
   .grid-container {
     display: grid;
     place-items: center;
-    grid-template-columns: repeat(1, 2fr);
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 .fac-image-container {
@@ -1361,6 +1369,7 @@ article.nextSlide {
   .fac-overall-container {
     place-items: center;
     grid-template-columns: repeat(2, 2fr);
+    width: 100%;
   }
 }
 @media screen and (max-width: 500px) {
@@ -1418,11 +1427,48 @@ article.nextSlide {
 
 .topnav-container {
   background-color: var(--clr-primary-4);
+}
+
+.text-wrapper p {
+  display: contents;
+}
+
+.text-content {
+  margin-left: 3px;
+}
+
+.text-content p {
   color: var(--clr-white);
-  padding: 0.7rem;
+}
+
+.topnav-items {
+  margin: 0 auto;
   display: flex;
-  justify-content: center;
-  text-align: center;
+  justify-content: space-between;
+  padding: 1.5rem;
   width: 80%;
-  margin: auto;
+}
+
+.text-wrapper {
+  margin: 0px 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 800px) {
+  .topnav-wrapper {
+    flex-direction: column;
+    width: 100% !important;
+  }
+  .topnav-items {
+    width: 100%;
+  }
+  .text-wrapper {
+    margin: 1rem 0px 0px 0px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .topnav-container {
+    display: none;
+  }
 }/*# sourceMappingURL=globals.css.map */

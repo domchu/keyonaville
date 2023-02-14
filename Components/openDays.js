@@ -64,12 +64,12 @@ const openDays = () => {
                 <span>7am - 5:30pm</span>
               </Flex>
             </li>
-            <li className={getDays == 6 ? "active" : "days"}>
+            {/* <li className={getDays == 6 ? "active" : "days"}>
               <Flex justifyContent="space-around" paddingBottom="10px">
                 <span>Saturday & Sunday</span>
                 <span> closed</span>
               </Flex>
-            </li>
+            </li> */}
           </ul>
         </Box>
         {/* end of the days and hours */}

@@ -10,12 +10,14 @@ function Footer() {
   return (
     <Box className="footer">
       <Flex
-        flexDirection={{
-          base: "column",
-          sm: "column",
-          md: "column",
-          lg: "row",
-        }}
+        flexDirection={
+          {
+            // base: "column",
+            // sm: "column",
+            // md: "column",
+            // lg: "row",
+          }
+        }
         justifyContent="center"
       >
         <Flex
@@ -30,12 +32,14 @@ function Footer() {
         <Flex
           className="footer-links"
           justifyContent="center"
-          flexDirection={{
-            base: "column",
-            sm: "column",
-            md: "column",
-            lg: "row",
-          }}
+          flexDirection={
+            {
+              // base: "column",
+              // sm: "column",
+              // md: "column",
+              // lg: "row",
+            }
+          }
         >
           <Box>
             <h2>PAGES</h2>

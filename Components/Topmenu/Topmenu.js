@@ -1,4 +1,3 @@
-import React from "react";
 import { Box, Flex } from "@chakra-ui/react";
 import { FcOvertime, FcCallback } from "react-icons/fc";
 import { GrLocation } from "react-icons/gr";
@@ -9,26 +8,32 @@ const Topmenu = () => {
     <>
       <Box className="topnav-container">
         <Flex className="topnav-items">
-          <Flex>
-            <Flex>
-              <FcOvertime />
-              <p>Mon - Fri 70:00 - 5:30</p>
+          <Flex className="topnav-wrapper">
+            <Flex className="text-wrapper">
+              <FcOvertime fontSize={20} color="#d3d3d3" />
+              <Box className="text-content">
+                <p> Mon - Fri 70:00 - 5:30</p>
+              </Box>
             </Flex>
-            <Flex>
-              <FcCallback />
-              <p>+234(0) 703 4278 995</p>
+            <Flex className="text-wrapper">
+              <FcCallback fontSize={20} color="#d3d3d3" />
+              <Box className="text-content">
+                <p> +234 (0) 703 4278 995</p>
+              </Box>
             </Flex>
           </Flex>
-          <Flex>
-            <Flex>
-              <GrLocation />
-              <p>
-                N0.8 Odinika street, Afromedia Badagry Express Way. Ojo-Lagos
-              </p>
+          <Flex className="topnav-wrapper">
+            <Flex className="text-wrapper">
+              <GrLocation fontSize={20} color="#d3d3d3" />
+              <Box className="text-content">
+                <p> No.8 Odinaka Street,Afromedia. Ojo-Lagos</p>
+              </Box>
             </Flex>
-            <Flex>
-              <BiEnvelope />
-              <p>info@keyonaville.sch.ng</p>
+            <Flex className="text-wrapper">
+              <BiEnvelope fontSize={20} color="#d3d3d3" />
+              <Box className="text-content">
+                <p> info@keyonaville.sch.ng</p>
+              </Box>
             </Flex>
           </Flex>
         </Flex>
