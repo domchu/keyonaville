@@ -1249,6 +1249,9 @@ article.nextSlide {
   .students-img {
     margin-top: 2rem;
   }
+  .flex-content {
+    flex-direction: column;
+  }
 }
 @media screen and (max-width: 500px) {
   .students-img {
@@ -1262,6 +1265,9 @@ article.nextSlide {
     background-color: lightgray;
     overflow: hidden;
     position: relative;
+  }
+  .flex-content {
+    flex-direction: column;
   }
 }
 .why-text {
@@ -1307,6 +1313,7 @@ article.nextSlide {
     display: grid;
     place-items: center;
     grid-template-columns: repeat(2, 2fr);
+    width: 100%;
   }
 }
 @media screen and (max-width: 500px) {
@@ -1361,6 +1368,7 @@ article.nextSlide {
   .fac-overall-container {
     place-items: center;
     grid-template-columns: repeat(2, 2fr);
+    width: 100%;
   }
 }
 @media screen and (max-width: 500px) {
