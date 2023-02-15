@@ -17,7 +17,11 @@ const Contact = () => {
       <Box>
         <Box className="contact-container">
           <div className="contact-text">
-            <h3>CONTACT US</h3>
+            <div className="title">
+              <h2>
+                <span>/</span> CONTACT US
+              </h2>
+            </div>
             <h1>We are here because of you.</h1>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
@@ -62,8 +66,12 @@ const Contact = () => {
       </Box>
       <Box className="contact-form">
         <div className="contact-text">
-          <h3>WE'LL BE IN TOUCH SOON!</h3>
-          <h1>Get in touch with us</h1>
+          <div className="title">
+            <h2>
+              <span>/</span> WE'LL BE IN TOUCH SOON!
+            </h2>
+          </div>
+          <h2>Get in touch with us</h2>
         </div>
         <form action="" method="post">
           <Box className="form">
