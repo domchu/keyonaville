@@ -1,11 +1,13 @@
 import React, { useState } from "react";
+import { Box } from "@chakra-ui/react";
 import { FiChevronsDown, FiChevronsLeft } from "react-icons/fi";
 
 const QuestionToggle = ({ title, info }) => {
   const [showInfo, setShowInfo] = useState(false);
 
   return (
-    <article className="question">
+    //articles
+    <Box className="question">
       <header>
         <h4>{title}</h4>
         <button className="btn" onClick={() => setShowInfo(!showInfo)}>
@@ -17,7 +19,7 @@ const QuestionToggle = ({ title, info }) => {
         </button>
       </header>
       {showInfo && <p>{info}</p>}
-    </article>
+    </Box>
   );
 };
 
