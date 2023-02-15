@@ -16,8 +16,12 @@ export default function faq() {
       <Topmenu />
       <Navbar />
       <Box className="faq-container">
-        <h3>FAQs</h3>
-        <h1>Got a question? I have answers.</h1>
+        <div className="title">
+          <h2>
+            <span>/</span> FAQs
+          </h2>
+        </div>
+        <h2>Got a question? I have answers.</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
           aspernatur voluptatem commodi quis. Dolorem nulla officiis quae ullam?

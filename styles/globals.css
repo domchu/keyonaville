@@ -350,6 +350,7 @@ main {
   text-transform: none;
   line-height: 1.5;
   font-size: 1.5rem;
+  color: var(--clr-primary-3);
 }
 
 .question p {
@@ -399,7 +400,6 @@ main {
 
 .faq-container {
   text-align: center;
-  padding: 5rem 0 2rem 0;
 }
 
 .faq-container p {
@@ -418,11 +418,11 @@ main {
   color: var(--clr-black);
 }
 
-.faq-container h1 {
+.faq-container h2 {
   font-weight: 600;
   font-family: Manrope, sans-serif !important;
   margin: 1rem 0;
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: #1d2b5f !important;
 }
 
@@ -446,6 +446,9 @@ main {
     font-weight: 500;
     font-size: 1.5rem;
     font-family: Manrope, sans-serif !important;
+  }
+  .question {
+    padding: 0.1rem 0.2rem;
   }
 }
 .contact-text {
