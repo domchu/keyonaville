@@ -122,6 +122,11 @@ const Contact = () => {
         </form>
         {/* find us on social media */}
       </Box>
+      <div className="title">
+        <h2>
+          <span>/</span> #FOLLOW US ON SOCIAL MEDIA
+        </h2>
+      </div>
       <Flex className="social-text">
         <Box>
           <h2>Connect with us on social media</h2>

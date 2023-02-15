@@ -1,7 +1,8 @@
 import { Box, Flex } from "@chakra-ui/react";
 import { FcOvertime, FcCallback } from "react-icons/fc";
-import { GrLocation } from "react-icons/gr";
+import { TfiLocationPin, TfiTimer } from "react-icons/tfi";
 import { BiEnvelope } from "react-icons/bi";
+import { FiPhoneCall } from "react-icons/fi";
 
 const Topmenu = () => {
   return (
@@ -10,13 +11,13 @@ const Topmenu = () => {
         <Flex className="topnav-items">
           <Flex className="topnav-wrapper">
             <Flex className="text-wrapper">
-              <FcOvertime fontSize={20} color="#d3d3d3" />
+              <TfiTimer fontSize={20} color="#d3d3d3" />
               <Box className="text-content">
                 <p> Mon - Fri 70:00 - 5:30</p>
               </Box>
             </Flex>
             <Flex className="text-wrapper">
-              <FcCallback fontSize={20} color="#d3d3d3" />
+              <FiPhoneCall fontSize={20} color="#d3d3d3" />
               <Box className="text-content">
                 <p> +234 (0) 703 4278 995</p>
               </Box>
@@ -24,7 +25,7 @@ const Topmenu = () => {
           </Flex>
           <Flex className="topnav-wrapper">
             <Flex className="text-wrapper">
-              <GrLocation fontSize={20} color="#d3d3d3" />
+              <TfiLocationPin fontSize={20} color="#d3d3d3" />
               <Box className="text-content">
                 <p> No.8 Odinaka Street,Afromedia. Ojo-Lagos</p>
               </Box>

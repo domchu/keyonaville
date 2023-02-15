@@ -449,7 +449,6 @@ main {
 }
 .contact-text {
   text-align: center;
-  padding: 5rem 0 2rem 0;
 }
 
 .contact-text p {
@@ -468,7 +467,7 @@ main {
   color: grey;
 }
 
-.contact-text h1 {
+.contact-text h2 {
   font-weight: 600;
   font-family: Manrope, sans-serif !important;
   margin: 1rem 0;
@@ -1438,7 +1437,7 @@ article.nextSlide {
 }
 
 .text-content p {
-  color: var(--clr-white);
+  color: #d3d3d3;
 }
 
 .topnav-items {
