@@ -97,9 +97,9 @@ const About = () => {
           <Box className="mission-statement">
             <h3>Our Mission</h3>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis
-              reiciendis nostrum a ducimus sequi dolor dignissimos accusamus
-              repellendus expedita voluptates.
+              Keyonavillie school is dedicated to providing a safe and warm
+              environment that stimultes creativity and problem solving skills
+              that unleash the genius in the child.
             </p>
             <ul>
               <li>
