@@ -432,7 +432,7 @@ main {
   font-family: Manrope, sans-serif !important;
   margin: 1rem 0;
   font-size: 2.5rem;
-  color: #1d2b5f !important;
+  // color: #1d2b5f !important;
 }
 .contact-links{
 width: 80%;
@@ -938,75 +938,25 @@ input{
   text-align: center;
   width: 90%;
   margin: auto;
-  margin-top: 2rem;
   margin-bottom: 3rem;
 }
-iframe{
-  border: none;
-  width: 50%;
-  height: 500px;
-  margin: 2rem 0;
-  // filter: invert(100%);
-}
+
 .map{
   width: 60%;
   height: 400px;
-  border: 1px solid #000;
+  border: 1px solid var(--clr-black);
 }
 .banner-openday{
-  border: 1px solid #000;
-  border-radius: 5px;
-  color: black;
+  color: var(--clr-black);
   width: 30%;
-  // width: 400px;
   height: 400px;
-  // margin: 0 3rem;
   font-size: 1.3rem;
+  box-shadow: 2px 2px 2px 2px grey ,-2px -2px 2px 2px grey;
+  background-color: #88898a;
 }
 
-.contactus{
 
 
-
- 
-    @media screen and (max-width:#{$phone-width}) {
-      
-    }
-
-    .banner-openday{
-      // border: 2px solid red;
-      // background-color: #0b1c30;
-      // box-shadow: 2px 2px 2px 2px grey ,-2px -2px 2px 2px grey;
-      border-radius: 5px;
-      color: black;
-      width: 400px;
-      height: 400px;
-      margin: 0 3rem;
-      font-size: 1.6rem;
-    }
-    .banner-location{
-      position: relative;
-      width: 400px;
-      height: 400px;
-      .frame-wrapper{
-        position: absolute;
-        background-color: #092038;
-        width: 200px;
-        height: 300px;
-        top: -1.3rem;
-        z-index: -5;
-        right: -2rem;;
-      }
-    }
-   
-    //  .active{
-    //   background-color: #05c722;
-    //   color: white;
-    // }
-  }
-  .days{
-    color: black;
-  }
 
 //testimonial css
 .title {
@@ -1365,6 +1315,10 @@ letter-spacing: 1px;
  .tags:hover{
   background-color: var(--clr-primary-4);
  }
+//  active class for css
+ .days{
+  color: black;
+}
  .active{
   font-weight: bold;
   cursor: pointer;

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Box, Flex } from "@chakra-ui/react";
+import Map from "./Map";
 
 const openDays = () => {
   const [getDays, setGetDays] = useState();
@@ -7,7 +8,6 @@ const openDays = () => {
   function activateDays() {
     let today = new Date();
     let currentDay = today.getDay();
-    // console.log(currentDay);
     setGetDays(currentDay);
   }
   useEffect(() => {
@@ -63,17 +63,11 @@ const openDays = () => {
                 <span>7am - 5:30pm</span>
               </Flex>
             </li>
-            {/* <li className={getDays == 6 ? "active" : "days"}>
-              <Flex justifyContent="space-around" paddingBottom="10px">
-                <span>Saturday & Sunday</span>
-                <span> closed</span>
-              </Flex>
-            </li> */}
           </ul>
         </Box>
         {/* end of the days and hours */}
         <Box className="map">
-          <h2>map side</h2>
+          <Map />
         </Box>
       </Flex>
     </>
