@@ -112,9 +112,8 @@ const About = () => {
           <Box className="mission-statement">
             <h3>Our Vision</h3>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis
-              reiciendis nostrum a ducimus sequi dolor dignissimos accusamus
-              repellendus expedita voluptates.
+              To be a distinguished international school where pupils/students
+              are raised to globally relevant and are life long learners.
             </p>
             <ul>
               <li className="contact__btn">
