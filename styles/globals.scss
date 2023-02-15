@@ -931,19 +931,36 @@ input{
 
 
 // map css
+.wrapper-contact{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  width: 90%;
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
 iframe{
   border: none;
-  width: 60%;
+  width: 50%;
   height: 500px;
   margin: 2rem 0;
   // filter: invert(100%);
 }
+.map{
+  width: 60%;
+  height: 400px;
+  border: 1px solid #000;
+}
 .banner-openday{
+  border: 1px solid #000;
   border-radius: 5px;
   color: black;
-  width: 400px;
+  width: 30%;
+  // width: 400px;
   height: 400px;
-  margin: 0 3rem;
+  // margin: 0 3rem;
   font-size: 1.3rem;
 }
 
@@ -951,12 +968,7 @@ iframe{
 
 
 
-  .wrapper-contact{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 3rem;
-  }
+ 
     @media screen and (max-width:#{$phone-width}) {
       
     }
@@ -1356,7 +1368,7 @@ letter-spacing: 1px;
  .active{
   font-weight: bold;
   cursor: pointer;
-  background-color: var(--clr-primary-4);
+  background-color: var(--clr-yellow);
   color: var(--clr-white);
  }
  
@@ -1372,7 +1384,7 @@ letter-spacing: 1px;
     margin-left: 3px;
   }
   .text-content p{
-  // color: var(--clr-white);
+  
   color: #d3d3d3;
   }
 

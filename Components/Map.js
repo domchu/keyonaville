@@ -1,6 +1,5 @@
-import React, { useState, useEffect } from "react";
-import { Flex, Box } from "@chakra-ui/react";
-// import OpenDays from "./OpenDays";
+import React from "react";
+import { Box } from "@chakra-ui/react";
 
 const Map = () => {
   return (
