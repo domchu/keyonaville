@@ -25,12 +25,12 @@ const CoreValue = () => {
                 <Box className="core-value">
                   <h3>OUR Value</h3>
                   <li className="core-value-li">Capacity Building</li>
-                  <li className="core-value-li">Punctuality</li>
-                  <li className="core-value-li">Sacrifices</li>
+                  <li className="core-value-li">Moral Uprightness</li>
+                  <li className="core-value-li">Excellence</li>
                   <li className="core-value-li">Teamwork</li>
-                  <li className="core-value-li">Neatness</li>
-                  <li className="core-value-li">Integrity</li>
-                  <li className="core-value-li">Possibility</li>
+                  <li className="core-value-li">Creativity</li>
+                  <li className="core-value-li">Relevance</li>
+                  <li className="core-value-li">Inclusion</li>
                 </Box>
               </Flex>
               <Flex justifyContent="space-around" mt={20} mb={20}>
@@ -40,9 +40,8 @@ const CoreValue = () => {
                 <Box className="core-value">
                   <h3>OUR VISION</h3>
                   <p className="wrap-it">
-                    To raise boys and girls of character and excellence in
-                    wisdom and humility who shall contribute to their immediate
-                    society and nation building.
+                  To be a distinguished international school where pupils/students
+              are raised to globally relevant and are life long learners.
                   </p>
                 </Box>
               </Flex>
@@ -53,9 +52,9 @@ const CoreValue = () => {
                 <Box className="core-value">
                   <h3>OUR MISSION</h3>
                   <p>
-                    To provide all round quality education of international
-                    standard to biys and girls with emphasis on character
-                    training, vocation and academic excellence
+                  Keyonavillie school is dedicated to providing a safe and warm
+              environment that stimultes creativity and problem solving skills
+              that unleash the genius in the child.
                   </p>
                 </Box>
               </Flex>
