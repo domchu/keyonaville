@@ -47,7 +47,7 @@ export default class Responsive extends Component {
         <Slider {...settings}>
           <div>
             <Box
-              bgImage="url('./images/nature20.jpg')"
+              bgImage="url('./images/banner1.jpeg')"
               bgPosition="center"
               bgRepeat="no-repeat"
               bgSize="cover"
