@@ -18,7 +18,7 @@ export default function faq() {
       <Box className="faq-container">
         <div className="title">
           <h2>
-            <span>/</span> FAQs
+            <span>/</span>Frequently Asked Questions
           </h2>
         </div>
         <h2>Got a question? I have answers.</h2>

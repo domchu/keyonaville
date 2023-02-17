@@ -4,20 +4,18 @@ import Link from "next/link";
 import { FcSmartphoneTablet } from "react-icons/fc";
 import { BsEnvelope } from "react-icons/bs";
 import { links, social } from "../Navbar/Navdata";
-// import Brand from "./Brand/Brand";
+import Logo from "../Components/Brand/Logo";
 
 function Footer() {
   return (
     <Box className="footer">
       <Flex
-        flexDirection={
-          {
-            // base: "column",
-            // sm: "column",
-            // md: "column",
-            // lg: "row",
-          }
-        }
+        flexDirection={{
+          base: "column",
+          sm: "column",
+          md: "column",
+          lg: "row",
+        }}
         justifyContent="center"
       >
         <Flex
@@ -25,21 +23,18 @@ function Footer() {
           justifyContent="center"
           flexDirection="column"
         >
-          {/* <Brand /> */}
-          <h1>Logo</h1>
+          <Logo />
           <h2>Keyonaville Nursery & Primary School </h2>
         </Flex>
         <Flex
           className="footer-links"
           justifyContent="center"
-          flexDirection={
-            {
-              // base: "column",
-              // sm: "column",
-              // md: "column",
-              // lg: "row",
-            }
-          }
+          flexDirection={{
+            base: "column",
+            sm: "column",
+            md: "column",
+            lg: "row",
+          }}
         >
           <Box>
             <h2>PAGES</h2>

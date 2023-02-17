@@ -741,7 +741,7 @@ input {
 }
 
 .mission-statement p {
-  font-size: 1rem;
+  font-size: 1.2rem;
   padding: 0 1rem 0.9rem 1rem;
   text-align: left;
   color: var(--clr-black);
