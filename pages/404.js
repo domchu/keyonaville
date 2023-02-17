@@ -1,8 +1,7 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Head from "next/head";
 import { useRouter } from "next/router";
 import Link from "next/link";
-import { useEffect } from "react";
 import { Grid, Box } from "@chakra-ui/react";
 import Footer from "../Components/Footer/Footer";
 import Navbar from "../Components/Navbar/Navbar";
@@ -14,8 +13,8 @@ const Error = () => {
     setTimeout(() => {
       router.push("/");
     }, 5000);
-  }),
-    [];
+  }, []);
+
   return (
     <>
       <Head>
