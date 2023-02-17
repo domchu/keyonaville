@@ -1245,7 +1245,6 @@ letter-spacing: 1px;
 .img-container{
   position: relative;
   cursor: pointer;
-  // width: 30px;
 }
 .fac-img{
   opacity: 1;
@@ -1272,14 +1271,12 @@ letter-spacing: 1px;
 .img-container:hover .middle{
   opacity: 1;
 }
-.text{
+.faci-text{
 font-size: 1.5rem;
 background-color: var(--clr-primary-4);
 padding: .3rem;
 border-radius: 5px;
-  // text-align: center;
-  color: var(--clr-white);
-  // width:300px;
+color: var(--clr-white);
 }
 .fac-image-container h4{
   text-align: center;

@@ -27,58 +27,68 @@ const Facilities = () => {
               className="fac-img"
             />
             <div className="middle">
-              <div className="text">Playground</div>
+              <div className="faci-text">Playground</div>
             </div>
           </Box>
-          <Box className="fac-image-container">
+          <Box className="img-container">
             <Image
               src={Library}
               alt="Playground"
               height="200px"
               width="250px"
-              className="fac-images"
+              className="fac-img"
             />
-            <h4>Library</h4>
+            <div className="middle">
+              <div className="faci-text">Library</div>
+            </div>
           </Box>
-          <Box className="fac-image-container">
+          <Box className="img-container">
             <Image
               src={computer}
               alt="Playground"
               height="200px"
               width="250px"
-              className="fac-images"
+              className="fac-img"
             />
-            <h4>Computer Lab</h4>
+            <div className="middle">
+              <div className="faci-text">Computer Lab</div>
+            </div>
           </Box>
-          <Box className="fac-image-container">
+          <Box className="img-container">
             <Image
               src={sickbay}
               alt="Playground"
               height="200px"
               width="250px"
-              className="fac-images"
+              className="fac-img"
             />
-            <h4>Sick Bay</h4>
+            <div className="middle">
+              <div className="faci-text">Sick Bay</div>
+            </div>
           </Box>
-          <Box className="fac-image-container">
+          <Box className="img-container">
             <Image
               src={classroom}
               alt="Playground"
               height="200px"
               width="250px"
-              className="fac-images"
+              className="fac-img"
             />
-            <h4>Class Room</h4>
+            <div className="middle">
+              <div className="faci-text">Class Room</div>
+            </div>
           </Box>
-          <Box className="fac-image-container">
+          <Box className="img-container">
             <Image
               src={schoolbus}
               alt="Playground"
               height="200px"
               width="250px"
-              className="fac-images"
+              className="fac-img"
             />
-            <h4>school Bus</h4>
+            <div className="middle">
+              <div className="faci-text">school Bus</div>
+            </div>
           </Box>
         </Grid>
       </Box>
