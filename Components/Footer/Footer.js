@@ -4,7 +4,7 @@ import Link from "next/link";
 import { FcSmartphoneTablet } from "react-icons/fc";
 import { BsEnvelope } from "react-icons/bs";
 import { links, social } from "../Navbar/Navdata";
-import Logo from "../Components/Brand/Logo";
+import Logo from "../Brand/Logo";
 
 function Footer() {
   return (

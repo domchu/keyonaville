@@ -1,12 +1,12 @@
 import React from "react";
 import Image from "next/image";
 import { Grid, Flex, Box } from "@chakra-ui/react";
-import playground from "../public/images/nature7.jpg";
-import computer from "../public/images/nature1.jpg";
-import sickbay from "../public/images/nature6.jpg";
-import Library from "../public/images/nature8.jpg";
-import classroom from "../public/images/nature3.jpg";
-import schoolbus from "../public/images/nature2.jpg";
+import playground from "../public/images/playground.jpeg";
+import computer from "../public/images/computerlab.jpeg";
+import sickbay from "../public/images/sickbay.jpeg";
+import Library from "../public/images/library.jpeg";
+import classroom from "../public/images/classroom.jpeg";
+import schoolbus from "../public/images/banner1.jpeg";
 
 const Facilities = () => {
   return (
@@ -18,15 +18,17 @@ const Facilities = () => {
           </h2>
         </Box>
         <Grid className="fac-overall-container" mt={10} mb={30}>
-          <Box className="fac-image-container">
+          <Box className="img-container">
             <Image
               src={playground}
               alt="Playground"
               height="200px"
               width="250px"
-              className="fac-images"
+              className="fac-img"
             />
-            <h4>Playground</h4>
+            <div className="middle">
+              <div className="text">Playground</div>
+            </div>
           </Box>
           <Box className="fac-image-container">
             <Image
