@@ -736,16 +736,17 @@ input {
 
 .mission-statement h3 {
   font-size: 1.5rem;
-  padding: 2rem 0;
+  padding-top: 2rem;
   color: var(--clr-primary-4);
 }
 
 .mission-statement p {
   font-size: 1.2rem;
-  padding: 0 1rem 0.9rem 1rem;
+  padding: 1rem 0.9rem 0rem;
   text-align: left;
   color: var(--clr-black);
   letter-spacing: var(--spacing);
+  margin-bottom: 2rem;
 }
 
 .contact__img__text h3 {
@@ -1302,16 +1303,6 @@ article.nextSlide {
     grid-template-columns: repeat(1, 1fr);
   }
 }
-.fac-image-container {
-  height: 350px;
-  width: 300px;
-  cursor: pointer;
-  border-top-right-radius: 5px;
-  border-top-left-radius: 5px;
-  margin: 0.5rem;
-  background-color: var(--clr-primary-4);
-}
-
 .img-container {
   position: relative;
   cursor: pointer;
@@ -1355,32 +1346,11 @@ article.nextSlide {
   color: var(--clr-white);
 }
 
-.fac-image-container h4 {
-  text-align: center;
-  color: var(--clr-white);
-  width: 300px;
-}
-
-.fac-images {
-  height: 300px;
-  width: 300px;
-  background-color: var(--clr-primary-4);
-  border-top-right-radius: 5px;
-  border-top-left-radius: 5px;
-  border: oldlace;
-}
-
-.fac-image-container:hover {
-  background-color: var(--clr-yellow);
-  border: 1px solid var(--clr-yellow);
-  transition: 0.5s;
-}
-
 .fac-overall-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   place-items: center;
-  width: 70%;
+  width: 75%;
   margin: auto;
   row-gap: 2rem;
   padding: 2rem 0px;
