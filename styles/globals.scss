@@ -247,17 +247,15 @@ Variables
   //footer css
   // radial-gradient(circle, #083b6b, #092038)
   .footer{
-    background-color:var(--clr-primary-3);
-    padding: 50px 90px;h2{font-weight: bold;color: #fff;padding: 5px 10px;font-size: 22px;}p{color: #ffffff;}
-   
+    background-color:var(--clr-primary-3);padding: 50px 90px;h2{font-weight: bold;color: #fff;padding: 5px 10px;font-size: 22px;}p{color: #ffffff;}
     @media screen and (max-width:#{$phone-width}) {
       padding: 10px 20px;
       .footer{
         flex-direction: column;
       }
     }
-    // &-writeup{flex: 1}
-  // &-links{flex: 1;}
+    &-writeup{flex: 1}
+  &-links{flex: 1;}
   &-tools{padding: 10px 20px;a{color: #ffffff;font-size: 20px;}}
   &-pages{padding: 10px 20px;a{color: #ffffff;font-size: 20px;}}
   &-socials {padding: 10px 20px;a{color: #ffffff;font-size: 20px;display: flex;align-items: center;}li{padding: 0 0 20px 0;}}
@@ -1231,6 +1229,7 @@ letter-spacing: 1px;
    place-items: center;
     grid-template-columns: repeat(2, 1fr);
     width: 100%;
+    padding: 0px 0rem;
     
   }
 }

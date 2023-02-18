@@ -269,6 +269,12 @@ nav {
     flex-direction: column;
   }
 }
+.footer-writeup {
+  flex: 1;
+}
+.footer-links {
+  flex: 1;
+}
 .footer-tools {
   padding: 10px 20px;
 }
@@ -1300,6 +1306,7 @@ article.nextSlide {
     place-items: center;
     grid-template-columns: repeat(2, 1fr);
     width: 100%;
+    padding: 0px 0rem;
   }
 }
 @media screen and (max-width: 500px) {
