@@ -247,19 +247,33 @@ Variables
   //footer css
   // radial-gradient(circle, #083b6b, #092038)
   .footer{
-    background-color:var(--clr-primary-3);padding: 50px 90px;h2{font-weight: bold;color: #fff;padding: 10px 20px;font-size: 22px;}p{color: #ffffff;}
+    background-color:var(--clr-primary-3);
+    padding: 50px 90px;h2{font-weight: bold;color: #fff;padding: 5px 10px;font-size: 22px;}p{color: #ffffff;}
+   
     @media screen and (max-width:#{$phone-width}) {
       padding: 10px 20px;
-      .footer-links{
+      .footer{
         flex-direction: column;
       }
     }
-    &-writeup{flex: 1}
-  &-links{flex: 1;}
+    // &-writeup{flex: 1}
+  // &-links{flex: 1;}
   &-tools{padding: 10px 20px;a{color: #ffffff;font-size: 20px;}}
   &-pages{padding: 10px 20px;a{color: #ffffff;font-size: 20px;}}
   &-socials {padding: 10px 20px;a{color: #ffffff;font-size: 20px;display: flex;align-items: center;}li{padding: 0 0 20px 0;}}
   
+  }
+  @media screen and (max-width:#{$tablet-width}) {
+    .footer{
+      padding: 50px 22px;
+      background-color: var(--clr-primary-3);
+    }
+    .footer-socials{
+      padding: 10px 10px
+    }
+    .footer h2{
+      padding: 5px 10px;
+    }
   }
  
   .contact{

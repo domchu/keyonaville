@@ -255,7 +255,7 @@ nav {
 .footer h2 {
   font-weight: bold;
   color: #fff;
-  padding: 10px 20px;
+  padding: 5px 10px;
   font-size: 22px;
 }
 .footer p {
@@ -265,15 +265,9 @@ nav {
   .footer {
     padding: 10px 20px;
   }
-  .footer .footer-links {
+  .footer .footer {
     flex-direction: column;
   }
-}
-.footer-writeup {
-  flex: 1;
-}
-.footer-links {
-  flex: 1;
 }
 .footer-tools {
   padding: 10px 20px;
@@ -302,6 +296,18 @@ nav {
   padding: 0 0 20px 0;
 }
 
+@media screen and (max-width: 800px) {
+  .footer {
+    padding: 50px 22px;
+    background-color: var(--clr-primary-3);
+  }
+  .footer-socials {
+    padding: 10px 10px;
+  }
+  .footer h2 {
+    padding: 5px 10px;
+  }
+}
 .contact {
   color: var(--clr-white);
   font-size: 1.5rem;

@@ -9,33 +9,18 @@ import Logo from "../Brand/Logo";
 function Footer() {
   return (
     <Box className="footer">
-      <Flex
-        flexDirection={{
-          base: "column",
-          sm: "column",
-          md: "column",
-          lg: "row",
-        }}
-        justifyContent="center"
-      >
+      <Flex justifyContent="center">
         <Flex
           className="footer-writeup"
           justifyContent="center"
           flexDirection="column"
+          textAlign="center"
+          alignItems="center"
         >
           <Logo />
           <h2>Keyonaville Nursery & Primary School </h2>
         </Flex>
-        <Flex
-          className="footer-links"
-          justifyContent="center"
-          flexDirection={{
-            base: "column",
-            sm: "column",
-            md: "column",
-            lg: "row",
-          }}
-        >
+        <Flex className="footer-links" justifyContent="center">
           <Box>
             <h2>PAGES</h2>
             <Box className="footer-pages">
