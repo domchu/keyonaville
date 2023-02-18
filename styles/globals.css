@@ -1331,7 +1331,7 @@ article.nextSlide {
 }
 
 .img-container:hover .fac-img {
-  opacity: 0.5;
+  opacity: 0.3;
 }
 
 .img-container:hover .middle {
