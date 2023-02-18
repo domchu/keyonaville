@@ -266,7 +266,7 @@ nav {
     padding: 10px 20px;
   }
   .footer .footer {
-    flex-direction: column;
+    flex-direction: column !important;
   }
 }
 .footer-writeup {
@@ -312,6 +312,14 @@ nav {
   }
   .footer h2 {
     padding: 5px 10px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .footer-links {
+    flex-direction: column;
+  }
+  .footer {
+    flex-direction: column;
   }
 }
 .contact {

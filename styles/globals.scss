@@ -251,7 +251,7 @@ Variables
     @media screen and (max-width:#{$phone-width}) {
       padding: 10px 20px;
       .footer{
-        flex-direction: column;
+        flex-direction: column !important;
       }
     }
     &-writeup{flex: 1}
@@ -271,6 +271,14 @@ Variables
     }
     .footer h2{
       padding: 5px 10px;
+    }
+  }
+  @media screen and (max-width:#{$phone-width}) {
+    .footer-links{
+      flex-direction: column;
+    }
+    .footer{
+      flex-direction: column;
     }
   }
  

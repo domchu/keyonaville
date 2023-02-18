@@ -10,7 +10,7 @@ function Footer() {
   return (
     <>
       <Box className="footer">
-        <Flex justifyContent="center">
+        <Flex>
           <Flex
             className="footer-writeup"
             justifyContent="center"
