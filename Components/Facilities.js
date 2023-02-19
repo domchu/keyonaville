@@ -38,9 +38,9 @@ const Facilities = () => {
               width="250px"
               className="fac-img"
             />
-            <div className="middle">
-              <div className="faci-text">Library</div>
-            </div>
+            <Box className="middle">
+              <Box className="faci-text">Library</Box>
+            </Box>
           </Box>
           <Box className="img-container">
             <Image
