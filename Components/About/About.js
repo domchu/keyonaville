@@ -62,7 +62,6 @@ const About = () => {
         </Box>
         <Box>
           <Flex className="sm-screen">
-            {/* <Text fontSize="3xl">The elegant ever</Text> */}
             <Box className="contact-image-container">
               <Image
                 src={nature16}
@@ -73,10 +72,9 @@ const About = () => {
               />
               <Box className="contact__img__text">
                 <Box className="wear">BOYS UNIFORM</Box>
-                {/* <Text fontSize="3xl">The elegant ever</Text> */}
               </Box>
             </Box>
-            <Box className="img-container">
+            <Box className="contact-image-container">
               <Image
                 height="500px"
                 width="400px"
@@ -84,10 +82,9 @@ const About = () => {
                 alt="nature"
                 className="contact-img"
               />
-              <div className="contact__img__text">
-                <h3>GIRLS UNIFORM</h3>
-                <Text fontSize="3xl">The strongest ever</Text>
-              </div>
+              <Box className="contact__img__text">
+                <Box className="wear">GIRLS UNIFORM</Box>
+              </Box>
             </Box>
           </Flex>
         </Box>
