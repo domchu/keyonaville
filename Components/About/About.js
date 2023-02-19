@@ -41,7 +41,6 @@ const About = () => {
           </Box>
         </Box>
       </Box>
-      {/* middle text */}
       <Flex className="about-history">
         <Box textAlign="left" className="left">
           <h2>
@@ -89,7 +88,6 @@ const About = () => {
           </Flex>
         </Box>
       </Flex>
-      {/* the last text */}
       <Flex className="about-history">
         <Flex className="sm-screen">
           <Box className="mission-statement">
