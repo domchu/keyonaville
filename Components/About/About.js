@@ -41,7 +41,6 @@ const About = () => {
           </Box>
         </Box>
       </Box>
-      {/* middle text */}
       <Flex className="about-history">
         <Box textAlign="left" className="left">
           <h2>
@@ -71,11 +70,10 @@ const About = () => {
                 className="contact-img"
               />
               <Box className="contact__img__text">
-                <h3>BOYS UNIFORM</h3>
-                <Text fontSize="3xl">The elegant ever</Text>
+                <Box className="wear">BOYS UNIFORM</Box>
               </Box>
             </Box>
-            <Box className="img-container">
+            <Box className="contact-image-container">
               <Image
                 height="500px"
                 width="400px"
@@ -83,15 +81,13 @@ const About = () => {
                 alt="nature"
                 className="contact-img"
               />
-              <div className="contact__img__text">
-                <h3>GIRLS UNIFORM</h3>
-                <Text fontSize="3xl">The strongest ever</Text>
-              </div>
+              <Box className="contact__img__text">
+                <Box className="wear">GIRLS UNIFORM</Box>
+              </Box>
             </Box>
           </Flex>
         </Box>
       </Flex>
-      {/* the last text */}
       <Flex className="about-history">
         <Flex className="sm-screen">
           <Box className="mission-statement">
