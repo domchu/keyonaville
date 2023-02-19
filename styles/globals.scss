@@ -245,7 +245,6 @@ Variables
   }
 
   //footer css
-  // radial-gradient(circle, #083b6b, #092038)
   .footer{
     background-color:var(--clr-primary-3);padding: 50px 90px;h2{font-weight: bold;color: #fff;padding: 5px 10px;font-size: 22px;}p{color: #ffffff;}
     @media screen and (max-width:#{$phone-width}) {
