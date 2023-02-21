@@ -248,6 +248,12 @@ nav {
     background-color: var(--clr-primary-4);
   }
 }
+.footer__items {
+  justify-content: center;
+  width: 90%;
+  margin: auto;
+}
+
 .footer {
   background-color: var(--clr-primary-3);
   padding: 50px 90px;
@@ -321,11 +327,27 @@ nav {
   .footer {
     flex-direction: column;
   }
+  .footer__items {
+    flex-direction: column;
+    width: 100%;
+  }
+  .footer-tools {
+    padding: 0px 0px;
+  }
+  .footer {
+    padding: 50px 2px;
+    background-color: var(--clr-primary-3);
+  }
+  .footeritems {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 .contact {
   color: var(--clr-white);
   font-size: 1.5rem;
-  align-items: center;
   font-weight: normal;
 }
 

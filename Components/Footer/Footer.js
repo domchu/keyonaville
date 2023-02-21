@@ -10,7 +10,7 @@ function Footer() {
   return (
     <>
       <Box className="footer">
-        <Flex>
+        <Flex className="footer__items">
           <Flex
             className="footer-writeup"
             justifyContent="center"
@@ -22,7 +22,7 @@ function Footer() {
             <h2>Keyonaville Nursery & Primary School </h2>
           </Flex>
           <Flex className="footer-links" justifyContent="center">
-            <Box>
+            <Box className="footeritems">
               <h2>PAGES</h2>
               <Box className="footer-pages">
                 {links.map((link) => {
@@ -37,13 +37,12 @@ function Footer() {
                 })}
               </Box>
             </Box>
-
-            <Box>
+            <Box className="footeritems">
               <h2>CONTACT</h2>
               <Box className="footer-tools">
                 <div>
                   <FcSmartphoneTablet className="contact" />
-                  <p>+234 8064960303</p>
+                  <p>+234(0) 8064960303</p>
                 </div>
                 <div>
                   <BsEnvelope className="contact" />
@@ -51,8 +50,7 @@ function Footer() {
                 </div>
               </Box>
             </Box>
-
-            <Box>
+            <Box className="footeritems">
               <h2>FIND US</h2>
               <Box className="footer-socials">
                 <ul>
@@ -72,7 +70,7 @@ function Footer() {
             </Box>
           </Flex>
         </Flex>
-        <Box pt={40} textAlign="center">
+        <Box pt={40} textAlign="center" fontSize={20}>
           <p>
             &copy; 2023 Keyonaville school. All rights reserved | Powered by
           </p>
