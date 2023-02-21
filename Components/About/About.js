@@ -72,7 +72,7 @@ const About = () => {
                 <Box className="wear">BOYS UNIFORM</Box>
               </Box>
             </Box>
-            <Box className="contact-image-container">
+            <Box className="contact-image-container top">
               <Image
                 height="500px"
                 width="400px"

@@ -805,15 +805,18 @@ input{
   }
 }
 @media screen and (max-width:#{$phone-width}) {
+  .top{
+    margin-top: 2rem;
+  }
+  .contact-img {
+    margin-top: 1rem;
+  }
   .sm-screen{
    display: grid !important;
    grid-template-columns: repeat(1, 1fr) !important;
    place-items:center !important;
   }
-  .contact-img, .mission-statement{
-    margin: 0;
-    width:100%;
-  }
+ 
   .about-us{
     height: auto;
   }
@@ -862,9 +865,15 @@ input{
   }
 }
 @media screen and (max-width:360px) {
-  .contact-img{
-    margin: 0;
-    width:100%;
+  .top{
+    margin-top: 2rem;
+  }
+  .about-us-text {
+    flex-direction: column;
+    padding: 1rem 1rem !important;
+  }
+  .contact-img {
+    margin-top: 1rem;
   }
   .mission-statement{
     margin: 0;
