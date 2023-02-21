@@ -1317,7 +1317,7 @@ color: var(--clr-white);
   column-gap: 1.5rem;
   margin-bottom: 2rem;
 }
- .image-card{
+.image-card{
   border-radius: 5px;
  } 
  .btn-tag{
@@ -1336,6 +1336,23 @@ color: var(--clr-white);
  .tags:hover{
   background-color: var(--clr-primary-4);
  }
+@media screen and (max-width:#{$tablet-width}) {
+.gallery-container{
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 90%;
+}
+}
+@media screen and (max-width:#{$phone-width}) {
+.gallery-container{
+  display: grid;
+ grid-template-columns: 1fr;
+}
+.tags{
+  margin-top: 1rem;
+}
+}
+
 //  active class for css
  .days{
   color: black;

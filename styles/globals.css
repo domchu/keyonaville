@@ -1468,6 +1468,22 @@ article.nextSlide {
   background-color: var(--clr-primary-4);
 }
 
+@media screen and (max-width: 800px) {
+  .gallery-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 90%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .gallery-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .tags {
+    margin-top: 1rem;
+  }
+}
 .days {
   color: black;
 }
