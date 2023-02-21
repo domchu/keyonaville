@@ -56,7 +56,6 @@ const About = () => {
           </p>
           <Box>
             <p>MRS. ERICK SMITH</p>
-            <Text fontWeight="800">FOUNDER AND CEO</Text>
           </Box>
         </Box>
         <Box>

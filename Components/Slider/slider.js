@@ -86,7 +86,7 @@ export default class Responsive extends Component {
               bgRepeat="no-repeat"
               bgSize="cover"
               maxW="100%"
-              h={600}
+              h={620}
               pos="relative"
               overflow="hidden"
             />
@@ -115,7 +115,7 @@ export default class Responsive extends Component {
               bgRepeat="no-repeat"
               bgSize="cover"
               maxW="100%"
-              h={600}
+              h={620}
               pos="relative"
               overflow="hidden"
             />
@@ -144,7 +144,7 @@ export default class Responsive extends Component {
               bgRepeat="no-repeat"
               bgSize="cover"
               maxW="100%"
-              h={600}
+              h={620}
               pos="relative"
               overflow="hidden"
             />
