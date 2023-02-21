@@ -242,9 +242,7 @@ Variables
   //footer css
   .footer__items{
     justify-content: center;
-    // text-align: center;
     width: 90%;
-    // align-items: center;
     margin: auto;
   }
   .footer{
@@ -257,7 +255,7 @@ Variables
     }
     &-writeup{flex: 1}
   &-links{flex: 1;}
-  &-tools{padding: 10px 20px;a{color: #ffffff;font-size: 20px;}}
+  &-tools{padding: 5px 20px;a{color: #ffffff;font-size: 20px;}}
   &-pages{padding: 10px 20px;a{color: #ffffff;font-size: 20px;}}
   &-socials {padding: 10px 20px;a{color: #ffffff;font-size: 20px;display: flex;align-items: center;}li{padding: 0 0 20px 0;}}
   
@@ -287,16 +285,17 @@ Variables
     }
     .footer-tools {
       padding: 0px 0px;
+      text-align: center;
     }
     .footer {
       padding: 50px 2px;
       background-color: var(--clr-primary-3);
     }
     .footeritems{
-      display: flex;
-justify-content: center;
-flex-direction: column;
-align-items: center;
+    display: flex;
+     justify-content: center;
+     flex-direction: column;
+     align-items: center;
     }
   }
   .contact{

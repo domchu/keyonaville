@@ -282,7 +282,7 @@ nav {
   flex: 1;
 }
 .footer-tools {
-  padding: 10px 20px;
+  padding: 5px 20px;
 }
 .footer-tools a {
   color: #ffffff;
@@ -333,6 +333,7 @@ nav {
   }
   .footer-tools {
     padding: 0px 0px;
+    text-align: center;
   }
   .footer {
     padding: 50px 2px;
