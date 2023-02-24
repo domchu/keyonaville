@@ -81,12 +81,12 @@ export default class Responsive extends Component {
           </div>
           <Box>
             <Box
-              bgImage="url('./images/nature17.jpg')"
+              bgImage="url('./images/computerlab.jpeg')"
               bgPosition="center"
               bgRepeat="no-repeat"
               bgSize="cover"
               maxW="100%"
-              h={600}
+              h={620}
               pos="relative"
               overflow="hidden"
             />
@@ -110,12 +110,12 @@ export default class Responsive extends Component {
           </Box>
           <Box>
             <Box
-              bgImage="url('./images/nature16.jpg')"
+              bgImage="url('./images/playground.jpeg')"
               bgPosition="center"
               bgRepeat="no-repeat"
               bgSize="cover"
               maxW="100%"
-              h={600}
+              h={620}
               pos="relative"
               overflow="hidden"
             />
@@ -139,12 +139,12 @@ export default class Responsive extends Component {
           </Box>
           <Box>
             <Box
-              bgImage="url('./images/nature19.jpg')"
+              bgImage="url('./images/classroom.jpeg')"
               bgPosition="center"
               bgRepeat="no-repeat"
               bgSize="cover"
               maxW="100%"
-              h={600}
+              h={620}
               pos="relative"
               overflow="hidden"
             />

@@ -1,8 +1,8 @@
 import React from "react";
 import Image from "next/image";
 import { Grid, Flex, Box } from "@chakra-ui/react";
-import playground from "../public/images/playground.jpeg";
-import computer from "../public/images/computerlab.jpeg";
+import playground from "../public/images/f1.jpeg";
+import computer from "../public/images/complab.jpeg";
 import sickbay from "../public/images/sickbay.jpeg";
 import Library from "../public/images/library.jpeg";
 import classroom from "../public/images/classroom.jpeg";

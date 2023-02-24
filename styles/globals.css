@@ -248,6 +248,12 @@ nav {
     background-color: var(--clr-primary-4);
   }
 }
+.footer__items {
+  justify-content: center;
+  width: 90%;
+  margin: auto;
+}
+
 .footer {
   background-color: var(--clr-primary-3);
   padding: 50px 90px;
@@ -276,7 +282,7 @@ nav {
   flex: 1;
 }
 .footer-tools {
-  padding: 10px 20px;
+  padding: 5px 20px;
 }
 .footer-tools a {
   color: #ffffff;
@@ -321,11 +327,28 @@ nav {
   .footer {
     flex-direction: column;
   }
+  .footer__items {
+    flex-direction: column;
+    width: 100%;
+  }
+  .footer-tools {
+    padding: 0px 0px;
+    text-align: center;
+  }
+  .footer {
+    padding: 50px 2px;
+    background-color: var(--clr-primary-3);
+  }
+  .footeritems {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 .contact {
   color: var(--clr-white);
   font-size: 1.5rem;
-  align-items: center;
   font-weight: normal;
 }
 
@@ -877,14 +900,16 @@ input {
   }
 }
 @media screen and (max-width: 500px) {
+  .top {
+    margin-top: 2rem;
+  }
+  .contact-img {
+    margin-top: 1rem;
+  }
   .sm-screen {
     display: grid !important;
     grid-template-columns: repeat(1, 1fr) !important;
     place-items: center !important;
-  }
-  .contact-img, .mission-statement {
-    margin: 0;
-    width: 100%;
   }
   .about-us {
     height: auto;
@@ -933,9 +958,15 @@ input {
   }
 }
 @media screen and (max-width: 360px) {
+  .top {
+    margin-top: 2rem;
+  }
+  .about-us-text {
+    flex-direction: column;
+    padding: 1rem 1rem !important;
+  }
   .contact-img {
-    margin: 0;
-    width: 100%;
+    margin-top: 1rem;
   }
   .mission-statement {
     margin: 0;
@@ -1445,6 +1476,22 @@ article.nextSlide {
   background-color: var(--clr-primary-4);
 }
 
+@media screen and (max-width: 800px) {
+  .gallery-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 90%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .gallery-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .tags {
+    margin-top: 1rem;
+  }
+}
 .days {
   color: black;
 }
