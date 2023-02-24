@@ -17,12 +17,22 @@ const Form = () => {
           <Box className="form">
             <Box>
               <label htmlFor="">
-                <input type="text" name="First Name" placeholder="First Name" />
+                <input
+                  type="text"
+                  name="First Name"
+                  placeholder="First Name"
+                  required
+                />
               </label>
             </Box>
             <Box>
               <label htmlFor="">
-                <input type="text" name="First Name" placeholder="Last Name" />
+                <input
+                  type="text"
+                  name="First Name"
+                  placeholder="Last Name"
+                  required
+                />
               </label>
             </Box>
             <Box>
@@ -31,6 +41,7 @@ const Form = () => {
                   type="text"
                   name="First Name"
                   placeholder="Mobile Number"
+                  required
                 />
               </label>
             </Box>
@@ -40,6 +51,7 @@ const Form = () => {
                   type="text"
                   name="First Name"
                   placeholder="Email Address"
+                  required
                 />
               </label>
             </Box>
@@ -52,6 +64,7 @@ const Form = () => {
               rows="10"
               className="textarea"
               placeholder="Message"
+              required
             ></textarea>
           </Box>
           <Box className="summit__btn__container">
