@@ -498,15 +498,6 @@ main {
   text-align: center;
 }
 
-.contact-text p {
-  display: flex;
-  justify-content: center;
-  margin: auto;
-  width: 50%;
-  text-align: center;
-  font-family: Manrope, sans-serif !important;
-}
-
 .contact-text h3 {
   font-family: Manrope, sans-serif !important;
   font-size: 1rem;
