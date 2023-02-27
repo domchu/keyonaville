@@ -70,6 +70,7 @@ const Form = () => {
               required
             ></textarea>
           </Box>
+          {/* the send button */}
           <Box className="summit__btn__container">
             <button type="submit" className="summit__btn">
               SEND MESSAGE

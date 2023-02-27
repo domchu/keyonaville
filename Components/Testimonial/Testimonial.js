@@ -30,7 +30,7 @@ const Testimonial = () => {
 
   return (
     <section className="section">
-      <div className="title">
+     <div className="title">
         <h2>
           <span>/</span> TESTIMONIALS
         </h2>
@@ -50,7 +50,7 @@ const Testimonial = () => {
           ) {
             position = "lastSlide";
           }
-          //* mapping the json/data
+          //* mapping the json/data to the dom.
           return (
             <article className={position} key={id}>
               <img src={image} alt={name} className="person-img" />
