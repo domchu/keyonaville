@@ -23,6 +23,7 @@ const Contact = () => {
             </div>
             <h4>We are here because of you.</h4>
           </div>
+          {/* the start of contact information */}
         </Box>
         <Grid
           className="contact-links"
