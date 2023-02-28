@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import { Box } from "@chakra-ui/react";
 
-
+// storing all the images as json objects.
 const images = [
   { id: "1", imageName: "1.jpg", tag: "playground" },
   { id: "2", imageName: "2.jpg", tag: "excursion" },
@@ -45,6 +45,7 @@ const Gallery = () => {
             <span>/</span>KEYONAVILLE GALLERY &#8594;
           </h2>
         </Box>
+        {/* all btns in the gallery page */}
         <div className="app" handleSetTag={setTag}>
           <Box className="btn-tag">
             <TagButton name="all" handleSetTag={setTag} />
@@ -76,6 +77,7 @@ const Gallery = () => {
 };
 
 const TagButton = ({ name, handleSetTag }) => {
+  // change all btns text to uppercase
   return (
     <button className="tags" onClick={() => handleSetTag(name)}>
       {name.toUpperCase()}
