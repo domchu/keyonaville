@@ -11,7 +11,10 @@ const Form = () => {
               <span>/</span> WE'LL BE IN TOUCH SOON!
             </h2>
           </div>
-          <h2>Get in touch with us</h2>
+          <h4>
+            For Further Enquires, You can send us a message from the textbox
+            below.
+          </h4>
         </div>
         <form action="" method="post">
           <Box className="form">
@@ -67,6 +70,7 @@ const Form = () => {
               required
             ></textarea>
           </Box>
+          {/* the send button */}
           <Box className="summit__btn__container">
             <button type="submit" className="summit__btn">
               SEND MESSAGE

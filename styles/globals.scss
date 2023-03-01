@@ -318,19 +318,12 @@ main {
 }
 .container {
   width: 100%;
-  margin: 5rem auto;
   border-radius: 0.25rem;
   padding: 2.5rem 2rem;
   display: grid;
   gap: 1rem 2rem;
 }
-.container h3 {
-  line-height: 1.2;
-  font-weight: 500;
-  font-size: 2rem;
-  text-align: center;
-  font-family: Manrope, sans-serif !important;
-}
+
 .question {
   padding: 1rem 1.5rem;
   border: 2px solid var(--clr-white);
@@ -438,25 +431,18 @@ main {
   text-align: center;
   
  }
- .contact-text p{
-  display: flex;
-  justify-content: center;
-  margin: auto;
-  width: 50%;
-  text-align: center;
-  font-family: Manrope, sans-serif !important;
-}
+
 .contact-text h3{
   font-family: Manrope, sans-serif !important;
   font-size: 1rem;
   font-weight: 600;
   color: grey;
 }
-.contact-text h2{
-  font-weight: 600;
+.contact-text h4{
+  font-weight: 300;
   font-family: Manrope, sans-serif !important;
   margin: 1rem 0;
-  font-size: 2.5rem;
+  font-size: 1rem;
 }
 .contact-links{
 width: 80%;
@@ -1006,10 +992,11 @@ input{
 }
 .title span {
   font-size: 0.85em;
-  color: var(--clr-primary-5);
+  color: var(--clr-orange-600);
   margin-right: 1rem;
   font-weight: 700;
 }
+
 @media screen and (max-width:#{$phone-width}) {
     .title span{
       display: none;

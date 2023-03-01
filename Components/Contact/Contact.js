@@ -21,15 +21,9 @@ const Contact = () => {
                 <span>/</span> CONTACT US
               </h2>
             </div>
-            <h2>We are here because of you.</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
-              aspernatur voluptatem commodi quis. Dolorem nulla officiis quae
-              ullam? Mollitia cumque odio, laborum in molestias itaque sed
-              deserunt illum accusantium blanditiis dolore adipisci perferendis
-              atque quia eum reiciendis hic quidem perspiciatis.
-            </p>
+            <h4>We are here because of you.</h4>
           </div>
+          {/* the start of contact information */}
         </Box>
         <Grid
           className="contact-links"
