@@ -41,6 +41,7 @@ const Form = () => {
                   type="text"
                   name="firstname"
                   placeholder="first Name"
+                  pattern="^[a-zA-Z0-9]{4,26}$"
                   required
                 />
               </label>
@@ -52,6 +53,7 @@ const Form = () => {
                   type="text"
                   name="lastName"
                   placeholder="Last Name"
+                  pattern="^[a-zA-Z0-9]{4,26}$"
                   required
                 />
               </label>
@@ -60,7 +62,7 @@ const Form = () => {
               <label>
                 <input
                   onChange={onChange}
-                  type="text"
+                  type="number"
                   name="phonenumber"
                   placeholder="Mobile Number"
                   required
@@ -71,7 +73,7 @@ const Form = () => {
               <label>
                 <input
                   onChange={onChange}
-                  type="text"
+                  type="email"
                   name="email"
                   placeholder="Email Address"
                   required
