@@ -1,7 +1,13 @@
-import React from 'react'
+import React, { useState } from "react";
 import { Box } from "@chakra-ui/react";
 
 const Form = () => {
+  const [first_Name, setUserName] = useState("");
+
+  const handleSubmit = (e) => {
+    setUserName(e.target.value);
+  };
+  console.log(first_Name);
   return (
     <>
       <Box className="contact-form">
@@ -23,7 +29,8 @@ const Form = () => {
                 <input
                   type="text"
                   name="First Name"
-                  placeholder="First Name"
+                  placeholder="first_Name"
+                  onChange={handleSubmit}
                   required
                 />
               </label>
@@ -82,4 +89,4 @@ const Form = () => {
   );
 };
 
-export default Form
+export default Form;
