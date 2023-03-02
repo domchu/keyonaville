@@ -2,12 +2,22 @@ import React, { useState } from "react";
 import { Box } from "@chakra-ui/react";
 
 const Form = () => {
-  const [first_Name, setUserName] = useState("");
+  const [values, setValues] = useState({
+    firstname: "",
+    lastname: "",
+    email: "",
+    phonenumber: "",
+    message: "",
+  });
 
   const handleSubmit = (e) => {
-    setUserName(e.target.value);
+    e.preventDefault();
   };
-  console.log(first_Name);
+
+  const onChange = (e) => {
+    setValues({ ...values, [e.target.name]: e.target.value });
+  };
+  console.log(values);
   return (
     <>
       <Box className="contact-form">
@@ -25,18 +35,20 @@ const Form = () => {
         <form onSubmit={handleSubmit}>
           <Box className="form">
             <Box>
-              <label htmlFor="">
+              <label>
                 <input
+                  onChange={onChange}
                   type="text"
-                  name="Firstname"
+                  name="firstname"
                   placeholder="first Name"
                   required
                 />
               </label>
             </Box>
             <Box>
-              <label htmlFor="">
+              <label>
                 <input
+                  onChange={onChange}
                   type="text"
                   name="lastName"
                   placeholder="Last Name"
@@ -45,8 +57,9 @@ const Form = () => {
               </label>
             </Box>
             <Box>
-              <label htmlFor="">
+              <label>
                 <input
+                  onChange={onChange}
                   type="text"
                   name="phonenumber"
                   placeholder="Mobile Number"
@@ -55,8 +68,9 @@ const Form = () => {
               </label>
             </Box>
             <Box>
-              <label htmlFor="">
+              <label>
                 <input
+                  onChange={onChange}
                   type="text"
                   name="email"
                   placeholder="Email Address"
@@ -67,8 +81,8 @@ const Form = () => {
           </Box>
           <Box>
             <textarea
-              name=""
-              id=""
+              onChange={onChange}
+              name="message"
               cols="40"
               rows="10"
               className="textarea"
