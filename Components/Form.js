@@ -22,15 +22,14 @@ const Form = () => {
             below.
           </h4>
         </div>
-        <form action="" method="post">
+        <form onSubmit={handleSubmit}>
           <Box className="form">
             <Box>
               <label htmlFor="">
                 <input
                   type="text"
-                  name="First Name"
-                  placeholder="first_Name"
-                  onChange={handleSubmit}
+                  name="Firstname"
+                  placeholder="first Name"
                   required
                 />
               </label>
@@ -39,7 +38,7 @@ const Form = () => {
               <label htmlFor="">
                 <input
                   type="text"
-                  name="First Name"
+                  name="lastName"
                   placeholder="Last Name"
                   required
                 />
@@ -49,7 +48,7 @@ const Form = () => {
               <label htmlFor="">
                 <input
                   type="text"
-                  name="First Name"
+                  name="phonenumber"
                   placeholder="Mobile Number"
                   required
                 />
@@ -59,7 +58,7 @@ const Form = () => {
               <label htmlFor="">
                 <input
                   type="text"
-                  name="First Name"
+                  name="email"
                   placeholder="Email Address"
                   required
                 />
