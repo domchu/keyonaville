@@ -10,6 +10,7 @@ const Form = () => {
     message: "",
   });
 
+  //using prevent default to avoid page reload.
   const handleSubmit = (e) => {
     e.preventDefault();
   };
@@ -17,11 +18,11 @@ const Form = () => {
   const onChange = (e) => {
     setValues({ ...values, [e.target.name]: e.target.value });
   };
-  console.log(values);
+  // console.log(values);
   return (
     <>
       <Box className="contact-form">
-        <div className="contact-text">
+        <Box className="contact-text">
           <div className="title">
             <h2>
               <span>/</span> WE'LL BE IN TOUCH SOON!
@@ -31,7 +32,7 @@ const Form = () => {
             For Further Enquires, You can send us a message from the textbox
             below.
           </h4>
-        </div>
+        </Box>
         <form onSubmit={handleSubmit}>
           <Box className="form">
             <Box>
