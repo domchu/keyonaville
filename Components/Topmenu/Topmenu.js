@@ -12,13 +12,13 @@ const Topmenu = () => {
             <Flex className="text-wrapper">
               <TfiTimer fontSize={20} color="#d3d3d3" />
               <Box className="text-content">
-                <p> Mon - Fri 70:00 - 4:30</p>
+                <p> Mon - Fri 70:00AM - 4:30PM</p>
               </Box>
             </Flex>
             <Flex className="text-wrapper">
               <FiPhoneCall fontSize={20} color="#d3d3d3" />
               <Box className="text-content">
-                <p> +234 (0) 703 4278 995</p>
+                <p> +234 (0) 802 3507 229</p>
               </Box>
             </Flex>
           </Flex>
@@ -32,7 +32,7 @@ const Topmenu = () => {
             <Flex className="text-wrapper">
               <BiEnvelope fontSize={20} color="#d3d3d3" />
               <Box className="text-content">
-                <p> info@keyonaville.sch.ng</p>
+                <p> keyonaville@gmail.com</p>
               </Box>
             </Flex>
           </Flex>
