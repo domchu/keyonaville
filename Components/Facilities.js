@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { Grid, Flex, Box } from "@chakra-ui/react";
+import { Grid, Box } from "@chakra-ui/react";
 import playground from "../public/images/f1.jpeg";
 import computer from "../public/images/complab.jpeg";
 import sickbay from "../public/images/sickbay.jpeg";
@@ -87,7 +87,7 @@ const Facilities = () => {
               className="fac-img"
             />
             <div className="middle">
-              <div className="faci-text">school Bus</div>
+              <div className="faci-text">School Bus</div>
             </div>
           </Box>
         </Grid>

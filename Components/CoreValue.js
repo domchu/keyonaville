@@ -40,8 +40,9 @@ const CoreValue = () => {
                 <Box className="core-value">
                   <h3>OUR VISION</h3>
                   <p className="wrap-it">
-                  To be a distinguished international school where pupils/students
-              are raised to globally relevant and are life long learners.
+                    To be a distinguished international school where
+                    pupils/students are raised to globally relevant and are life
+                    long learners.
                   </p>
                 </Box>
               </Flex>
@@ -52,9 +53,9 @@ const CoreValue = () => {
                 <Box className="core-value">
                   <h3>OUR MISSION</h3>
                   <p>
-                  Keyonavillie school is dedicated to providing a safe and warm
-              environment that stimultes creativity and problem solving skills
-              that unleash the genius in the child.
+                    Keyonavillie school is dedicated to providing a safe and
+                    warm environment that stimultes creativity and problem
+                    solving skills that unleash the genius in the child.
                   </p>
                 </Box>
               </Flex>

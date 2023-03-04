@@ -1,11 +1,28 @@
-import React from 'react'
+import React, { useState } from "react";
 import { Box } from "@chakra-ui/react";
 
 const Form = () => {
+  const [values, setValues] = useState({
+    firstname: "",
+    lastname: "",
+    email: "",
+    phonenumber: "",
+    message: "",
+  });
+
+  //using prevent default to avoid page reload.
+  const handleSubmit = (e) => {
+    e.preventDefault();
+  };
+
+  const onChange = (e) => {
+    setValues({ ...values, [e.target.name]: e.target.value });
+  };
+  // console.log(values);
   return (
     <>
       <Box className="contact-form">
-        <div className="contact-text">
+        <Box className="contact-text">
           <div className="title">
             <h2>
               <span>/</span> WE'LL BE IN TOUCH SOON!
@@ -15,44 +32,50 @@ const Form = () => {
             For Further Enquires, You can send us a message from the textbox
             below.
           </h4>
-        </div>
-        <form action="" method="post">
+        </Box>
+        <form onSubmit={handleSubmit}>
           <Box className="form">
             <Box>
-              <label htmlFor="">
+              <label>
                 <input
+                  onChange={onChange}
                   type="text"
-                  name="First Name"
-                  placeholder="First Name"
+                  name="firstname"
+                  placeholder="first Name"
+                  pattern="^[a-zA-Z0-9]{4,26}$"
                   required
                 />
               </label>
             </Box>
             <Box>
-              <label htmlFor="">
+              <label>
                 <input
+                  onChange={onChange}
                   type="text"
-                  name="First Name"
+                  name="lastName"
                   placeholder="Last Name"
+                  pattern="^[a-zA-Z0-9]{4,26}$"
                   required
                 />
               </label>
             </Box>
             <Box>
-              <label htmlFor="">
+              <label>
                 <input
-                  type="text"
-                  name="First Name"
+                  onChange={onChange}
+                  type="number"
+                  name="phonenumber"
                   placeholder="Mobile Number"
                   required
                 />
               </label>
             </Box>
             <Box>
-              <label htmlFor="">
+              <label>
                 <input
-                  type="text"
-                  name="First Name"
+                  onChange={onChange}
+                  type="email"
+                  name="email"
                   placeholder="Email Address"
                   required
                 />
@@ -61,8 +84,8 @@ const Form = () => {
           </Box>
           <Box>
             <textarea
-              name=""
-              id=""
+              onChange={onChange}
+              name="message"
               cols="40"
               rows="10"
               className="textarea"
@@ -82,4 +105,4 @@ const Form = () => {
   );
 };
 
-export default Form
+export default Form;
