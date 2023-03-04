@@ -69,6 +69,12 @@ const openDays = () => {
                 <span>Closed</span>
               </Flex>
             </li>
+            <li className={getDays == 0 ? "active" : "days"}>
+              <Flex justifyContent="space-around" paddingBottom="10px">
+                <span>Sunday</span>
+                <span>Closed</span>
+              </Flex>
+            </li>
           </ul>
         </Box>
         {/* end of the days and hours */}
