@@ -4,15 +4,18 @@ import Map from "./Map";
 
 const openDays = () => {
   const [getDays, setGetDays] = useState();
-
+  //get the current day from the new date method
   function activateDays() {
     let today = new Date();
     let currentDay = today.getDay();
     setGetDays(currentDay);
   }
+
+  // calling the activateDays method
   useEffect(() => {
     activateDays();
   }, []);
+
   return (
     <>
       <Flex
@@ -77,7 +80,6 @@ const openDays = () => {
             </li>
           </ul>
         </Box>
-        {/* end of the days and hours */}
         <Box className="map">
           <Map />
         </Box>

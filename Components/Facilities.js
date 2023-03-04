@@ -87,7 +87,7 @@ const Facilities = () => {
               className="fac-img"
             />
             <div className="middle">
-              <div className="faci-text">school Bus</div>
+              <div className="faci-text">School Bus</div>
             </div>
           </Box>
         </Grid>
