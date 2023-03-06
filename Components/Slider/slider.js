@@ -45,7 +45,7 @@ export default class Responsive extends Component {
     return (
       <>
         <Slider {...settings}>
-          <div>
+          <Box>
             <Box
               bgImage="url('./images/banner1.jpeg')"
               bgPosition="center"
@@ -54,6 +54,7 @@ export default class Responsive extends Component {
               objectFit="cover"
               maxW="100%"
               h={620}
+              m="auto"
               pos="relative"
               overflow="hidden"
             />
@@ -78,7 +79,7 @@ export default class Responsive extends Component {
                 </Link>
               </Box>
             </Box>
-          </div>
+          </Box>
           <Box>
             <Box
               bgImage="url('./images/computerlab.jpeg')"
