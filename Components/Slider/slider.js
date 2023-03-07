@@ -54,17 +54,10 @@ export default class Responsive extends Component {
               objectFit="cover"
               maxW="100%"
               h={620}
-              m="auto"
               pos="relative"
               overflow="hidden"
             />
-            <Box
-              className="banner__container"
-              pos="absolute"
-              zIndex="30"
-              top="25%"
-              fontSize={20}
-            >
+            <Box className="banner__container">
               <h1 className="banner-text"> logo</h1>
               <h2 className="banner-text">Keyonaville school</h2>
               <h3 className="banner-text special">
@@ -91,13 +84,7 @@ export default class Responsive extends Component {
               pos="relative"
               overflow="hidden"
             />
-            <Box
-              pos="absolute"
-              zIndex="30"
-              top="30%"
-              fontSize={20}
-              className="banner__container"
-            >
+            <Box className="banner__container">
               <h2 className="banner-text special">Keyonaville school</h2>
               <Box>
                 <Link href="/gallery" className="banner-btn" passhref="true">
@@ -120,13 +107,7 @@ export default class Responsive extends Component {
               pos="relative"
               overflow="hidden"
             />
-            <Box
-              pos="absolute"
-              zIndex="30"
-              top="30%"
-              fontSize={20}
-              className="banner__container"
-            >
+            <Box className="banner__container">
               <h2 className="banner-text special">Keyonaville school</h2>
               <Box>
                 <Link href="/gallery" className="banner-btn" passhref="true">
@@ -149,13 +130,7 @@ export default class Responsive extends Component {
               pos="relative"
               overflow="hidden"
             />
-            <Box
-              pos="absolute"
-              zIndex="30"
-              top="30%"
-              fontSize={20}
-              className="banner__container"
-            >
+            <Box className="banner__container">
               <h2 className="banner-text special">Keyonaville school</h2>
               <Box>
                 <Link href="/gallery" className="banner-btn" passhref="true">

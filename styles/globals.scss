@@ -923,7 +923,18 @@ input{
   transform: scale(0.9);
 }
 .banner__container{
-   margin-left: 550px;
+  //  margin-left: 550px;
+// margin-top: auto;
+width: 100%;
+display: grid;
+place-items: center;
+margin: auto;
+font-size: 20px;
+position: absolute;
+z-index: 10;
+top:30%;
+// left:50%;
+// transform: translate(-50%, -50%) !important;
 }
 @media screen and (max-width:#{$tablet-width}) {
   .banner__container{
