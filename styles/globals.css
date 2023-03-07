@@ -1014,14 +1014,12 @@ input {
 }
 
 .banner__container {
-  width: 100%;
-  display: grid;
-  place-items: center;
-  margin: auto;
-  font-size: 20px;
   position: absolute;
+  font-size: 20px;
   z-index: 10;
   top: 30%;
+  text-align: center;
+  margin-left: 620px !important;
 }
 
 @media screen and (max-width: 800px) {
