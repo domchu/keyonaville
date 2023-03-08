@@ -77,7 +77,7 @@ const Gallery = () => {
 };
 
 const TagButton = ({ name, handleSetTag }) => {
-  // change all btns text to uppercase
+  // change all btns text to uppercase/capital letter
   return (
     <button className="tags" onClick={() => handleSetTag(name)}>
       {name.toUpperCase()}

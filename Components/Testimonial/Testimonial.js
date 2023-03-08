@@ -30,7 +30,7 @@ const Testimonial = () => {
 
   return (
     <section className="section">
-     <div className="title">
+      <div className="title">
         <h2>
           <span>/</span> TESTIMONIALS
         </h2>
@@ -62,6 +62,7 @@ const Testimonial = () => {
           );
         })}
 
+        {/* the prev and next buttons */}
         <button className="prev" onClick={() => setIndex(index - 1)}>
           <FiChevronLeft />
         </button>
