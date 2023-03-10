@@ -45,7 +45,7 @@ export default class Responsive extends Component {
     return (
       <>
         <Slider {...settings}>
-          <div>
+          <Box>
             <Box
               bgImage="url('./images/banner1.jpeg')"
               bgPosition="center"
@@ -57,13 +57,7 @@ export default class Responsive extends Component {
               pos="relative"
               overflow="hidden"
             />
-            <Box
-              className="banner__container"
-              pos="absolute"
-              zIndex="30"
-              top="25%"
-              fontSize={20}
-            >
+            <Box className="banner__container">
               <h1 className="banner-text"> logo</h1>
               <h2 className="banner-text">Keyonaville school</h2>
               <h3 className="banner-text special">
@@ -71,14 +65,14 @@ export default class Responsive extends Component {
               </h3>
               <Box>
                 <Link href="/gallery" className="banner-btn" passhref="true">
-                  EXPLORE
+                  <a> EXPLORE</a>
                 </Link>
                 <Link href="/" className="banner-btn" passhref="true">
-                  Make Call
+                  <a> Make Call</a>
                 </Link>
               </Box>
             </Box>
-          </div>
+          </Box>
           <Box>
             <Box
               bgImage="url('./images/computerlab.jpeg')"
@@ -90,20 +84,14 @@ export default class Responsive extends Component {
               pos="relative"
               overflow="hidden"
             />
-            <Box
-              pos="absolute"
-              zIndex="30"
-              top="30%"
-              fontSize={20}
-              className="banner__container"
-            >
+            <Box className="banner__container">
               <h2 className="banner-text special">Keyonaville school</h2>
               <Box>
                 <Link href="/gallery" className="banner-btn" passhref="true">
-                  EXPLORE
+                  <a> EXPLORE</a>
                 </Link>
                 <Link href="/" className="banner-btn" passhref="true">
-                  Make Call
+                  <a> Make Call</a>
                 </Link>
               </Box>
             </Box>
@@ -119,20 +107,14 @@ export default class Responsive extends Component {
               pos="relative"
               overflow="hidden"
             />
-            <Box
-              pos="absolute"
-              zIndex="30"
-              top="30%"
-              fontSize={20}
-              className="banner__container"
-            >
+            <Box className="banner__container">
               <h2 className="banner-text special">Keyonaville school</h2>
               <Box>
                 <Link href="/gallery" className="banner-btn" passhref="true">
-                  EXPLORE
+                  <a> EXPLORE</a>
                 </Link>
                 <Link href="/" className="banner-btn" passhref="true">
-                  Make Call
+                  <a> Make Call</a>
                 </Link>
               </Box>
             </Box>
@@ -148,20 +130,14 @@ export default class Responsive extends Component {
               pos="relative"
               overflow="hidden"
             />
-            <Box
-              pos="absolute"
-              zIndex="30"
-              top="30%"
-              fontSize={20}
-              className="banner__container"
-            >
+            <Box className="banner__container">
               <h2 className="banner-text special">Keyonaville school</h2>
               <Box>
                 <Link href="/gallery" className="banner-btn" passhref="true">
-                  EXPLORE
+                  <a> EXPLORE</a>
                 </Link>
                 <Link href="/" className="banner-btn" passhref="true">
-                  Make Call
+                  <a> Make Call</a>
                 </Link>
               </Box>
             </Box>

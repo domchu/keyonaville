@@ -29,8 +29,8 @@ function Footer() {
                   const { id, url, text } = link;
                   return (
                     <li key={id}>
-                      <Link href={url} passhref="true">
-                        {text}
+                      <Link href={url} passhref="true" legacyBehavior>
+                        <a> {text}</a>
                       </Link>
                     </li>
                   );

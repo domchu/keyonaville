@@ -6,7 +6,6 @@ const QuestionToggle = ({ title, info }) => {
   const [showInfo, setShowInfo] = useState(false);
 
   return (
-    //articles
     <Box className="question">
       <header>
         <h4>{title}</h4>

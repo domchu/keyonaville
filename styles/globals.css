@@ -165,6 +165,8 @@ nav {
 
 .logo {
   height: 40px;
+  color: var(--button-color);
+  background-color: var(--clr-orange-600);
 }
 
 .links a {
@@ -1014,7 +1016,12 @@ input {
 }
 
 .banner__container {
-  margin-left: 550px;
+  position: absolute;
+  font-size: 20px;
+  z-index: 10;
+  top: 30%;
+  text-align: center;
+  margin-left: 620px !important;
 }
 
 @media screen and (max-width: 800px) {
@@ -1085,7 +1092,7 @@ input {
 
 .title span {
   font-size: 0.85em;
-  color: var(--clr-primary-5);
+  color: var(--clr-orange-600);
   margin-right: 1rem;
   font-weight: 700;
 }
