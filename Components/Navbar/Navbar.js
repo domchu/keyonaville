@@ -25,7 +25,6 @@ const Navbar = () => {
         <Box className="nav-center">
           {/* the logo section */}
           <Box className="nav-header">
-            {/* <Image src={logo} alt="logo" /> */}
             <h1>Logo</h1>
             <button
               className="nav-toggle"

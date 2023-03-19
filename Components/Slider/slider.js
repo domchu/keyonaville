@@ -65,10 +65,10 @@ export default class Responsive extends Component {
               </h3>
               <Box>
                 <Link href="/gallery" className="banner-btn" passhref="true">
-                  <a> EXPLORE</a>
+                  EXPLORE
                 </Link>
                 <Link href="/" className="banner-btn" passhref="true">
-                  <a> Make Call</a>
+                  Make Call
                 </Link>
               </Box>
             </Box>
@@ -88,10 +88,10 @@ export default class Responsive extends Component {
               <h2 className="banner-text special">Keyonaville school</h2>
               <Box>
                 <Link href="/gallery" className="banner-btn" passhref="true">
-                  <a> EXPLORE</a>
+                  EXPLORE
                 </Link>
                 <Link href="/" className="banner-btn" passhref="true">
-                  <a> Make Call</a>
+                  Make Call
                 </Link>
               </Box>
             </Box>
@@ -111,10 +111,10 @@ export default class Responsive extends Component {
               <h2 className="banner-text special">Keyonaville school</h2>
               <Box>
                 <Link href="/gallery" className="banner-btn" passhref="true">
-                  <a> EXPLORE</a>
+                  EXPLORE
                 </Link>
                 <Link href="/" className="banner-btn" passhref="true">
-                  <a> Make Call</a>
+                  Make Call
                 </Link>
               </Box>
             </Box>
@@ -134,10 +134,10 @@ export default class Responsive extends Component {
               <h2 className="banner-text special">Keyonaville school</h2>
               <Box>
                 <Link href="/gallery" className="banner-btn" passhref="true">
-                  <a> EXPLORE</a>
+                  EXPLORE
                 </Link>
                 <Link href="/" className="banner-btn" passhref="true">
-                  <a> Make Call</a>
+                  Make Call
                 </Link>
               </Box>
             </Box>

@@ -61,6 +61,10 @@ ul, li {
   text-align: center;
 }
 
+.footer-pages li {
+  text-align: left;
+}
+
 a {
   text-decoration: none;
 }
