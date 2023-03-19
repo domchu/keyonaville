@@ -56,7 +56,7 @@ body {
   font-size: 0.875rem;
 }
 
-ul {
+ul, li {
   list-style-type: none;
   text-align: center;
 }

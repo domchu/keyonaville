@@ -41,8 +41,8 @@ const Navbar = () => {
                 const { id, url, text } = link;
                 return (
                   <li key={id}>
-                    <Link href={url} legacyBehavior>
-                      <a> {text}</a>
+                    <Link href={url} passhref="true">
+                      {text}
                     </Link>
                   </li>
                 );
