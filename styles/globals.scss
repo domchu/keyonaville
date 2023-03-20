@@ -70,6 +70,11 @@ Variables
   .footer-pages li{
     text-align: left;
   }
+  .links li a{
+    text-transform: capitalize;
+    font-size: 1.3rem;
+    color: var(--clr-black) !important;
+  }
   a {
     text-decoration: none;
   }
@@ -148,7 +153,7 @@ Variables
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1rem;
+    padding: 2rem 1rem !important;
   }
   .nav-toggle {
     font-size: 1.5rem;
@@ -169,7 +174,7 @@ Variables
   }
 
   .links a {
-    color: var(--clr-grey-3);
+    color: var(--clr-primary-3) !important;
     font-size: 1rem;
     text-transform: capitalize;
     letter-spacing: var(--spacing);
@@ -214,7 +219,7 @@ Variables
       margin: 0 0.5rem;
       text-align: center;
       font-size: 1rem;
-      color: var(--clr-primary-1);
+      color: var(--clr-primary-3) !important;
     }
     .links li ::after {
       content: "";
@@ -1003,10 +1008,11 @@ input{
   justify-content: center;
   font-weight: 500;
   margin-top: 4rem;
+  color: var(--clr-primary-3);
 }
 .title span {
   font-size: 0.85em;
-  color: var(--clr-orange-600);
+  color: var(--clr-orange-600); 
   margin-right: 1rem;
   font-weight: 700;
 }
