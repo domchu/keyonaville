@@ -1087,6 +1087,14 @@ input {
   background-color: #88898a;
 }
 
+@media screen and (max-width: 500px) {
+  .wrapper-contact {
+    flex-direction: column;
+  }
+  .banner-openday {
+    max-width: 70%;
+  }
+}
 .title {
   text-align: center;
   margin-bottom: 2rem;

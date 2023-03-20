@@ -996,6 +996,14 @@ input{
   box-shadow: 2px 2px 2px 2px grey ,-2px -2px 2px 2px grey;
   background-color: #88898a;
 }
+@media screen and (max-width:#{$phone-width}) {
+  .wrapper-contact{
+    flex-direction: column;
+  }
+  .banner-openday{
+    max-width: 70%;
+  }
+}
 
 //testimonial css
 .title {
