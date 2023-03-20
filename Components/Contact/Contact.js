@@ -65,7 +65,6 @@ const Contact = () => {
           </Box>
         </Grid>
       </Box>
-      {/* form  */}
       <Form />
       {/* find us on social media */}
       <div className="title">
