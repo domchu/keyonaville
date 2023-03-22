@@ -183,6 +183,12 @@ nav {
   width: 100px;
 }
 
+.logo {
+  width: 150px;
+  height: auto;
+  margin-left: 7rem;
+}
+
 .links a {
   color: var(--clr-primary-3) !important;
   font-size: 1rem;
@@ -337,6 +343,9 @@ nav {
   }
 }
 @media screen and (max-width: 500px) {
+  .logo {
+    margin-left: 4rem;
+  }
   .footer-links {
     flex-direction: column;
   }
@@ -1001,7 +1010,7 @@ input {
   }
 }
 .banner-text {
-  color: var(--clr-yellow);
+  color: var(--clr-white);
   flex-wrap: wrap;
   align-items: center;
   font-family: Manrope, sans-serif !important;

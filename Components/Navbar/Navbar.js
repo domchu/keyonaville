@@ -5,7 +5,7 @@ import Image from "next/image";
 import { FaBars } from "react-icons/fa";
 import { links, social } from "../Navbar/Navdata";
 import outline from "../../public/images/outline.png";
-// import logo from "./logo.svg";
+
 
 const Navbar = () => {
   const [showLinks, setShowLinks] = useState(false);
@@ -27,7 +27,6 @@ const Navbar = () => {
           {/* the logo section */}
           <Box className="nav-header">
             <Image src={outline} className="brand-logo" alt="brand Logo" />
-            {/* <h1>Logo</h1> */}
             <button
               className="nav-toggle"
               onClick={() => setShowLinks(!showLinks)}
