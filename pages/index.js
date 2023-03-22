@@ -7,7 +7,6 @@ import Testimonial from "../Components/Testimonial/Testimonial";
 import WhyKeyona from "../Components/WhyKeyona";
 import Facilities from "../Components/Facilities";
 import Topmenu from "../Components/Topmenu/Topmenu";
-
 export default function Home() {
   return (
     <>
