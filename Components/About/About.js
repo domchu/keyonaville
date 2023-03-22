@@ -12,7 +12,7 @@ const About = () => {
       <Box className="about-us">
         <Box className="about-us-text">
           <Box className="about-1">
-            <h2>ABOUT US</h2>
+            <h1>ABOUT US</h1>
             <div className="underline"></div>
             <Text fontSize="1.3rem" color="black" className="about__quote">
               The only thing standing between you and your goal is the bullshit
