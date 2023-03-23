@@ -1465,6 +1465,7 @@ article.nextSlide {
 .gallery-images {
   height: 350px;
   width: 100%;
+  border-radius: 5px;
   cursor: pointer;
 }
 
