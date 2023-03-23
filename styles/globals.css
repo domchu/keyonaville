@@ -1478,6 +1478,7 @@ article.nextSlide {
   -moz-column-gap: 1.5rem;
        column-gap: 1.5rem;
   margin-bottom: 2rem;
+  margin-top: 1rem;
 }
 
 .image-card {

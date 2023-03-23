@@ -59,7 +59,7 @@ const Contact = () => {
             <SlSettings fontSize={45} className="contact-icon" />
             <h4>Customer service</h4>
             <p>
-              080 2350 7229 <br />
+              +234 (0) 913 1971 920 <br />
               Services @ 24/7
             </p>
           </Box>
