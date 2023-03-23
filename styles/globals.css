@@ -1292,6 +1292,7 @@ article.nextSlide {
   list-style-type: square;
   letter-spacing: 0.1rem;
   color: var(--clr-grey-5);
+  text-align: left;
 }
 
 .core-container {
