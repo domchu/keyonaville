@@ -24,7 +24,7 @@ const people = [
     name: "peter smith",
     title: "school Parent",
     quote:
-      "Drinking vinegar polaroid street art echo park, actually semiotics next level butcher master cleanse hammock flexitarian ethical paleo.",
+      "I like to take this previledge to congratulate the management of the school(Keyonaville school) for it's endless efforts. We are really feeling proud of all the teachers and the school as a whole. Teachers uses instructural materials well, one on one method, play away method, multimedia modules etc to teach and the pupils loves it.",
   },
   {
     id: 4,
