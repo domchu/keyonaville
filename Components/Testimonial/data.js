@@ -6,7 +6,7 @@ const people = [
     name: "Maria Ferguson",
     title: "school Parent",
     quote:
-      "Fingerstache umami squid, kinfolk subway tile selvage tumblr man braid viral kombucha gentrify fanny pack raclette pok pok mustache.",
+      "It is clear that our child's literacy and numeracy skills have developed considerably while under your care. Thanks you for helping him/her to develop the skills and confidence that he/she will carry forward into the next academic session.",
   },
   {
     id: 2,
