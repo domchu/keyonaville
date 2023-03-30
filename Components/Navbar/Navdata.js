@@ -12,27 +12,27 @@ export const links = [
   },
   {
     id: 2,
-    url: "/about",
+    url: "about",
     text: "About",
   },
   {
     id: 3,
-    url: "/blog",
+    url: "blog",
     text: "Blog",
   },
   {
     id: 4,
-    url: "/gallery",
+    url: "gallery",
     text: "Gallery",
   },
   {
     id: 5,
-    url: "/contact",
+    url: "contact",
     text: "Contact",
   },
   {
     id: 6,
-    url: "/faq",
+    url: "faq",
     text: "Faq",
   },
 ];
