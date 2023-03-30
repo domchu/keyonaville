@@ -1144,7 +1144,7 @@ input {
 }
 .section-center {
   margin: 0 auto;
-  margin-top: 4rem;
+  margin-top: 2rem;
   width: 90vw;
   /* have to have a height */
   height: 390px;
@@ -1181,7 +1181,6 @@ article h4 {
 .text {
   max-width: 35em;
   margin: 0 auto;
-  margin-top: 1rem;
   line-height: 1.6;
   color: var(--clr-grey-5);
 }

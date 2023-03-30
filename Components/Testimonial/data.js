@@ -33,7 +33,7 @@ const people = [
     name: "Susan Andersen",
     title: "school Parent",
     quote:
-      "Marfa af yr 3 wolf moon kogi, readymade distillery asymmetrical seitan kale chips fingerstache cloud bread mustache twee messenger bag. ",
+      "We are very satified. Our child always gets ample opportunities to explore and progress in all aspects of the school activites. The school has been successful in striking an appropraite balance between academic and co-curricular activities. ",
   },
   {
     id: 5,
@@ -42,7 +42,7 @@ const people = [
     name: "Ochu Dominic",
     title: "school Parent",
     quote:
-      "Marfa af yr 3 wolf moon kogi, readymade distillery asymmetrical seitan kale chips fingerstache cloud bread mustache twee messenger bag. ",
+      "keyonaville school is doing excellent in all fields especially giving a lot of exposure to pupils. very nicely planned and organised academic programme. Good efforts by all teachers. I am very grateful to all the teachers, coordinator and headTeacher. I feel that my dicision was right in sending my child to keyonaville school. keep it up! l wish a great success to the keyonaville school.",
   },
 ];
 
