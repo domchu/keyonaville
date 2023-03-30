@@ -15,7 +15,7 @@ const people = [
     name: "Okafor Emmanuel",
     title: "school Parent",
     quote:
-      "Gastropub sustainable tousled prism occupy. Viral XOXO roof party brunch actually, chambray listicle microdosing put a bird on it paleo subway tile squid umami.",
+      "We didn't want a teacher who simply educates our child. We wanted someone who cares for our child/children. By helping our son / daughter develop his/her social skills and feel confident in your classroom, you have been exactly what we were looking for. We couldn't be more thankful that we have had you in our lives.",
   },
   {
     id: 3,
