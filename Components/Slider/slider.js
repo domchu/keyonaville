@@ -124,7 +124,7 @@ export default class Responsive extends Component {
           </Box>
           <Box>
             <Box
-              bgImage="url('./images/classroom.jpeg')"
+              bgImage="url('./images/banner4.jpg')"
               bgPosition="center"
               bgRepeat="no-repeat"
               bgSize="cover"

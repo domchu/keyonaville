@@ -4,7 +4,7 @@ import { Box, Flex } from "@chakra-ui/react";
 import { RiBookLine } from "react-icons/ri";
 import { TfiPencil } from "react-icons/tfi";
 import { GiFlowerPot } from "react-icons/gi";
-import students from "../public/images/nature8.jpg";
+import pupils from "../public/images/pupils.jpg";
 
 const CoreValue = () => {
   return (
@@ -62,7 +62,7 @@ const CoreValue = () => {
             </Box>
             <Box>
               <Image
-                src={students}
+                src={pupils}
                 alt="Students"
                 height={600}
                 width={500}
