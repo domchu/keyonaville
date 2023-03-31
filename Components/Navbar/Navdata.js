@@ -17,21 +17,16 @@ export const links = [
   },
   {
     id: 3,
-    url: "blog",
-    text: "Blog",
-  },
-  {
-    id: 4,
     url: "gallery",
     text: "Gallery",
   },
   {
-    id: 5,
+    id: 4,
     url: "contact",
     text: "Contact",
   },
   {
-    id: 6,
+    id: 5,
     url: "faq",
     text: "Faq",
   },
