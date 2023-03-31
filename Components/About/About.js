@@ -2,9 +2,8 @@ import React from "react";
 import { Box, Flex, Text } from "@chakra-ui/react";
 import Link from "next/link";
 import Image from "next/image";
-import nature16 from "../../public/images/nature16.jpg";
-import nature17 from "../../public/images/nature17.jpg";
-
+import boysuniform from "../../public/images/boysuniform.jpg";
+import girlsuniform from "../../public/images/girlsuniform.jpg";
 
 const About = () => {
   return (
@@ -62,7 +61,7 @@ const About = () => {
           <Flex className="sm-screen">
             <Box className="contact-image-container">
               <Image
-                src={nature16}
+                src={boysuniform}
                 alt="nature"
                 height="500px"
                 width="400px"
@@ -76,7 +75,7 @@ const About = () => {
               <Image
                 height="500px"
                 width="400px"
-                src={nature17}
+                src={girlsuniform}
                 alt="nature"
                 className="contact-img"
               />
