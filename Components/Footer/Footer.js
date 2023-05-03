@@ -29,8 +29,8 @@ function Footer() {
                   const { id, url, text } = link;
                   return (
                     <li key={id}>
-                      <Link href={url} passhref="true" legacyBehavior>
-                        <a> {text}</a>
+                      <Link href={url} passhref="true">
+                        {text}
                       </Link>
                     </li>
                   );
@@ -72,7 +72,8 @@ function Footer() {
         </Flex>
         <Box pt={40} textAlign="center" fontSize={20}>
           <p>
-            &copy; 2023 Keyonaville school. All rights reserved | Powered by
+            &copy; 2023 Keyonaville school. All rights reserved | Powered by Mr
+            Ochu Dominic
           </p>
         </Box>
       </Box>

@@ -1,8 +1,10 @@
 import React, { Component } from "react";
 import { Box, Link } from "@chakra-ui/react";
+import Image from "next/image";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import logo from "../../public/images/outline.png";
 
 export default class Responsive extends Component {
   render() {
@@ -58,17 +60,18 @@ export default class Responsive extends Component {
               overflow="hidden"
             />
             <Box className="banner__container">
-              <h1 className="banner-text"> logo</h1>
+              {/* <h1 className="banner-text"> logo</h1> */}
+              <Image src={logo} className="logo banner-text" alt="brand Logo" />
               <h2 className="banner-text">Keyonaville school</h2>
               <h3 className="banner-text special">
                 Nursery, Primary & College
               </h3>
               <Box>
                 <Link href="/gallery" className="banner-btn" passhref="true">
-                  <a> EXPLORE</a>
+                  EXPLORE
                 </Link>
                 <Link href="/" className="banner-btn" passhref="true">
-                  <a> Make Call</a>
+                  Make Call
                 </Link>
               </Box>
             </Box>
@@ -88,17 +91,17 @@ export default class Responsive extends Component {
               <h2 className="banner-text special">Keyonaville school</h2>
               <Box>
                 <Link href="/gallery" className="banner-btn" passhref="true">
-                  <a> EXPLORE</a>
+                  EXPLORE
                 </Link>
                 <Link href="/" className="banner-btn" passhref="true">
-                  <a> Make Call</a>
+                  Make Call
                 </Link>
               </Box>
             </Box>
           </Box>
           <Box>
             <Box
-              bgImage="url('./images/playground.jpeg')"
+              bgImage="url('./images/banner3.jpg')"
               bgPosition="center"
               bgRepeat="no-repeat"
               bgSize="cover"
@@ -111,17 +114,17 @@ export default class Responsive extends Component {
               <h2 className="banner-text special">Keyonaville school</h2>
               <Box>
                 <Link href="/gallery" className="banner-btn" passhref="true">
-                  <a> EXPLORE</a>
+                  EXPLORE
                 </Link>
                 <Link href="/" className="banner-btn" passhref="true">
-                  <a> Make Call</a>
+                  Make Call
                 </Link>
               </Box>
             </Box>
           </Box>
           <Box>
             <Box
-              bgImage="url('./images/classroom.jpeg')"
+              bgImage="url('./images/banner4.jpg')"
               bgPosition="center"
               bgRepeat="no-repeat"
               bgSize="cover"
@@ -134,10 +137,10 @@ export default class Responsive extends Component {
               <h2 className="banner-text special">Keyonaville school</h2>
               <Box>
                 <Link href="/gallery" className="banner-btn" passhref="true">
-                  <a> EXPLORE</a>
+                  EXPLORE
                 </Link>
                 <Link href="/" className="banner-btn" passhref="true">
-                  <a> Make Call</a>
+                  Make Call
                 </Link>
               </Box>
             </Box>

@@ -10,7 +10,7 @@ const Map = () => {
           width="820px"
           height="400px"
           loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
+          // referrerpolicy="no-referrer-when-downgrade"
         ></iframe>
       </Box>
     </>

@@ -4,7 +4,8 @@ import Link from "next/link";
 import Image from "next/image";
 import { FaBars } from "react-icons/fa";
 import { links, social } from "../Navbar/Navdata";
-// import logo from "./logo.svg";
+import outline from "../../public/images/outline.png";
+
 
 const Navbar = () => {
   const [showLinks, setShowLinks] = useState(false);
@@ -25,8 +26,7 @@ const Navbar = () => {
         <Box className="nav-center">
           {/* the logo section */}
           <Box className="nav-header">
-            {/* <Image src={logo} alt="logo" /> */}
-            <h1>Logo</h1>
+            <Image src={outline} className="brand-logo" alt="brand Logo" />
             <button
               className="nav-toggle"
               onClick={() => setShowLinks(!showLinks)}
@@ -41,8 +41,8 @@ const Navbar = () => {
                 const { id, url, text } = link;
                 return (
                   <li key={id}>
-                    <Link href={url} legacyBehavior>
-                      <a> {text}</a>
+                    <Link href={url} passhref="true">
+                      {text}
                     </Link>
                   </li>
                 );

@@ -1,35 +1,18 @@
 import React from "react";
 import { Flex } from "@chakra-ui/react";
 import Image from "next/image";
-// import Logowhite from "../../public/images/logowhite.jpeg";
-// import Logoblack from "../../public/images/logoblack.jpeg";
-import Logoyellow from "../../public/images/logoyellow.jpeg";
+import footerlogo from "../../public/images/footerlogo.png";
 const Logo = () => {
   return (
     <>
       <Flex>
         <Image
-          src={Logoyellow}
+          src={footerlogo}
           alt="logo"
           width="100px"
-          height="100px"
-          border-radius="50%"
-          className="logo-img"
+          className="footer-logo"
+          height="auto"
         />
-        {/* <Image
-          src={Logoblack}
-          alt="logo"
-          width="100px"
-          height="100px"
-          className="logo-img"
-        /> */}
-        {/* <Image
-          src={Logowhite}
-          alt="logo"
-          width="100px"
-          height="100px"
-          className="logo-img"
-        /> */}
       </Flex>
     </>
   );
