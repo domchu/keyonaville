@@ -1,66 +1,50 @@
-import {
-  FaFacebook,
-  FaInstagram,
-  FaTwitter,
-  FaWhatsapp,
-} from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
 export const links = [
   {
     id: 1,
     url: "/",
-    text: "HOME",
+    text: "Home",
   },
   {
     id: 2,
     url: "/about",
-    text: "ABOUT",
+    text: "About",
   },
   {
     id: 3,
-    url: "/blog",
-    text: "BLOG",
+    url: "/gallery",
+    text: "Gallery",
   },
   {
     id: 4,
-    url: "/gallery",
-    text: "GALLERY",
+    url: "/contact",
+    text: "Contact",
   },
   {
     id: 5,
-    url: "/contact",
-    text: "CONTACT",
-  },
-  {
-    id: 6,
     url: "/faq",
-    text: "FAQ",
+    text: "Faq",
   },
 ];
 
 export const social = [
   {
     id: 1,
-    url: "https://www.facebook.com/",
+    url: "https://facebook.com/keyonavilleschool",
     icon: <FaFacebook />,
     iconName: "FACEBOOK",
   },
   {
     id: 2,
-    url: "https://www.twitter.com/",
+    url: "https://www.twitter.com/keyonavill87975",
     icon: <FaTwitter />,
     iconName: "TWITTER",
   },
 
   {
     id: 3,
-    url: "https://www.instagram.com/",
+    url: "https://www.instagram.com/keyonaville/",
     icon: <FaInstagram />,
     iconName: "INSTAGRAM",
-  },
-  {
-    id: 4,
-    url: "https://www.whatsapp.com/",
-    icon: <FaWhatsapp />,
-    iconName: "WHATSHAPP",
   },
 ];

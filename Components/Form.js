@@ -6,7 +6,7 @@ const Form = () => {
     firstname: "",
     lastname: "",
     email: "",
-    phonenumber: "",
+    tel: "",
     message: "",
   });
 
@@ -42,7 +42,7 @@ const Form = () => {
                   type="text"
                   name="firstname"
                   placeholder="first Name"
-                  pattern="^[a-zA-Z0-9]{4,26}$"
+                  pattern="^[a-zA-Z]{4,26}$"
                   required
                 />
               </label>
@@ -54,7 +54,7 @@ const Form = () => {
                   type="text"
                   name="lastName"
                   placeholder="Last Name"
-                  pattern="^[a-zA-Z0-9]{4,26}$"
+                  pattern="^[a-zA-Z]{4,26}$"
                   required
                 />
               </label>
@@ -63,8 +63,10 @@ const Form = () => {
               <label>
                 <input
                   onChange={onChange}
-                  type="number"
-                  name="phonenumber"
+                  type="tel"
+                  id="tel"
+                  pattern="/^[-+]?[0-9]{6, 16}+$/"
+                  name="tel"
                   placeholder="Mobile Number"
                   required
                 />

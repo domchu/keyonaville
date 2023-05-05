@@ -4,7 +4,7 @@ import { Box, Flex } from "@chakra-ui/react";
 import { RiBookLine } from "react-icons/ri";
 import { TfiPencil } from "react-icons/tfi";
 import { GiFlowerPot } from "react-icons/gi";
-import students from "../public/images/nature8.jpg";
+import pupils from "../public/images/pupils.jpg";
 
 const CoreValue = () => {
   return (
@@ -41,8 +41,8 @@ const CoreValue = () => {
                   <h3>OUR VISION</h3>
                   <p className="wrap-it">
                     To be a distinguished international school where
-                    pupils/students are raised to globally relevant and are life
-                    long learners.
+                    pupils/students are raised to be globally relevant and are
+                    life long learners.
                   </p>
                 </Box>
               </Flex>
@@ -62,11 +62,12 @@ const CoreValue = () => {
             </Box>
             <Box>
               <Image
-                src={students}
+                src={pupils}
                 alt="Students"
                 height={600}
                 width={500}
                 className="students-img"
+                loading="lazy"
               />
             </Box>
           </Box>

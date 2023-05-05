@@ -22,7 +22,7 @@ const Testimonial = () => {
   useEffect(() => {
     let slider = setInterval(() => {
       setIndex(index + 1);
-    }, 5000);
+    }, 7000);
     return () => {
       clearInterval(slider);
     };
@@ -53,7 +53,12 @@ const Testimonial = () => {
           //* mapping the json/data to the dom.
           return (
             <article className={position} key={id}>
-              <img src={image} alt={name} className="person-img" />
+              {/* <img
+                src={image}
+                alt={name}
+                className="person-img"
+                loading="lazy"
+              /> */}
               <h4>{name}</h4>
               <p className="title">{title} </p>
               <p className="text">{quote} </p>

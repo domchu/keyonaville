@@ -17,8 +17,15 @@ const WhyKeyona = () => {
               Quality Learning <span style={{ fontSize: "2rem" }}>&#9758;</span>
             </h4>
             <p>
-              A school where high moral and quality learning is built in the
-              life of our future generations.
+              {/* At keyonaville school, special care is taken to promote the
+              virtues of personal integrity, modesty, sense of responsibility
+              and moral uprightness.
+              <br /> */}
+              A comprehensive curriculum designed to provide quality learning
+              expirences that mold our pupils/students into global and upright
+              citizens.
+              <br />
+              Moral education at the school is based in christian principles
             </p>
           </Box>
           <Box className="why-text">
@@ -27,8 +34,8 @@ const WhyKeyona = () => {
               <span style={{ fontSize: "1.7rem" }}>&#9836;</span>
             </h4>
             <p>
-              A school where our future generations are developed with a
-              critical mind set to become problem solvers in our society.
+              A learning experience that fosters critical thinking, preparing
+              our children to solve world/real life problems
             </p>
           </Box>
           <Box className="why-text">
@@ -37,8 +44,9 @@ const WhyKeyona = () => {
               <span style={{ fontSize: "1.7rem" }}>&#9885;</span>
             </h4>
             <p>
-              A school where high innovative teaching and learning is given at
-              an affordable tuition
+              Creating teaching experiences that encourage creativity and
+              innovation in our pupils/students by utilizing massive 21st
+              centurey teaching methodology.
             </p>
           </Box>
           <Box className="why-text">
@@ -47,18 +55,19 @@ const WhyKeyona = () => {
               <span style={{ fontSize: "1.7rem" }}>&#9788;</span>
             </h4>
             <p>
-              A school where high moral and quality learning is built in the
-              life of our future generations.
+              A safe and orderly environment that caters for all sorts of
+              learners, as well as a conducive environment with a pleasant
+              atmosphere that encourages productive learning.
             </p>
           </Box>
           <Box className="why-text">
             <h4>
-              Experience Teachers
+              Experienced Teachers
               <span style={{ fontSize: "1.7rem" }}>&#8594;</span>
             </h4>
             <p>
-              A school where high moral and quality learning is built in the
-              life of our future generations.
+              Highly equipped teachers with vast knowledge of the 21st century
+              teaching methodology.
             </p>
           </Box>
           <Box className="why-text">
@@ -67,8 +76,9 @@ const WhyKeyona = () => {
               <span style={{ fontSize: "1.7rem" }}>&#9883;</span>
             </h4>
             <p>
-              A school where high moral and quality learning is built in the
-              life of our future generations.
+              A pedagogy that encourages critical thinking, creative thinking
+              and problem-solving skills in our pupils/students, resulting in
+              logical arguments.
             </p>
           </Box>
         </Box>

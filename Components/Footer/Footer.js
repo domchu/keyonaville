@@ -1,12 +1,16 @@
 import React from "react";
 import { Box, Flex } from "@chakra-ui/react";
 import Link from "next/link";
+// import NavLink from "next/link";
 import { FcSmartphoneTablet } from "react-icons/fc";
 import { BsEnvelope } from "react-icons/bs";
-import { links, social } from "../Navbar/Navdata";
+import { social } from "../Navbar/Navdata";
 import Logo from "../Brand/Logo";
+import { useRouter } from 'next/router';
 
 function Footer() {
+  const router = useRouter();
+  const currentRoute = router.pathname;
   return (
     <>
       <Box className="footer">
@@ -19,22 +23,56 @@ function Footer() {
             alignItems="center"
           >
             <Logo />
-            <h2>Keyonaville Nursery & Primary School </h2>
           </Flex>
           <Flex className="footer-links" justifyContent="center">
             <Box className="footeritems">
               <h2>PAGES</h2>
               <Box className="footer-pages">
-                {links.map((link) => {
-                  const { id, url, text } = link;
-                  return (
-                    <li key={id}>
-                      <Link href={url} passhref="true" legacyBehavior>
-                        <a> {text}</a>
-                      </Link>
-                    </li>
-                  );
-                })}
+                <li>
+                  <Link
+                    href="/"
+                    className={currentRoute == "/" ? "active" : ""}
+                    passhref="true"
+                  >
+                    Home
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/about"
+                    className={currentRoute == "/about" ? "active" : ""}
+                    passhref="true"
+                  >
+                    About
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/gallery"
+                    className={currentRoute == "/gallery" ? "active" : ""}
+                    passhref="true"
+                  >
+                    Gallery
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/contact"
+                    className={currentRoute == "/contact" ? "active" : ""}
+                    passhref="true"
+                  >
+                    Contact
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/faq"
+                    className={currentRoute == "/faq" ? "active" : ""}
+                    passhref="true"
+                  >
+                    Faq
+                  </Link>
+                </li>
               </Box>
             </Box>
             <Box className="footeritems">
@@ -58,7 +96,7 @@ function Footer() {
                     const { id, url, icon, iconName } = socialIcon;
                     return (
                       <li key={id}>
-                        <Link href={url} passhref="true">
+                        <Link href={url} passhref="true" traget="_blank">
                           {icon}
                           {iconName}
                         </Link>
@@ -70,9 +108,18 @@ function Footer() {
             </Box>
           </Flex>
         </Flex>
-        <Box pt={40} textAlign="center" fontSize={20}>
+        {/* the copy right texts, the designer and company links */}
+        <Box pt={40} textAlign="center" fontSize={20} className="copy-right">
           <p>
-            &copy; 2023 Keyonaville school. All rights reserved | Powered by
+            &copy; 2023 Keyonaville school. All rights reserved | Designed and
+            developed by
+            <Link href="/" target="_blank" className="designer">
+              Ochu Dominic
+            </Link>
+            Powered by
+            <Link href="/" target="_blank" className="designer">
+              jaflah.com
+            </Link>
           </p>
         </Box>
       </Box>

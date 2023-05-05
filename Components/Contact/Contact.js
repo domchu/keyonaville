@@ -34,30 +34,37 @@ const Contact = () => {
           <Box>
             <SlLocationPin fontSize={45} className="contact-icon" />
             <h4>keyonaville school</h4>
-            <p>No_17 chukwuma street </p>
-            <p>Afromedia Lagos state, Nigeria</p>
+            <p>
+              No.8-10 Odinika street, Afromedia <br />
+              Ojo - Lagos state, Nigeria
+            </p>
           </Box>
           <Box>
             <SlEarphones fontSize={45} className="contact-icon" />
             <h4>Let’s talk on Phone</h4>
-            <p>Phone: 1-800-222-000 </p>
-            <p>Fax: 1-800-222-002</p>
+            <p>
+              Phone: 08-023-507-229 <br />
+              Phone: 09-131-971-920
+            </p>
           </Box>
           <Box>
             <SlEnvolope fontSize={45} className="contact-icon" />
             <h4>Email address(s)</h4>
-            <p>info@yourdomain.com</p>
-            <p>hr@yourdomain.com</p>
+            <p>
+              keyonaville@gmail.com <br />
+              keyonavilleschools.com.ng
+            </p>
           </Box>
           <Box>
             <SlSettings fontSize={45} className="contact-icon" />
             <h4>Customer service</h4>
-            <p>Lorem ipsum is simply</p>
-            <p>dummy the printing</p>
+            <p>
+              +234 (0) 913 1971 920 <br />
+              Services @ 24/7
+            </p>
           </Box>
         </Grid>
       </Box>
-      {/* form  */}
       <Form />
       {/* find us on social media */}
       <div className="title">
@@ -73,12 +80,12 @@ const Contact = () => {
         <Box>
           <ul className="social-icons social__icons__small">
             <li>
-              <Link href="https://www.facebook.com/">
+              <Link href="https://facebook.com/keyonavilleschool">
                 <FaFacebook />
               </Link>
             </li>
             <li>
-              <Link href="https://www.twitter.com/">
+              <Link href="https://www.twitter.com/keyonavill87975">
                 <FaTwitter />
               </Link>
             </li>
