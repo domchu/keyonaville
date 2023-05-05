@@ -80,7 +80,7 @@ export default class Responsive extends Component {
                   className="banner-btn"
                   passhref="true"
                 >
-                  Make Call
+                  Contact Us
                 </Link>
               </Box>
             </Box>
@@ -102,10 +102,18 @@ export default class Responsive extends Component {
                 A Partnership In Discovery.
               </h2>
               <Box>
-                <Link href="/" className="banner-btn" passhref="true">
+                <Link
+                  href="https://facebook.com/keyonavilleschool"
+                  className="banner-btn"
+                  passhref="true"
+                >
                   Facebook
                 </Link>
-                <Link href="/" className="banner-btn" passhref="true">
+                <Link
+                  href="https://www.instagram.com/keyonaville/"
+                  className="banner-btn"
+                  passhref="true"
+                >
                   Instagram
                 </Link>
               </Box>
@@ -131,7 +139,11 @@ export default class Responsive extends Component {
                 <Link href="/contact" className="banner-btn" passhref="true">
                   Contact
                 </Link>
-                <Link href="/contact" className="banner-btn" passhref="true">
+                <Link
+                  href="milito=keyonavilleschool@gmail.com"
+                  className="banner-btn"
+                  passhref="true"
+                >
                   Email
                 </Link>
               </Box>
@@ -162,7 +174,7 @@ export default class Responsive extends Component {
                   className="banner-btn"
                   passhref="true"
                 >
-                  Make Call
+                  Contact Us
                 </Link>
               </Box>
             </Box>

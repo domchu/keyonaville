@@ -7,7 +7,7 @@ import {
   SlSettings,
 } from "react-icons/sl";
 import Link from "next/link";
-import { FaFacebook, FaTwitter, FaInstagram, FaWhatsapp } from "react-icons/fa";
+import { FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
 import Form from "../Form";
 
 const Contact = () => {
@@ -35,7 +35,7 @@ const Contact = () => {
             <SlLocationPin fontSize={45} className="contact-icon" />
             <h4>keyonaville school</h4>
             <p>
-              No.8-10 Odinika street, Afromedia <br />
+              No.9-10 Odinika street, Afromedia <br />
               Ojo - Lagos state, Nigeria
             </p>
           </Box>
@@ -51,7 +51,7 @@ const Contact = () => {
             <SlEnvolope fontSize={45} className="contact-icon" />
             <h4>Email address(s)</h4>
             <p>
-              keyonaville@gmail.com <br />
+              keyonavilleschool@gmail.com <br />
               keyonavilleschools.com.ng
             </p>
           </Box>
@@ -90,13 +90,8 @@ const Contact = () => {
               </Link>
             </li>
             <li>
-              <Link href="https://www.instagram.com/">
+              <Link href="https://www.instagram.com/keyonaville/">
                 <FaInstagram />
-              </Link>
-            </li>
-            <li>
-              <Link href="https://www.whatsapp.com/">
-                <FaWhatsapp />
               </Link>
             </li>
           </ul>

@@ -1,7 +1,6 @@
 import React from "react";
 import { Box, Flex } from "@chakra-ui/react";
 import Link from "next/link";
-// import NavLink from "next/link";
 import { FcSmartphoneTablet } from "react-icons/fc";
 import { BsEnvelope } from "react-icons/bs";
 import { social } from "../Navbar/Navdata";
