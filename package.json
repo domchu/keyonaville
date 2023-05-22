@@ -1,6 +1,6 @@
 {
   "name": "keyonavillie",
-  "homepage":"keyonavillieschools.com.ng",
+  "homepage": "keyonavillieschools.com.ng",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -15,6 +15,7 @@
     "@emotion/styled": "^11.10.5",
     "framer-motion": "^8.5.3",
     "next": "13.1.5",
+    "next-seo": "^6.0.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-icons": "^4.7.1",
