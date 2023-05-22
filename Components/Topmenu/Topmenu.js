@@ -32,7 +32,12 @@ const Topmenu = () => {
             <Flex className="text-wrapper">
               <BiEnvelope fontSize={20} color="#d3d3d3" />
               <Box className="text-content">
-                <p> keyonaville@gmail.com</p>
+                <Link
+                  href="mailto:keyonavilleschools.com.ng/webmail"
+                  style={{ color: "#cccccc" }}
+                >
+                  info@keyonavilleschools.com.ng
+                </Link>
               </Box>
             </Flex>
           </Flex>

@@ -51,8 +51,8 @@ const Contact = () => {
             <SlEnvolope fontSize={45} className="contact-icon" />
             <h4>Email address(s)</h4>
             <p>
-              keyonaville@gmail.com <br />
-              keyonavilleschools.com.ng
+              keyonavilleschool@gmail.com <br />
+              info@keyonavilleschools.com.ng
             </p>
           </Box>
           <Box>

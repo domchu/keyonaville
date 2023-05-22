@@ -84,7 +84,9 @@ function Footer() {
                 </div>
                 <div>
                   <BsEnvelope className="contact" />
-                  <p>info@keyonaville.sch.ng</p>
+                  <Link href="mailto:keyonavilleschools.com.ng/webmail">
+                    info@keyonavilleschools.com.ng
+                  </Link>
                 </div>
               </Box>
             </Box>

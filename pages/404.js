@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import Head from "next/head";
 import { useRouter } from "next/router";
 import Link from "next/link";
 import { Grid, Box } from "@chakra-ui/react";
