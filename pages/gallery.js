@@ -1,5 +1,3 @@
-import Head from "next/head";
-import Image from "next/image";
 import Footer from "../Components/Footer/Footer";
 import Navbar from "../Components/Navbar/Navbar";
 import Gallery from "../Components/Gallery/Gallery";
@@ -12,7 +10,7 @@ export default function gallery() {
     <>
       <DefaultSeo
         title="Gallery | keyonaville school"
-        description=""
+        description="Explore more from our image gallery for your better experience"
         {...SEO}
       />
       <Topmenu />

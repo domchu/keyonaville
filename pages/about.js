@@ -1,4 +1,3 @@
-import Head from "next/head";
 import About from "../Components/About/About";
 import Footer from "../Components/Footer/Footer";
 import Navbar from "../Components/Navbar/Navbar";
@@ -11,7 +10,7 @@ export default function about() {
     <>
       <DefaultSeo
         title="About Us | keyonaville school"
-        description=""
+        description="General information, birth, year & operations about keyonaville school"
         {...SEO}
       />
       <Topmenu />

@@ -2,6 +2,7 @@ import { Box, Flex } from "@chakra-ui/react";
 import { TfiLocationPin, TfiTimer } from "react-icons/tfi";
 import { BiEnvelope } from "react-icons/bi";
 import { FiPhoneCall } from "react-icons/fi";
+import Link from "next/link";
 
 const Topmenu = () => {
   return (

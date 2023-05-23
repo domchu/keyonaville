@@ -12,7 +12,7 @@ export default function contact() {
     <>
       <DefaultSeo
         title="Contact Us | keyonaville school"
-        description=""
+        description="The various medium  to inquire about the keyonaville school or get across to the school administrator"
         {...SEO}
       />
       <Topmenu />

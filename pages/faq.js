@@ -1,4 +1,3 @@
-import Head from "next/head";
 import { Box } from "@chakra-ui/react";
 import Navbar from "./../Components/Navbar/Navbar";
 import Faq from "../Components/Faq/Faq";
@@ -10,7 +9,11 @@ import SEO from "../next-seo.config";
 export default function faq() {
   return (
     <>
-      <DefaultSeo title="Faq | keyonaville school" description="" {...SEO} />
+      <DefaultSeo
+        title="Faq | keyonaville school"
+        description="Frequently asked questions about keyonaville school from our beloved parents"
+        {...SEO}
+      />
       <Topmenu />
       <Navbar />
       <Box className="faq-container">

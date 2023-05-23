@@ -2,7 +2,16 @@
 import React from "react";
 import { extendTheme } from "@chakra-ui/react";
 import "../styles/globals.css";
+import { DefaultSeo } from "next-seo";
+import SEO from "../next-seo.config";
 
+const linkTags = [
+  {
+    rel: "icon",
+    href: "/favwhite.png",
+    sizes: "76x76",
+  },
+];
 // const colors = {
 //   brand: {
 //     900: "#1a365d",
@@ -34,8 +43,13 @@ const theme = extendTheme({
 
 function MyApp({ Component, pageProps }) {
   // <ChakraProvider theme={theme}>
-  return <Component {...pageProps} />; //{" "}
-  // </ChakraProvider>;
+  return (
+    <>
+      <DefaultSeo additionalLinkTags={linkTags} {...SEO} />
+      <Component {...pageProps} />; //
+      {/* // </ChakraProvider>; */}
+    </>
+  );
 }
 
 export default MyApp;
