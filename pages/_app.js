@@ -8,7 +8,7 @@ import SEO from "../next-seo.config";
 const linkTags = [
   {
     rel: "icon",
-    href: "/favwhite.png",
+    href: "/favblack.png",
     sizes: "76x76",
   },
 ];

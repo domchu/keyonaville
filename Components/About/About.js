@@ -63,7 +63,7 @@ const About = () => {
             <Box className="contact-image-container">
               <Image
                 src={boysuniform}
-                alt="nature"
+                alt="school boy with boy's uniform"
                 height="500px"
                 width="400px"
                 className="contact-img"
@@ -77,7 +77,7 @@ const About = () => {
                 height="500px"
                 width="400px"
                 src={girlsuniform}
-                alt="nature"
+                alt="school girls with girl's uniform"
                 className="contact-img"
               />
               <Box className="contact__img__text">

@@ -63,7 +63,7 @@ const CoreValue = () => {
             <Box>
               <Image
                 src={pupils}
-                alt="Students"
+                alt="pupils going to school with school bags"
                 height={600}
                 width={500}
                 className="students-img"

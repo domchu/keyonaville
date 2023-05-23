@@ -8,7 +8,6 @@ import {
 } from "react-icons/sl";
 import Link from "next/link";
 import { FaFacebook, FaTwitter, FaInstagram, FaWhatsapp } from "react-icons/fa";
-import Form from "../Form";
 
 const Contact = () => {
   return (
@@ -65,7 +64,6 @@ const Contact = () => {
           </Box>
         </Grid>
       </Box>
-      <Form />
       {/* find us on social media */}
       <div className="title">
         <h2>

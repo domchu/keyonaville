@@ -89,7 +89,7 @@ const Gallery = () => {
                 <Image
                   // the images must be in public
                   src={`/assets/${image.imageName}`}
-                  alt="Gallery Images"
+                  alt="children playing, pupils runing, school facilities, school buses, graduation ceremonies"
                   height={200}
                   width={200}
                   className="gallery-images"

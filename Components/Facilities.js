@@ -21,7 +21,7 @@ const Facilities = () => {
           <Box className="img-container">
             <Image
               src={banner3}
-              alt="Playground"
+              alt="Playground with pupils and teacher playing"
               height="200px"
               width="250px"
               className="fac-img"
@@ -34,7 +34,7 @@ const Facilities = () => {
           <Box className="img-container">
             <Image
               src={Library}
-              alt="Playground"
+              alt="library with pupils reading books"
               height="200px"
               width="250px"
               className="fac-img"
@@ -47,7 +47,7 @@ const Facilities = () => {
           <Box className="img-container">
             <Image
               src={computer}
-              alt="Playground"
+              alt="Computer lab with laptops"
               height="200px"
               width="250px"
               className="fac-img"
@@ -60,7 +60,7 @@ const Facilities = () => {
           <Box className="img-container">
             <Image
               src={sickbay}
-              alt="Playground"
+              alt="Sick bay"
               height="200px"
               width="250px"
               className="fac-img"
@@ -73,7 +73,7 @@ const Facilities = () => {
           <Box className="img-container">
             <Image
               src={classroom}
-              alt="Playground"
+              alt="Class room with desk"
               height="200px"
               width="250px"
               className="fac-img"
@@ -86,7 +86,7 @@ const Facilities = () => {
           <Box className="img-container">
             <Image
               src={schbus}
-              alt="Playground"
+              alt="school bus"
               height="200px"
               width="250px"
               className="fac-img"
