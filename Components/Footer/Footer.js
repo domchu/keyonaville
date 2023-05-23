@@ -114,7 +114,11 @@ function Footer() {
           <p>
             &copy; 2023 Keyonaville school. All rights reserved | Designed and
             developed by
-            <Link href="/" target="_blank" className="designer">
+            <Link
+              href="https://www.linkedin.com/in/dominic-ochu-470a8418a/"
+              target="_blank"
+              className="designer"
+            >
               Ochu Dominic
             </Link>
             Powered by
