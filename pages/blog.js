@@ -11,7 +11,7 @@ export default function blog() {
   return (
     <>
       <DefaultSeo
-        title="About Us | keyonaville school"
+        title="About Us | keyonaville schools"
         description=""
         {...SEO}
       />

@@ -11,7 +11,7 @@ export default function contact() {
   return (
     <>
       <DefaultSeo
-        title="Contact Us | keyonaville school"
+        title="Contact Us | keyonaville schools"
         description="The various medium  to inquire about the keyonaville school or get across to the school administrator"
         {...SEO}
       />

@@ -10,7 +10,7 @@ export default function faq() {
   return (
     <>
       <DefaultSeo
-        title="Faq | keyonaville school"
+        title="Faq | keyonaville schools"
         description="Frequently asked questions about keyonaville school from our beloved parents"
         {...SEO}
       />

@@ -11,7 +11,11 @@ import SEO from "../next-seo.config";
 export default function Home() {
   return (
     <>
-      <DefaultSeo title="Home | keyonaville school" description="" {...SEO} />
+      <DefaultSeo
+        title="Home | keyonaville schools"
+        description="Educational institution for pupils/students across globe"
+        {...SEO}
+      />
       <Topmenu />
       <Navbar />
       <Slider />

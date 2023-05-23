@@ -10,7 +10,7 @@ export default function about() {
     <>
       <DefaultSeo
         title="About Us | keyonaville school"
-        description="General information, birth, year & operations about keyonaville school"
+        description="General information, birth, year & operations about keyonaville schools"
         {...SEO}
       />
       <Topmenu />

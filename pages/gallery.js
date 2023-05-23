@@ -9,7 +9,7 @@ export default function gallery() {
   return (
     <>
       <DefaultSeo
-        title="Gallery | keyonaville school"
+        title="Gallery | keyonaville schools"
         description="Explore more from our image gallery for your better experience"
         {...SEO}
       />

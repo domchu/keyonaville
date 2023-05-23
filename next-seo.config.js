@@ -3,7 +3,7 @@ export default {
     type: "website",
     locale: "en_IE",
     url: "https://www.keyonavilleschools.com.ng",
-    siteName: "keyonaville school",
+    siteName: "keyonaville schools",
     images: [
       {
         url: "https://www.keyonavilleschools.com.ng/favblack.png",
@@ -15,7 +15,7 @@ export default {
     ],
   },
   twitter: {
-    handle: "@handle",
+    handle: "@keyonavill87975",
     site: "@site",
     cardType: "summary_large_image",
   },
